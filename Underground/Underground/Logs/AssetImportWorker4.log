@@ -1,0 +1,2389 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.14f1 (eeca29774eb5) revision 15649321'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ru' Physical Memory: 65386 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+P:/gameDev/Underground/Underground/Underground
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+7334
+-job-worker-count
+9
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: P:/gameDev/Underground/Underground/Underground
+P:/gameDev/Underground/Underground/Underground
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [58144] Host "[IP] 192.168.0.123 [Port] 0 [Flags] 2 [Guid] 2825195626 [EditorId] 2825195626 [Version] 1048832 [Id] WindowsEditor(7,Saymyname) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [58144] Host "[IP] 192.168.0.123 [Port] 0 [Flags] 2 [Guid] 2825195626 [EditorId] 2825195626 [Version] 1048832 [Id] WindowsEditor(7,Saymyname) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+[Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 90.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.14f1 (eeca29774eb5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path P:/gameDev/Underground/Underground/Underground/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 (ID=0x2704)
+    Vendor:   NVIDIA
+    VRAM:     16050 MB
+    Driver:   32.0.15.6109
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002310 seconds.
+Unloading broken assembly C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll, this assembly can cause crashes in the runtime
+- Loaded All Assemblies, in  0.331 seconds
+Could not add platformSupportModule UnityEditor.WebGL.TargetExtension, try rebuilding the module: VTable setup of type UnityEditor.WebGL.TargetExtension failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Modules.ModuleManager:RegisterPlatformSupportModules ()
+UnityEditor.Modules.ModuleManager:get_platformSupportModules ()
+UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules ()
+
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.210 seconds
+Domain Reload Profiling: 540ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (135ms)
+		LoadAssemblies (121ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (120ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (210ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (171ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (127ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.882 seconds
+Could not add platformSupportModule UnityEditor.WebGL.TargetExtension, try rebuilding the module: VTable setup of type UnityEditor.WebGL.TargetExtension failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Modules.ModuleManager:RegisterPlatformSupportModules ()
+UnityEditor.Modules.ModuleManager:get_platformSupportModules ()
+UnityEditor.Modules.ModuleManager:FindPlatformSupportModule (string)
+UnityEditor.Scripting.ScriptCompilation.CustomScriptAssembly:.cctor ()
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:LoadCustomScriptAssemblyFromJson (string,string,string)
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+TypeManager.Initialize took: 192ms
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.306 seconds
+Domain Reload Profiling: 2186ms
+	BeginReloadAssembly (251ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (552ms)
+		LoadAssemblies (334ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (281ms)
+			TypeCache.Refresh (242ms)
+				TypeCache.ScanAssembly (223ms)
+			BuildScriptInfoCaches (32ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1306ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1172ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (872ms)
+			ProcessInitializeOnLoadMethodAttributes (248ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 72 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6444 unused Assets / (3.5 MB). Loaded Objects now: 7161.
+Memory consumption went from 198.1 MB to 194.5 MB.
+Total: 16.006600 ms (FindLiveObjects: 0.395300 ms CreateObjectMapping: 0.218300 ms MarkObjects: 14.078500 ms  DeleteObjects: 1.313800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 567215.115383 seconds.
+  path: Assets/Samples/A_ Pathfinding Project/5.0.9/Example scenes/Prefabs/SciFi/Special
+  artifactKey: Guid(926dc2ecbf32a9444b8b2c8babcbb38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/A_ Pathfinding Project/5.0.9/Example scenes/Prefabs/SciFi/Special using Guid(926dc2ecbf32a9444b8b2c8babcbb38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88f86ffe4b6063a740309e91d3d8e36a') in 0.0026738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.387430 seconds.
+  path: Assets/Samples/A_ Pathfinding Project/5.0.9/Example scenes/Prefabs/SciFi/Particles
+  artifactKey: Guid(eed6580fe1b4b5a4783e9daccf3b2822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/A_ Pathfinding Project/5.0.9/Example scenes/Prefabs/SciFi/Particles using Guid(eed6580fe1b4b5a4783e9daccf3b2822) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cdf2b3203afdfb235f197849fc8d581') in 0.0003095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.380716 seconds.
+  path: Assets/Samples/A_ Pathfinding Project/5.0.9/Example scenes/Prefabs/SciFi/Special/Barrier_Door Variant.prefab
+  artifactKey: Guid(dda5e04babed27e468376923fca95fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/A_ Pathfinding Project/5.0.9/Example scenes/Prefabs/SciFi/Special/Barrier_Door Variant.prefab using Guid(dda5e04babed27e468376923fca95fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '256a6b27f264892bbe9b32133faa8dfa') in 0.0927425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.552 seconds
+Could not add platformSupportModule UnityEditor.WebGL.TargetExtension, try rebuilding the module: VTable setup of type UnityEditor.WebGL.TargetExtension failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Modules.ModuleManager:RegisterPlatformSupportModules ()
+UnityEditor.Modules.ModuleManager:get_platformSupportModules ()
+UnityEditor.Modules.ModuleManager:FindPlatformSupportModule (string)
+UnityEditor.Scripting.ScriptCompilation.CustomScriptAssembly:.cctor ()
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:LoadCustomScriptAssemblyFromJson (string,string,string)
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+TypeManager.Initialize took: 197ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.272 seconds
+Domain Reload Profiling: 1825ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (329ms)
+		LoadAssemblies (252ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (125ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1273ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1130ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (871ms)
+			ProcessInitializeOnLoadMethodAttributes (204ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6446 unused Assets / (3.5 MB). Loaded Objects now: 7172.
+Memory consumption went from 188.5 MB to 185.0 MB.
+Total: 16.437600 ms (FindLiveObjects: 0.364700 ms CreateObjectMapping: 0.234000 ms MarkObjects: 14.394900 ms  DeleteObjects: 1.442900 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (4.5 MB). Loaded Objects now: 7172.
+Memory consumption went from 185.0 MB to 180.5 MB.
+Total: 14.248300 ms (FindLiveObjects: 0.211500 ms CreateObjectMapping: 0.079000 ms MarkObjects: 13.536800 ms  DeleteObjects: 0.420000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 153.099262 seconds.
+  path: Assets/Samples/A_ Pathfinding Project/5.0.9/Example scenes/Prefabs/2D
+  artifactKey: Guid(44fd516550df7b34099e6b830d311695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/A_ Pathfinding Project/5.0.9/Example scenes/Prefabs/2D using Guid(44fd516550df7b34099e6b830d311695) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c7f83c0bdff193dd98f315952f5254b') in 0.0028163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.885712 seconds.
+  path: Assets/Samples/A_ Pathfinding Project/5.0.9/Example scenes/Prefabs/Meshes/Special
+  artifactKey: Guid(a47d7519c3626a348a805aced689416c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/A_ Pathfinding Project/5.0.9/Example scenes/Prefabs/Meshes/Special using Guid(a47d7519c3626a348a805aced689416c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c57873e6308c6ed7f546b79eb0d5892') in 0.0003226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.768676 seconds.
+  path: Assets/Samples/A_ Pathfinding Project/5.0.9/Example scenes/Prefabs/2D/AI.prefab
+  artifactKey: Guid(0aacbe0d3c9e8804d9ecf3747c1f64f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/A_ Pathfinding Project/5.0.9/Example scenes/Prefabs/2D/AI.prefab using Guid(0aacbe0d3c9e8804d9ecf3747c1f64f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fc3765de01538211533d1098a0d27d6') in 0.1029031 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 98
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.537 seconds
+Could not add platformSupportModule UnityEditor.WebGL.TargetExtension, try rebuilding the module: VTable setup of type UnityEditor.WebGL.TargetExtension failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Modules.ModuleManager:RegisterPlatformSupportModules ()
+UnityEditor.Modules.ModuleManager:get_platformSupportModules ()
+UnityEditor.Modules.ModuleManager:FindPlatformSupportModule (string)
+UnityEditor.Scripting.ScriptCompilation.CustomScriptAssembly:.cctor ()
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:LoadCustomScriptAssemblyFromJson (string,string,string)
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+TypeManager.Initialize took: 177ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.072 seconds
+Domain Reload Profiling: 1610ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (322ms)
+		LoadAssemblies (244ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1072ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (948ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (733ms)
+			ProcessInitializeOnLoadMethodAttributes (164ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6444 unused Assets / (3.6 MB). Loaded Objects now: 7175.
+Memory consumption went from 190.5 MB to 186.9 MB.
+Total: 15.398700 ms (FindLiveObjects: 0.366200 ms CreateObjectMapping: 0.206400 ms MarkObjects: 13.336900 ms  DeleteObjects: 1.488100 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (4.4 MB). Loaded Objects now: 7175.
+Memory consumption went from 186.9 MB to 182.5 MB.
+Total: 14.056200 ms (FindLiveObjects: 0.219700 ms CreateObjectMapping: 0.096500 ms MarkObjects: 13.355800 ms  DeleteObjects: 0.383300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.540 seconds
+Could not add platformSupportModule UnityEditor.WebGL.TargetExtension, try rebuilding the module: VTable setup of type UnityEditor.WebGL.TargetExtension failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Modules.ModuleManager:RegisterPlatformSupportModules ()
+UnityEditor.Modules.ModuleManager:get_platformSupportModules ()
+UnityEditor.Modules.ModuleManager:FindPlatformSupportModule (string)
+UnityEditor.Scripting.ScriptCompilation.CustomScriptAssembly:.cctor ()
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:LoadCustomScriptAssemblyFromJson (string,string,string)
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.64 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+TypeManager.Initialize took: 190ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.133 seconds
+Domain Reload Profiling: 1673ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (328ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (132ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1133ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1002ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (751ms)
+			ProcessInitializeOnLoadMethodAttributes (202ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6444 unused Assets / (3.4 MB). Loaded Objects now: 7178.
+Memory consumption went from 192.4 MB to 189.0 MB.
+Total: 15.942500 ms (FindLiveObjects: 0.370700 ms CreateObjectMapping: 0.243200 ms MarkObjects: 14.022600 ms  DeleteObjects: 1.305000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (4.6 MB). Loaded Objects now: 7178.
+Memory consumption went from 189.0 MB to 184.4 MB.
+Total: 14.160300 ms (FindLiveObjects: 0.266900 ms CreateObjectMapping: 0.127700 ms MarkObjects: 13.275300 ms  DeleteObjects: 0.489700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 475.020030 seconds.
+  path: Assets/Samples/A_ Pathfinding Project/5.0.9/Example scenes/Scenes/RecastMoving
+  artifactKey: Guid(0c3bd10e9e97f984e95aca94d8baed6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/A_ Pathfinding Project/5.0.9/Example scenes/Scenes/RecastMoving using Guid(0c3bd10e9e97f984e95aca94d8baed6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a012cc27d8e63e995314da98f06832c') in 0.0053731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.777795 seconds.
+  path: Assets/Samples/A_ Pathfinding Project/5.0.9/Example scenes/Scenes/RecastMoving/RecastMoving.unity
+  artifactKey: Guid(672484f28c3cdb34da07ae0e1a2f2b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/A_ Pathfinding Project/5.0.9/Example scenes/Scenes/RecastMoving/RecastMoving.unity using Guid(672484f28c3cdb34da07ae0e1a2f2b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1a2013e478919b004cf14af7a4b9fee') in 0.0003802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.546 seconds
+Could not add platformSupportModule UnityEditor.WebGL.TargetExtension, try rebuilding the module: VTable setup of type UnityEditor.WebGL.TargetExtension failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Modules.ModuleManager:RegisterPlatformSupportModules ()
+UnityEditor.Modules.ModuleManager:get_platformSupportModules ()
+UnityEditor.Modules.ModuleManager:FindPlatformSupportModule (string)
+UnityEditor.Scripting.ScriptCompilation.CustomScriptAssembly:.cctor ()
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:LoadCustomScriptAssemblyFromJson (string,string,string)
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.71 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+TypeManager.Initialize took: 166ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.104 seconds
+Domain Reload Profiling: 1650ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (326ms)
+		LoadAssemblies (248ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (127ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1104ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (961ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (718ms)
+			ProcessInitializeOnLoadMethodAttributes (195ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6444 unused Assets / (3.2 MB). Loaded Objects now: 7181.
+Memory consumption went from 194.3 MB to 191.1 MB.
+Total: 16.140900 ms (FindLiveObjects: 0.330400 ms CreateObjectMapping: 0.201900 ms MarkObjects: 14.163900 ms  DeleteObjects: 1.443600 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (4.8 MB). Loaded Objects now: 7181.
+Memory consumption went from 191.1 MB to 186.3 MB.
+Total: 15.164100 ms (FindLiveObjects: 0.328800 ms CreateObjectMapping: 0.136600 ms MarkObjects: 14.286600 ms  DeleteObjects: 0.411100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 62.463610 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a5558b099a0694e22ca6350c66889a5') in 0.0033694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.520 seconds
+Could not add platformSupportModule UnityEditor.WebGL.TargetExtension, try rebuilding the module: VTable setup of type UnityEditor.WebGL.TargetExtension failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Modules.ModuleManager:RegisterPlatformSupportModules ()
+UnityEditor.Modules.ModuleManager:get_platformSupportModules ()
+UnityEditor.Modules.ModuleManager:FindPlatformSupportModule (string)
+UnityEditor.Scripting.ScriptCompilation.CustomScriptAssembly:.cctor ()
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:LoadCustomScriptAssemblyFromJson (string,string,string)
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+TypeManager.Initialize took: 174ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.117 seconds
+Domain Reload Profiling: 1637ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (310ms)
+		LoadAssemblies (235ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (122ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1117ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (977ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (732ms)
+			ProcessInitializeOnLoadMethodAttributes (196ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6444 unused Assets / (3.3 MB). Loaded Objects now: 7184.
+Memory consumption went from 196.2 MB to 192.9 MB.
+Total: 15.219200 ms (FindLiveObjects: 0.330800 ms CreateObjectMapping: 0.212700 ms MarkObjects: 13.335300 ms  DeleteObjects: 1.339600 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (4.7 MB). Loaded Objects now: 7184.
+Memory consumption went from 192.8 MB to 188.2 MB.
+Total: 14.833600 ms (FindLiveObjects: 0.219100 ms CreateObjectMapping: 0.091300 ms MarkObjects: 14.007500 ms  DeleteObjects: 0.514700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.526 seconds
+Could not add platformSupportModule UnityEditor.WebGL.TargetExtension, try rebuilding the module: VTable setup of type UnityEditor.WebGL.TargetExtension failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Modules.ModuleManager:RegisterPlatformSupportModules ()
+UnityEditor.Modules.ModuleManager:get_platformSupportModules ()
+UnityEditor.Modules.ModuleManager:FindPlatformSupportModule (string)
+UnityEditor.Scripting.ScriptCompilation.CustomScriptAssembly:.cctor ()
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:LoadCustomScriptAssemblyFromJson (string,string,string)
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.71 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+TypeManager.Initialize took: 170ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.088 seconds
+Domain Reload Profiling: 1614ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (317ms)
+		LoadAssemblies (235ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (127ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1088ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (953ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (715ms)
+			ProcessInitializeOnLoadMethodAttributes (186ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.41 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6444 unused Assets / (3.6 MB). Loaded Objects now: 7187.
+Memory consumption went from 198.2 MB to 194.6 MB.
+Total: 16.999900 ms (FindLiveObjects: 0.440700 ms CreateObjectMapping: 0.373800 ms MarkObjects: 14.672100 ms  DeleteObjects: 1.512100 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (4.0 MB). Loaded Objects now: 7187.
+Memory consumption went from 194.1 MB to 190.2 MB.
+Total: 15.261000 ms (FindLiveObjects: 0.239900 ms CreateObjectMapping: 0.106400 ms MarkObjects: 14.526100 ms  DeleteObjects: 0.387400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.522 seconds
+Could not add platformSupportModule UnityEditor.WebGL.TargetExtension, try rebuilding the module: VTable setup of type UnityEditor.WebGL.TargetExtension failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Modules.ModuleManager:RegisterPlatformSupportModules ()
+UnityEditor.Modules.ModuleManager:get_platformSupportModules ()
+UnityEditor.Modules.ModuleManager:FindPlatformSupportModule (string)
+UnityEditor.Scripting.ScriptCompilation.CustomScriptAssembly:.cctor ()
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:LoadCustomScriptAssemblyFromJson (string,string,string)
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.67 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+TypeManager.Initialize took: 172ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.026 seconds
+Domain Reload Profiling: 1549ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (317ms)
+		LoadAssemblies (239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (123ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1027ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (904ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (706ms)
+			ProcessInitializeOnLoadMethodAttributes (152ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6444 unused Assets / (3.3 MB). Loaded Objects now: 7190.
+Memory consumption went from 200.1 MB to 196.8 MB.
+Total: 14.469100 ms (FindLiveObjects: 0.338900 ms CreateObjectMapping: 0.215500 ms MarkObjects: 12.714400 ms  DeleteObjects: 1.199200 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (4.7 MB). Loaded Objects now: 7190.
+Memory consumption went from 196.8 MB to 192.1 MB.
+Total: 13.156100 ms (FindLiveObjects: 0.207900 ms CreateObjectMapping: 0.083400 ms MarkObjects: 12.460300 ms  DeleteObjects: 0.403400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 289.210267 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abcca2bb049d58388cf24834a99999ab') in 0.0060569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.523 seconds
+Could not add platformSupportModule UnityEditor.WebGL.TargetExtension, try rebuilding the module: VTable setup of type UnityEditor.WebGL.TargetExtension failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Modules.ModuleManager:RegisterPlatformSupportModules ()
+UnityEditor.Modules.ModuleManager:get_platformSupportModules ()
+UnityEditor.Modules.ModuleManager:FindPlatformSupportModule (string)
+UnityEditor.Scripting.ScriptCompilation.CustomScriptAssembly:.cctor ()
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:LoadCustomScriptAssemblyFromJson (string,string,string)
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.61 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+TypeManager.Initialize took: 172ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.037 seconds
+Domain Reload Profiling: 1561ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (315ms)
+		LoadAssemblies (231ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (129ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1037ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (915ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (708ms)
+			ProcessInitializeOnLoadMethodAttributes (158ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6444 unused Assets / (3.3 MB). Loaded Objects now: 7193.
+Memory consumption went from 202.0 MB to 198.8 MB.
+Total: 16.658000 ms (FindLiveObjects: 0.332100 ms CreateObjectMapping: 0.193500 ms MarkObjects: 14.849300 ms  DeleteObjects: 1.281900 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (4.7 MB). Loaded Objects now: 7193.
+Memory consumption went from 198.7 MB to 194.0 MB.
+Total: 15.379600 ms (FindLiveObjects: 0.247700 ms CreateObjectMapping: 0.088400 ms MarkObjects: 14.443900 ms  DeleteObjects: 0.598400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.522 seconds
+Could not add platformSupportModule UnityEditor.WebGL.TargetExtension, try rebuilding the module: VTable setup of type UnityEditor.WebGL.TargetExtension failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Modules.ModuleManager:RegisterPlatformSupportModules ()
+UnityEditor.Modules.ModuleManager:get_platformSupportModules ()
+UnityEditor.Modules.ModuleManager:FindPlatformSupportModule (string)
+UnityEditor.Scripting.ScriptCompilation.CustomScriptAssembly:.cctor ()
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:LoadCustomScriptAssemblyFromJson (string,string,string)
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+TypeManager.Initialize took: 175ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.085 seconds
+Domain Reload Profiling: 1608ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (311ms)
+		LoadAssemblies (232ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (126ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1085ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (944ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (715ms)
+			ProcessInitializeOnLoadMethodAttributes (182ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6444 unused Assets / (3.4 MB). Loaded Objects now: 7196.
+Memory consumption went from 202.9 MB to 199.6 MB.
+Total: 14.527400 ms (FindLiveObjects: 0.337000 ms CreateObjectMapping: 0.203700 ms MarkObjects: 12.733500 ms  DeleteObjects: 1.252200 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (4.6 MB). Loaded Objects now: 7196.
+Memory consumption went from 199.5 MB to 194.9 MB.
+Total: 14.651800 ms (FindLiveObjects: 0.204300 ms CreateObjectMapping: 0.079100 ms MarkObjects: 13.923600 ms  DeleteObjects: 0.443900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 93.402465 seconds.
+  path: Assets/Samples/A_ Pathfinding Project/5.0.9/Example scenes/ExampleScripts
+  artifactKey: Guid(e6852ce581432417ba95e2115d89c478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/A_ Pathfinding Project/5.0.9/Example scenes/ExampleScripts using Guid(e6852ce581432417ba95e2115d89c478) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f81903a67ed8761d480d9f4967eb223b') in 0.0046369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.522 seconds
+Could not add platformSupportModule UnityEditor.WebGL.TargetExtension, try rebuilding the module: VTable setup of type UnityEditor.WebGL.TargetExtension failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Modules.ModuleManager:RegisterPlatformSupportModules ()
+UnityEditor.Modules.ModuleManager:get_platformSupportModules ()
+UnityEditor.Modules.ModuleManager:FindPlatformSupportModule (string)
+UnityEditor.Scripting.ScriptCompilation.CustomScriptAssembly:.cctor ()
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:LoadCustomScriptAssemblyFromJson (string,string,string)
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+TypeManager.Initialize took: 172ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.059 seconds
+Domain Reload Profiling: 1582ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (316ms)
+		LoadAssemblies (234ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1059ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (928ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (716ms)
+			ProcessInitializeOnLoadMethodAttributes (163ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6444 unused Assets / (3.4 MB). Loaded Objects now: 7199.
+Memory consumption went from 205.8 MB to 202.4 MB.
+Total: 15.326400 ms (FindLiveObjects: 0.524400 ms CreateObjectMapping: 0.312900 ms MarkObjects: 12.991400 ms  DeleteObjects: 1.496800 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (4.6 MB). Loaded Objects now: 7199.
+Memory consumption went from 202.4 MB to 197.8 MB.
+Total: 14.564600 ms (FindLiveObjects: 0.218400 ms CreateObjectMapping: 0.096400 ms MarkObjects: 13.783400 ms  DeleteObjects: 0.460600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 75.680115 seconds.
+  path: Assets/Samples/A_ Pathfinding Project/5.0.9/Example scenes/Scenes/OldExamples/Example3_Recast_Navmesh1/BotEntity.prefab
+  artifactKey: Guid(fe5741b9045c0f74d8abcb5e3bb10ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/A_ Pathfinding Project/5.0.9/Example scenes/Scenes/OldExamples/Example3_Recast_Navmesh1/BotEntity.prefab using Guid(fe5741b9045c0f74d8abcb5e3bb10ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4f59b336cb15fa1d99af1708c43bfb4') in 0.0734555 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 133
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.542 seconds
+Could not add platformSupportModule UnityEditor.WebGL.TargetExtension, try rebuilding the module: VTable setup of type UnityEditor.WebGL.TargetExtension failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Modules.ModuleManager:RegisterPlatformSupportModules ()
+UnityEditor.Modules.ModuleManager:get_platformSupportModules ()
+UnityEditor.Modules.ModuleManager:FindPlatformSupportModule (string)
+UnityEditor.Scripting.ScriptCompilation.CustomScriptAssembly:.cctor ()
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:LoadCustomScriptAssemblyFromJson (string,string,string)
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+TypeManager.Initialize took: 173ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.083 seconds
+Domain Reload Profiling: 1626ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (330ms)
+		LoadAssemblies (244ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (134ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1083ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (948ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (741ms)
+			ProcessInitializeOnLoadMethodAttributes (156ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6445 unused Assets / (4.1 MB). Loaded Objects now: 7204.
+Memory consumption went from 207.9 MB to 203.8 MB.
+Total: 15.931900 ms (FindLiveObjects: 0.359300 ms CreateObjectMapping: 0.275200 ms MarkObjects: 13.591900 ms  DeleteObjects: 1.704500 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (3.9 MB). Loaded Objects now: 7204.
+Memory consumption went from 203.8 MB to 199.8 MB.
+Total: 15.623700 ms (FindLiveObjects: 0.283700 ms CreateObjectMapping: 0.122600 ms MarkObjects: 14.798800 ms  DeleteObjects: 0.417800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 89.445572 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '490c1aa94cb56bd70edc1e47d45992ad') in 0.0026912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.522 seconds
+Could not add platformSupportModule UnityEditor.WebGL.TargetExtension, try rebuilding the module: VTable setup of type UnityEditor.WebGL.TargetExtension failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Modules.ModuleManager:RegisterPlatformSupportModules ()
+UnityEditor.Modules.ModuleManager:get_platformSupportModules ()
+UnityEditor.Modules.ModuleManager:FindPlatformSupportModule (string)
+UnityEditor.Scripting.ScriptCompilation.CustomScriptAssembly:.cctor ()
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:LoadCustomScriptAssemblyFromJson (string,string,string)
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.65 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+TypeManager.Initialize took: 169ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.069 seconds
+Domain Reload Profiling: 1592ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (313ms)
+		LoadAssemblies (234ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (125ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1070ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (938ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (708ms)
+			ProcessInitializeOnLoadMethodAttributes (183ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6444 unused Assets / (3.2 MB). Loaded Objects now: 7207.
+Memory consumption went from 209.8 MB to 206.6 MB.
+Total: 15.616900 ms (FindLiveObjects: 0.334200 ms CreateObjectMapping: 0.199800 ms MarkObjects: 13.833400 ms  DeleteObjects: 1.248800 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (4.8 MB). Loaded Objects now: 7207.
+Memory consumption went from 206.6 MB to 201.8 MB.
+Total: 14.549000 ms (FindLiveObjects: 0.222700 ms CreateObjectMapping: 0.122800 ms MarkObjects: 13.635900 ms  DeleteObjects: 0.566900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.523 seconds
+Could not add platformSupportModule UnityEditor.WebGL.TargetExtension, try rebuilding the module: VTable setup of type UnityEditor.WebGL.TargetExtension failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Modules.ModuleManager:RegisterPlatformSupportModules ()
+UnityEditor.Modules.ModuleManager:get_platformSupportModules ()
+UnityEditor.Modules.ModuleManager:FindPlatformSupportModule (string)
+UnityEditor.Scripting.ScriptCompilation.CustomScriptAssembly:.cctor ()
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:LoadCustomScriptAssemblyFromJson (string,string,string)
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+TypeManager.Initialize took: 167ms
+InvalidCastException: Specified cast is not valid.
+  at (wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
+  at System.Runtime.InteropServices.Marshal.GetDelegateForFunctionPointer[TDelegate] (System.IntPtr ptr) [0x00010] in <f843d796055e4deaa447e7ba073cff5f>:0 
+  at Unity.Burst.FunctionPointer`1[T].get_Invoke () [0x00006] in .\Library\PackageCache\com.unity.burst@1.8.17\Runtime\FunctionPointer.cs:68 
+  at Pathfinding.Drawing.DrawingData+BuilderData..cctor () [0x00024] in .\Packages\com.arongranberg.astar\Drawing\DrawingData.cs:606 
+Rethrow as TypeInitializationException: The type initializer for 'BuilderData' threw an exception.
+  at Pathfinding.Drawing.DrawingData+BuilderDataContainer.Reserve (System.Boolean isBuiltInCommandBuilder) [0x00018] in .\Packages\com.arongranberg.astar\Drawing\DrawingData.cs:765 
+  at Pathfinding.Drawing.CommandBuilder..ctor (Pathfinding.Drawing.DrawingData gizmos, Pathfinding.Drawing.DrawingData+Hasher hasher, Pathfinding.Drawing.RedrawScope frameRedrawScope, Pathfinding.Drawing.RedrawScope customRedrawScope, System.Boolean isGizmos, System.Boolean isBuiltInCommandBuilder, System.Int32 sceneModeVersion) [0x00014] in .\Packages\com.arongranberg.astar\Drawing\CommandBuilder.cs:141 
+  at Pathfinding.Drawing.DrawingData.GetBuiltInBuilder (System.Boolean renderInGame) [0x00005] in .\Packages\com.arongranberg.astar\Drawing\DrawingData.cs:1192 
+  at Pathfinding.Drawing.DrawingManager.OnEnable () [0x00071] in .\Packages\com.arongranberg.astar\Drawing\DrawingManager.cs:296 
+UnityEngine.GameObject:Internal_AddComponentWithType_Injected(IntPtr, Type)
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent(Type)
+UnityEngine.GameObject:AddComponent()
+Pathfinding.Drawing.DrawingManager:Init() (at .\Packages\com.arongranberg.astar\Drawing\DrawingManager.cs:226)
+System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
+System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
+
+(Filename: ./Packages/com.arongranberg.astar/Drawing/DrawingManager.cs Line: 226)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.027 seconds
+Domain Reload Profiling: 1550ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (315ms)
+		LoadAssemblies (233ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (127ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1027ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (908ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (700ms)
+			ProcessInitializeOnLoadMethodAttributes (159ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6444 unused Assets / (3.7 MB). Loaded Objects now: 7210.
+Memory consumption went from 210.7 MB to 206.9 MB.
+Total: 16.449100 ms (FindLiveObjects: 0.340200 ms CreateObjectMapping: 0.312600 ms MarkObjects: 14.190500 ms  DeleteObjects: 1.604700 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (4.2 MB). Loaded Objects now: 7210.
+Memory consumption went from 206.9 MB to 202.6 MB.
+Total: 14.620500 ms (FindLiveObjects: 0.264100 ms CreateObjectMapping: 0.091400 ms MarkObjects: 13.835300 ms  DeleteObjects: 0.428700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at Pathfinding.Drawing.DrawingManager.OnDisable () [0x00010] in .\Packages\com.arongranberg.astar\Drawing\DrawingManager.cs:343 
+
+(Filename: ./Packages/com.arongranberg.astar/Drawing/DrawingManager.cs Line: 343)
+
+Leak Detected : Persistent allocates 1 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
+- Loaded All Assemblies, in  0.519 seconds
+Could not add platformSupportModule UnityEditor.WebGL.TargetExtension, try rebuilding the module: VTable setup of type UnityEditor.WebGL.TargetExtension failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Modules.ModuleManager:RegisterPlatformSupportModules ()
+UnityEditor.Modules.ModuleManager:get_platformSupportModules ()
+UnityEditor.Modules.ModuleManager:FindPlatformSupportModule (string)
+UnityEditor.Scripting.ScriptCompilation.CustomScriptAssembly:.cctor ()
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:LoadCustomScriptAssemblyFromJson (string,string,string)
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+TypeManager.Initialize took: 172ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.046 seconds
+Domain Reload Profiling: 1566ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (315ms)
+		LoadAssemblies (235ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (124ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1047ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (919ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (703ms)
+			ProcessInitializeOnLoadMethodAttributes (168ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6444 unused Assets / (3.1 MB). Loaded Objects now: 7213.
+Memory consumption went from 212.6 MB to 209.5 MB.
+Total: 14.877500 ms (FindLiveObjects: 0.349600 ms CreateObjectMapping: 0.221800 ms MarkObjects: 13.019000 ms  DeleteObjects: 1.286100 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (4.4 MB). Loaded Objects now: 7213.
+Memory consumption went from 209.0 MB to 204.6 MB.
+Total: 13.836500 ms (FindLiveObjects: 0.222900 ms CreateObjectMapping: 0.094900 ms MarkObjects: 13.069900 ms  DeleteObjects: 0.447900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.524 seconds
+Could not add platformSupportModule UnityEditor.WebGL.TargetExtension, try rebuilding the module: VTable setup of type UnityEditor.WebGL.TargetExtension failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Modules.ModuleManager:RegisterPlatformSupportModules ()
+UnityEditor.Modules.ModuleManager:get_platformSupportModules ()
+UnityEditor.Modules.ModuleManager:FindPlatformSupportModule (string)
+UnityEditor.Scripting.ScriptCompilation.CustomScriptAssembly:.cctor ()
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:LoadCustomScriptAssemblyFromJson (string,string,string)
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+TypeManager.Initialize took: 182ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.085 seconds
+Domain Reload Profiling: 1609ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (315ms)
+		LoadAssemblies (236ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (127ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1085ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (955ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (724ms)
+			ProcessInitializeOnLoadMethodAttributes (183ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6444 unused Assets / (3.6 MB). Loaded Objects now: 7216.
+Memory consumption went from 215.5 MB to 212.0 MB.
+Total: 15.085700 ms (FindLiveObjects: 0.331600 ms CreateObjectMapping: 0.219200 ms MarkObjects: 13.117300 ms  DeleteObjects: 1.416700 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (4.4 MB). Loaded Objects now: 7216.
+Memory consumption went from 211.9 MB to 207.5 MB.
+Total: 14.595700 ms (FindLiveObjects: 0.207400 ms CreateObjectMapping: 0.086800 ms MarkObjects: 13.917100 ms  DeleteObjects: 0.383500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.508 seconds
+Could not add platformSupportModule UnityEditor.WebGL.TargetExtension, try rebuilding the module: VTable setup of type UnityEditor.WebGL.TargetExtension failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Modules.ModuleManager:RegisterPlatformSupportModules ()
+UnityEditor.Modules.ModuleManager:get_platformSupportModules ()
+UnityEditor.Modules.ModuleManager:FindPlatformSupportModule (string)
+UnityEditor.Scripting.ScriptCompilation.CustomScriptAssembly:.cctor ()
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:LoadCustomScriptAssemblyFromJson (string,string,string)
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+TypeManager.Initialize took: 169ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.028 seconds
+Domain Reload Profiling: 1537ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (304ms)
+		LoadAssemblies (226ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (125ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1029ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (905ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (703ms)
+			ProcessInitializeOnLoadMethodAttributes (152ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6444 unused Assets / (3.9 MB). Loaded Objects now: 7219.
+Memory consumption went from 216.5 MB to 212.5 MB.
+Total: 15.415100 ms (FindLiveObjects: 0.346600 ms CreateObjectMapping: 0.201800 ms MarkObjects: 13.285400 ms  DeleteObjects: 1.580000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (4.1 MB). Loaded Objects now: 7219.
+Memory consumption went from 212.5 MB to 208.4 MB.
+Total: 14.921700 ms (FindLiveObjects: 0.226500 ms CreateObjectMapping: 0.142600 ms MarkObjects: 13.924800 ms  DeleteObjects: 0.627200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.533 seconds
+Could not add platformSupportModule UnityEditor.WebGL.TargetExtension, try rebuilding the module: VTable setup of type UnityEditor.WebGL.TargetExtension failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Modules.ModuleManager:RegisterPlatformSupportModules ()
+UnityEditor.Modules.ModuleManager:get_platformSupportModules ()
+UnityEditor.Modules.ModuleManager:FindPlatformSupportModule (string)
+UnityEditor.Scripting.ScriptCompilation.CustomScriptAssembly:.cctor ()
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:LoadCustomScriptAssemblyFromJson (string,string,string)
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.61 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+TypeManager.Initialize took: 174ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.063 seconds
+Domain Reload Profiling: 1596ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (319ms)
+		LoadAssemblies (238ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1063ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (928ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (712ms)
+			ProcessInitializeOnLoadMethodAttributes (167ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6444 unused Assets / (3.2 MB). Loaded Objects now: 7222.
+Memory consumption went from 218.4 MB to 215.2 MB.
+Total: 15.753900 ms (FindLiveObjects: 0.362600 ms CreateObjectMapping: 0.295600 ms MarkObjects: 13.754200 ms  DeleteObjects: 1.340300 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (4.8 MB). Loaded Objects now: 7222.
+Memory consumption went from 215.1 MB to 210.4 MB.
+Total: 14.687900 ms (FindLiveObjects: 0.217400 ms CreateObjectMapping: 0.095500 ms MarkObjects: 13.946800 ms  DeleteObjects: 0.427300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.579 seconds
+Could not add platformSupportModule UnityEditor.WebGL.TargetExtension, try rebuilding the module: VTable setup of type UnityEditor.WebGL.TargetExtension failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Modules.ModuleManager:RegisterPlatformSupportModules ()
+UnityEditor.Modules.ModuleManager:get_platformSupportModules ()
+UnityEditor.Modules.ModuleManager:FindPlatformSupportModule (string)
+UnityEditor.Scripting.ScriptCompilation.CustomScriptAssembly:.cctor ()
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:LoadCustomScriptAssemblyFromJson (string,string,string)
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Insane Systems RTS Starter Kit Initialized.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+InsaneSystems.RTSStarterKit.Startup:.cctor () (at Assets/InsaneSystems/RTSStarterKit/Scripts/Editor/StartupConfigurator.cs:51)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/InsaneSystems/RTSStarterKit/Scripts/Editor/StartupConfigurator.cs Line: 51)
+
+TypeManager.Initialize took: 177ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.077 seconds
+Domain Reload Profiling: 1657ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (333ms)
+		LoadAssemblies (247ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (129ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1077ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (947ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (736ms)
+			ProcessInitializeOnLoadMethodAttributes (164ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6573 unused Assets / (4.9 MB). Loaded Objects now: 7349.
+Memory consumption went from 222.7 MB to 217.8 MB.
+Total: 15.140400 ms (FindLiveObjects: 0.328200 ms CreateObjectMapping: 0.202700 ms MarkObjects: 12.956500 ms  DeleteObjects: 1.651800 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (4.0 MB). Loaded Objects now: 7349.
+Memory consumption went from 217.8 MB to 213.8 MB.
+Total: 13.271600 ms (FindLiveObjects: 0.209300 ms CreateObjectMapping: 0.081200 ms MarkObjects: 12.613000 ms  DeleteObjects: 0.367000 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (1.9 MB). Loaded Objects now: 7349.
+Memory consumption went from 217.6 MB to 215.6 MB.
+Total: 13.205400 ms (FindLiveObjects: 0.215300 ms CreateObjectMapping: 0.088100 ms MarkObjects: 12.514000 ms  DeleteObjects: 0.387200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1102.219375 seconds.
+  path: Assets/_TerrainAutoUpgrade
+  artifactKey: Guid(9b164b4172673af449c7b08b08257875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade using Guid(9b164b4172673af449c7b08b08257875) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1066d1e4c798a98500d3585325599a2') in 0.0015629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.260475 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Ground2Texture3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(f46d811ccac10de489c73b28f088a93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Ground2Texture3d3aba195e4d26ee.terrainlayer using Guid(f46d811ccac10de489c73b28f088a93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7b31cb2a3611aa0dff83a879e8e436f') in 0.0536868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076506 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_ResourcesTextureb956af97c33fc3d7.terrainlayer
+  artifactKey: Guid(ceef3234114c0ac49a0e9b2c9f4b8c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_ResourcesTextureb956af97c33fc3d7.terrainlayer using Guid(ceef3234114c0ac49a0e9b2c9f4b8c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49db750196bcc854a8684569dcea3eb3') in 0.0045359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Sand3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(9cdc97fedbeaefd468b3d39c57cbd5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Sand3d3aba195e4d26ee.terrainlayer using Guid(9cdc97fedbeaefd468b3d39c57cbd5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c74a2e54cdeb3540b35bc058fe9ffcd0') in 0.0043452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.210983 seconds.
+  path: Assets/InsaneSystems
+  artifactKey: Guid(c6c9301c3cd11ba47b02e3ad35f1b4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InsaneSystems using Guid(c6c9301c3cd11ba47b02e3ad35f1b4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7df07e2b0a1c78202d6240a6878651ad') in 0.0004725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.903564 seconds.
+  path: Assets/InsaneSystems/RTSStarterKit
+  artifactKey: Guid(e91b167f899a5354f9d6ca19d6f5a4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InsaneSystems/RTSStarterKit using Guid(e91b167f899a5354f9d6ca19d6f5a4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4541ef2f8a2757bfe67f75b6732e9ea8') in 0.0003562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6561 unused Assets / (4.8 MB). Loaded Objects now: 7352.
+Memory consumption went from 222.2 MB to 217.5 MB.
+Total: 16.831400 ms (FindLiveObjects: 0.373400 ms CreateObjectMapping: 0.236900 ms MarkObjects: 14.186900 ms  DeleteObjects: 2.033400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.554 seconds
+Could not add platformSupportModule UnityEditor.WebGL.TargetExtension, try rebuilding the module: VTable setup of type UnityEditor.WebGL.TargetExtension failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Modules.ModuleManager:RegisterPlatformSupportModules ()
+UnityEditor.Modules.ModuleManager:get_platformSupportModules ()
+UnityEditor.Modules.ModuleManager:FindPlatformSupportModule (string)
+UnityEditor.Scripting.ScriptCompilation.CustomScriptAssembly:.cctor ()
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:LoadCustomScriptAssemblyFromJson (string,string,string)
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Insane Systems RTS Starter Kit Initialized.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+InsaneSystems.RTSStarterKit.Startup:.cctor () (at Assets/Plugins/InsaneSystems/RTSStarterKit/Scripts/Editor/StartupConfigurator.cs:51)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Plugins/InsaneSystems/RTSStarterKit/Scripts/Editor/StartupConfigurator.cs Line: 51)
+
+TypeManager.Initialize took: 178ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.135 seconds
+Domain Reload Profiling: 1690ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (336ms)
+		LoadAssemblies (250ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (129ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1136ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1008ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (786ms)
+			ProcessInitializeOnLoadMethodAttributes (166ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6573 unused Assets / (5.2 MB). Loaded Objects now: 7355.
+Memory consumption went from 224.5 MB to 219.3 MB.
+Total: 15.293300 ms (FindLiveObjects: 0.348500 ms CreateObjectMapping: 0.215500 ms MarkObjects: 12.888800 ms  DeleteObjects: 1.839700 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (3.8 MB). Loaded Objects now: 7355.
+Memory consumption went from 219.3 MB to 215.5 MB.
+Total: 13.368500 ms (FindLiveObjects: 0.220100 ms CreateObjectMapping: 0.095300 ms MarkObjects: 12.700900 ms  DeleteObjects: 0.351300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.327916 seconds.
+  path: Assets/Plugins/InsaneSystems/RTSStarterKit/ExtraResources/Textures/Environment/Terrain/Ground2Texture.png
+  artifactKey: Guid(da00925014f1a8c4ab79ce3e7d1c75cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/InsaneSystems/RTSStarterKit/ExtraResources/Textures/Environment/Terrain/Ground2Texture.png using Guid(da00925014f1a8c4ab79ce3e7d1c75cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '376272d41912a9f46f67475f4c90b444') in 0.0656855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.877571 seconds.
+  path: Assets/Plugins/InsaneSystems/RTSStarterKit/ExtraResources/Textures/Environment/Terrain/GroundTexture.png
+  artifactKey: Guid(41710cbbc5db67546879a10b13645893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/InsaneSystems/RTSStarterKit/ExtraResources/Textures/Environment/Terrain/GroundTexture.png using Guid(41710cbbc5db67546879a10b13645893) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3558e002fe97e3ab1235ef430083270') in 0.0039779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.682666 seconds.
+  path: Assets/Plugins/InsaneSystems/RTSStarterKit/ExtraResources/Textures/Environment/Terrain/ResourcesTexture.png
+  artifactKey: Guid(6e3593fa104c9f342844908d10b747e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/InsaneSystems/RTSStarterKit/ExtraResources/Textures/Environment/Terrain/ResourcesTexture.png using Guid(6e3593fa104c9f342844908d10b747e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1b7d5c52e8b016d89e7152636cc00a0') in 0.0036474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.820283 seconds.
+  path: Assets/Plugins/InsaneSystems/RTSStarterKit/ExtraResources/Textures/Environment/Terrain/RocksTexture.png
+  artifactKey: Guid(1144150248dc00a4788f7ec14e79a0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/InsaneSystems/RTSStarterKit/ExtraResources/Textures/Environment/Terrain/RocksTexture.png using Guid(1144150248dc00a4788f7ec14e79a0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22a162145bbaa89a559062a1f23269b1') in 0.0053115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.623793 seconds.
+  path: Assets/Plugins/InsaneSystems/RTSStarterKit/ExtraResources/Textures/Environment/Terrain/Sand.png
+  artifactKey: Guid(8a80e56557d2bba47a86bce6a31ae382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/InsaneSystems/RTSStarterKit/ExtraResources/Textures/Environment/Terrain/Sand.png using Guid(8a80e56557d2bba47a86bce6a31ae382) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e876f91522724da2a3af53f0bc81cf1') in 0.0033501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.929500 seconds.
+  path: Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs
+  artifactKey: Guid(be27f9c6f7ce26645843e1e6cbb1a465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs using Guid(be27f9c6f7ce26645843e1e6cbb1a465) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fd60990dd5c73c153a807f93ddeff93') in 0.0003471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091156 seconds.
+  path: Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/DebugCanvas.prefab
+  artifactKey: Guid(e7a76d9688f758f41b418a438e4e803a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/DebugCanvas.prefab using Guid(e7a76d9688f758f41b418a438e4e803a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af101994acdd059b2c27800746c121a0') in 0.0150946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 193
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/SceneBase.prefab
+  artifactKey: Guid(520b40a0b1d54e34b9b90c60658896a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/SceneBase.prefab using Guid(520b40a0b1d54e34b9b90c60658896a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a221b9382b70cdcb208873f0ef737de') in 0.5908984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2333
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.339705 seconds.
+  path: Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/DebugCanvas.prefab
+  artifactKey: Guid(e7a76d9688f758f41b418a438e4e803a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/DebugCanvas.prefab using Guid(e7a76d9688f758f41b418a438e4e803a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23a6d490f4d7e2cd37552f827c37b09f') in 0.0058258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 193
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.001969 seconds.
+  path: Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/Units
+  artifactKey: Guid(411fe1ebf0466ea419dfd3242aa5cf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/Units using Guid(411fe1ebf0466ea419dfd3242aa5cf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ad92dabd257840169314486b5657458') in 0.0003842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070273 seconds.
+  path: Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/Units/ArtilleryUnit.prefab
+  artifactKey: Guid(522bfbf7412c69f45bfa7ba6adc73d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/Units/ArtilleryUnit.prefab using Guid(522bfbf7412c69f45bfa7ba6adc73d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cc93e18c721739e703f9688d79f1bd3') in 0.1277901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 167
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/Units/UnitArtilleryGenerated.prefab
+  artifactKey: Guid(b89180f41ef604048b9fed1539d0fe86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/Units/UnitArtilleryGenerated.prefab using Guid(b89180f41ef604048b9fed1539d0fe86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29368c4ef07f49156a9d829bc9040380') in 0.0210928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 125
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/Units/UnitHelicopter.prefab
+  artifactKey: Guid(34d98c40546c7034eb5aaca5d6aa71f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/Units/UnitHelicopter.prefab using Guid(34d98c40546c7034eb5aaca5d6aa71f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1ca15e19e5b0447a71c77a867827c81') in 0.0194771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 108
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/Units/UnitSoldier.prefab
+  artifactKey: Guid(7ebe68c29a55b254aa89ca3c2051189b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/Units/UnitSoldier.prefab using Guid(7ebe68c29a55b254aa89ca3c2051189b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b54f84baf6885164acfb8a1f8a0845f') in 0.0425135 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 176
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/Units/UnitSniperSoldier.prefab
+  artifactKey: Guid(e356f15b0faba37459fbd5bde48ace03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/Units/UnitSniperSoldier.prefab using Guid(e356f15b0faba37459fbd5bde48ace03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de2506d25d6f8023b993c30202984dbd') in 0.0212411 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 193
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.793402 seconds.
+  path: Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/UI Templates
+  artifactKey: Guid(8f679bea20402384fbb9c389507a361b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/UI Templates using Guid(8f679bea20402384fbb9c389507a361b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c68e33229701c06895c98fdfe5d4579e') in 0.0004829 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.152465 seconds.
+  path: Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/UI Templates/AbilityIconTemplate.prefab
+  artifactKey: Guid(264ff36b93a233c4f8549eeba5ad96da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/UI Templates/AbilityIconTemplate.prefab using Guid(264ff36b93a233c4f8549eeba5ad96da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ad28ab2f501efe2aabc5a691ccf7923') in 0.0020957 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/UI Templates/PlayerEntry.prefab
+  artifactKey: Guid(9a87f1d82a4322e4fae0ee8351fe557f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/UI Templates/PlayerEntry.prefab using Guid(9a87f1d82a4322e4fae0ee8351fe557f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '378110e9c79be250ce26f7933053038e') in 0.0036552 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 161
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/UI Templates/UnitIconCarrying.prefab
+  artifactKey: Guid(64f78a9bd30413d4d84335480b5eb2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/UI Templates/UnitIconCarrying.prefab using Guid(64f78a9bd30413d4d84335480b5eb2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8cdb4d231420b9f29ac1e75689d883b') in 0.0016053 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/UI Templates/UnitProductionIconTemplate.prefab
+  artifactKey: Guid(f91c2331b5e7d7245938fa59487df41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/UI Templates/UnitProductionIconTemplate.prefab using Guid(f91c2331b5e7d7245938fa59487df41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d8c0a61583140eba3159f9dcd0a63fa') in 0.001718 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.384756 seconds.
+  path: Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/Buildings
+  artifactKey: Guid(11aa61c871c53014fb96abdd8ad0a4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/Buildings using Guid(11aa61c871c53014fb96abdd8ad0a4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ed0678cb7b60617f8fd5936db513004') in 0.0003297 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065188 seconds.
+  path: Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/Buildings/AviaCenterBuilding.prefab
+  artifactKey: Guid(36eaac8110dbff74795a20fa7a10c734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/Buildings/AviaCenterBuilding.prefab using Guid(36eaac8110dbff74795a20fa7a10c734) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '393d9d52e6ae3d6d6a87054a479b23b0') in 0.040803 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 226
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/Buildings/RefineryBuilding.prefab
+  artifactKey: Guid(caa26891d10615b4eb2bfbdf06cb84cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/Buildings/RefineryBuilding.prefab using Guid(caa26891d10615b4eb2bfbdf06cb84cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '289cfc8d4c254cbdc29b9ce477cba797') in 0.0216278 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 147
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.660488 seconds.
+  path: Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/Buildings/Defense
+  artifactKey: Guid(2c60464dd123da54584ab5351e08dcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/Buildings/Defense using Guid(2c60464dd123da54584ab5351e08dcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8cc51146e55d55a0e71211ee16c60bd') in 0.0004793 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.670826 seconds.
+  path: Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/Buildings/Drawers
+  artifactKey: Guid(058441853d91dab479a2c99cd3f5b99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/InsaneSystems/RTSStarterKit/Prefabs/Buildings/Drawers using Guid(058441853d91dab479a2c99cd3f5b99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1356a24f9ed1486e8fbeed4b38624ab6') in 0.0003247 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 11)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 11)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 12)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 12)
+- Loaded All Assemblies, in  0.551 seconds
+Could not add platformSupportModule UnityEditor.WebGL.TargetExtension, try rebuilding the module: VTable setup of type UnityEditor.WebGL.TargetExtension failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Modules.ModuleManager:RegisterPlatformSupportModules ()
+UnityEditor.Modules.ModuleManager:get_platformSupportModules ()
+UnityEditor.Modules.ModuleManager:FindPlatformSupportModule (string)
+UnityEditor.Scripting.ScriptCompilation.CustomScriptAssembly:.cctor ()
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:LoadCustomScriptAssemblyFromJson (string,string,string)
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Insane Systems RTS Starter Kit Initialized.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+InsaneSystems.RTSStarterKit.Startup:.cctor () (at Assets/Plugins/InsaneSystems/RTSStarterKit/Scripts/Editor/StartupConfigurator.cs:51)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Plugins/InsaneSystems/RTSStarterKit/Scripts/Editor/StartupConfigurator.cs Line: 51)
+
+TypeManager.Initialize took: 209ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.326 seconds
+Domain Reload Profiling: 1878ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (333ms)
+		LoadAssemblies (251ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (127ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1327ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1186ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (905ms)
+			ProcessInitializeOnLoadMethodAttributes (214ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6585 unused Assets / (4.1 MB). Loaded Objects now: 7373.
+Memory consumption went from 236.0 MB to 231.9 MB.
+Total: 16.609700 ms (FindLiveObjects: 0.345800 ms CreateObjectMapping: 0.213700 ms MarkObjects: 13.342700 ms  DeleteObjects: 2.706500 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (4.1 MB). Loaded Objects now: 7373.
+Memory consumption went from 231.8 MB to 227.8 MB.
+Total: 19.735300 ms (FindLiveObjects: 0.388900 ms CreateObjectMapping: 0.152000 ms MarkObjects: 18.552500 ms  DeleteObjects: 0.640400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6432 unused Assets / (4.0 MB). Loaded Objects now: 7249.
+Memory consumption went from 234.4 MB to 230.4 MB.
+Total: 15.827700 ms (FindLiveObjects: 0.364900 ms CreateObjectMapping: 0.238300 ms MarkObjects: 13.669500 ms  DeleteObjects: 1.554000 ms)
+
+Prepare: number of updated asset objects reloaded= 3
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.548 seconds
+Could not add platformSupportModule UnityEditor.WebGL.TargetExtension, try rebuilding the module: VTable setup of type UnityEditor.WebGL.TargetExtension failed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Modules.ModuleManager:RegisterPlatformSupportModules ()
+UnityEditor.Modules.ModuleManager:get_platformSupportModules ()
+UnityEditor.Modules.ModuleManager:FindPlatformSupportModule (string)
+UnityEditor.Scripting.ScriptCompilation.CustomScriptAssembly:.cctor ()
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:LoadCustomScriptAssemblyFromJson (string,string,string)
+UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.64 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+TypeManager.Initialize took: 189ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.117 seconds
+Domain Reload Profiling: 1666ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (325ms)
+		LoadAssemblies (245ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (127ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1118ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (991ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (775ms)
+			ProcessInitializeOnLoadMethodAttributes (161ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6444 unused Assets / (3.5 MB). Loaded Objects now: 7249.
+Memory consumption went from 236.3 MB to 232.8 MB.
+Total: 15.164600 ms (FindLiveObjects: 0.333600 ms CreateObjectMapping: 0.218800 ms MarkObjects: 13.335700 ms  DeleteObjects: 1.275300 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (4.5 MB). Loaded Objects now: 7249.
+Memory consumption went from 232.7 MB to 228.3 MB.
+Total: 13.248500 ms (FindLiveObjects: 0.221000 ms CreateObjectMapping: 0.091600 ms MarkObjects: 12.495400 ms  DeleteObjects: 0.439500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 120.552805 seconds.
+  path: Assets/Plugins/Customizable Skybox
+  artifactKey: Guid(3c462c0701b4a9141b5f964179e875bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Customizable Skybox using Guid(3c462c0701b4a9141b5f964179e875bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f81c061f7dfa3fa6b54501a1b438f274') in 0.0016111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.818392 seconds.
+  path: Assets/Toon_RTS
+  artifactKey: Guid(224cfdabdbdb89143ad5b8129ca555b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_RTS using Guid(224cfdabdbdb89143ad5b8129ca555b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7ea306bbf93127b442107d65b87951e') in 0.00036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.807541 seconds.
+  path: Assets/Plugins/Toon_RTS/WesternKingdoms
+  artifactKey: Guid(7bda1c06ef808564d962145b58069e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Toon_RTS/WesternKingdoms using Guid(7bda1c06ef808564d962145b58069e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8039a5e5da7033bc9339f2b8fc9d2050') in 0.0003271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.726349 seconds.
+  path: Assets/Plugins/Toon_RTS/WesternKingdoms/models
+  artifactKey: Guid(9065a0647465b4d4496690d689f46c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Toon_RTS/WesternKingdoms/models using Guid(9065a0647465b4d4496690d689f46c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23dd98e55b97af4dae9289f73d0f7f8f') in 0.0003224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.439151 seconds.
+  path: Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs
+  artifactKey: Guid(9a06fcf7409246b4684e0989ff377121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs using Guid(9a06fcf7409246b4684e0989ff377121) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cf46c2ef980e6fb32a7de968c73a869') in 0.0003182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.763248 seconds.
+  path: Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Archer_A.prefab
+  artifactKey: Guid(6e84fece8a286e5499422aa574cef222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Archer_A.prefab using Guid(6e84fece8a286e5499422aa574cef222) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20ab3c288920ca1e91541e22853c2e27') in 0.1129328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 257
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Cavalry_Light_B.prefab
+  artifactKey: Guid(d2292d89162772043b05a1c38e4d3927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Cavalry_Light_B.prefab using Guid(d2292d89162772043b05a1c38e4d3927) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e12655e5b2c805216830bdcd64f2945f') in 0.0171543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 324
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Heavy_Infantry_A.prefab
+  artifactKey: Guid(1a022ca3e54eae6418cb98811e635fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Heavy_Infantry_A.prefab using Guid(1a022ca3e54eae6418cb98811e635fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4751fa0610f30c3a014aaff39f498cf3') in 0.0107408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 257
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Priest_B.prefab
+  artifactKey: Guid(33fa0fc1f4717f547b26d99ab324f025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Priest_B.prefab using Guid(33fa0fc1f4717f547b26d99ab324f025) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af96e71cad9e5afa83abe12824b98f26') in 0.0126304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 257
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Catapult.prefab
+  artifactKey: Guid(6e11dc0269b03fc42bf8720d4403af8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Catapult.prefab using Guid(6e11dc0269b03fc42bf8720d4403af8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1217336fe9ef677f16efa39b7fc41a7') in 0.0063685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Worker_B.prefab
+  artifactKey: Guid(ecaca95b39090374f99ad169cf5d412e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Worker_B.prefab using Guid(ecaca95b39090374f99ad169cf5d412e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79169ef5b6950595476ff6ad4b9cb5ec') in 0.0109447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 257
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Priest_A.prefab
+  artifactKey: Guid(b8700dace9261af4ea2e1c1f3e3a91f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Priest_A.prefab using Guid(b8700dace9261af4ea2e1c1f3e3a91f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '102432f71f3c94951e39329d436fb5b5') in 0.014654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 257
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Worker_A.prefab
+  artifactKey: Guid(cdbe91a91060b1e4eb4bd0b52d578091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Worker_A.prefab using Guid(cdbe91a91060b1e4eb4bd0b52d578091) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a608c550df1bc82d3c01bae6a5b91c08') in 0.0104156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 257
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Mage_A.prefab
+  artifactKey: Guid(8002f815a2e2df14ab1303c70e901b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Mage_A.prefab using Guid(8002f815a2e2df14ab1303c70e901b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f59c05781e5ed0cf9ef05fe21c4b269') in 0.0120214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 257
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Cavalry_Heavy_B.prefab
+  artifactKey: Guid(7d5ac62e6bae0b241a1cd07d23d6fecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Cavalry_Heavy_B.prefab using Guid(7d5ac62e6bae0b241a1cd07d23d6fecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44425bf6d9175824a64223997c97c318') in 0.0152286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 324
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Spearman_B.prefab
+  artifactKey: Guid(443eb2adeb7475a4583dcebff66757e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Spearman_B.prefab using Guid(443eb2adeb7475a4583dcebff66757e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43dbded87cdcf9461aff31b1761140f7') in 0.0150263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 257
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Cavalry_Mage_B.prefab
+  artifactKey: Guid(28a58d02c5e9ad54f939146f3374bb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Cavalry_Mage_B.prefab using Guid(28a58d02c5e9ad54f939146f3374bb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1c0872cc25530ebdafdedf60c0a16da') in 0.0114106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 324
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Spearman_A.prefab
+  artifactKey: Guid(6771171478365174f8173e21593153b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Toon_RTS/WesternKingdoms/prefabs/WK_Spearman_A.prefab using Guid(6771171478365174f8173e21593153b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f783efb54d40ccfe97aa55138541927d') in 0.007802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 257
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
