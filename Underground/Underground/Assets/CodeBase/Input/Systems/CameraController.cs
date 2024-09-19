@@ -1,9 +1,8 @@
 using CodeBase.Input;
-using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class CameraInputSystem : MonoBehaviour
+public class CameraController : MonoBehaviour
 {
 	[SerializeField] private CameraConfig _cameraConfig;
 
