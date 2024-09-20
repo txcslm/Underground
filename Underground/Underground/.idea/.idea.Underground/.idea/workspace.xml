@@ -5,7 +5,190 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01fecdb0-3257-4185-9040-6022c4284fac" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Installers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Installers/SceneInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Installers/SceneInstaller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Providers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Providers/ConfigProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Providers/ConfigProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/Units.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/Units/Workers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/Units/Workers/Animators.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/Units/Workers/Animators/WorkerAnimator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/Units/Workers/Animators/WorkerAnimator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/World.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/World/Environment.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/World/Environment/DayNightSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/World/Environment/DayNightSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/World/Environment/Suns.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Underground/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Underground/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Input/Systems/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Input/Systems/CameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Configs/CameraConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Configs/CameraConfig.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Toon_RTS/WesternKingdoms/animation/Worker/WK_worker_12_working_B.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Toon_RTS/WesternKingdoms/animation/Worker/WK_worker_12_working_B.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Toon_RTS/WesternKingdoms/animation/Worker/WK_worker_bag_01_idle.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Toon_RTS/WesternKingdoms/animation/Worker/WK_worker_bag_01_idle.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Toon_RTS/WesternKingdoms/animation/Worker/WK_worker_bag_03_run.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Toon_RTS/WesternKingdoms/animation/Worker/WK_worker_bag_03_run.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Toon_RTS/WesternKingdoms/models/Materials/WK_Standard_Units.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Toon_RTS/WesternKingdoms/models/Materials/WK_Standard_Units.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Worker/Animation/Worker.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Worker/Animation/Worker.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Worker/Mesh/WorkerMesh.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Worker/Mesh/WorkerMesh.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker11.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker13.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker5.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker6.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker7.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker8.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker9.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker1-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker1-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker10-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker11-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker12-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker13-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker2-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker2-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker4-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker4-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker5-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker6-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker7-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker8-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker9-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-10.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-10.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-11.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-11.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-12.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-12.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-13.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-13.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-14.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-14.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-15.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-15.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-16.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-16.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-17.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-17.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-18.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-18.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-19.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-19.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-6.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-7.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-8.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-8.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-9.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-9.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/AstarPackageToolsEditor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/AstarPackageToolsEditor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/AstarPathfindingProjectEditor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/AstarPathfindingProjectEditor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/DrawingEditor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/DrawingEditor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/DrawingPackageToolsEditor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/DrawingPackageToolsEditor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PackageTools.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PackageTools.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/SingularityGroup.HotReload.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/SingularityGroup.HotReload.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/SingularityGroup.HotReload.Runtime.Public.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/SingularityGroup.HotReload.Runtime.Public.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/SingularityGroup.HotReload.Runtime.Public.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/SingularityGroup.HotReload.Runtime.Public.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Sirenix.OdinInspector.Modules.UnityMathematics.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Sirenix.OdinInspector.Modules.UnityMathematics.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.AI.Navigation.Editor.ConversionSystem.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.AI.Navigation.Editor.ConversionSystem.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.AI.Navigation.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.AI.Navigation.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.AI.Navigation.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.AI.Navigation.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.AI.Navigation.Updater.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.AI.Navigation.Updater.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.AI.Navigation.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.AI.Navigation.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Burst.CodeGen.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Burst.CodeGen.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Burst.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Burst.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Burst.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Burst.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.CollabProxy.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.CollabProxy.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Collections.CodeGen.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Collections.CodeGen.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Collections.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Collections.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Collections.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Collections.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Collections.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Collections.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Core.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Core.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Deformations.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Deformations.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Deformations.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Deformations.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.EditorCoroutines.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.EditorCoroutines.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Entities.Build.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Entities.Build.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Entities.CodeGen.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Entities.CodeGen.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Entities.Editor.Properties.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Entities.Editor.Properties.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Entities.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Entities.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Entities.Hybrid.HybridComponents.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Entities.Hybrid.HybridComponents.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Entities.Hybrid.HybridComponents.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Entities.Hybrid.HybridComponents.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Entities.Hybrid.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Entities.Hybrid.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Entities.Hybrid.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Entities.Hybrid.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Entities.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Entities.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Entities.UI.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Entities.UI.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Entities.UI.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Entities.UI.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Entities.UI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Entities.UI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Entities.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Entities.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.ForUI.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.ForUI.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.ForUI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.ForUI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.InternalAPIEditorBridge.002.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.InternalAPIEditorBridge.002.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.InternalAPIEngineBridge.002.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.InternalAPIEngineBridge.002.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.InternalAPIEngineBridge.002.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.InternalAPIEngineBridge.002.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Mathematics.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Mathematics.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Mathematics.Extensions.Hybrid.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Mathematics.Extensions.Hybrid.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Mathematics.Extensions.Hybrid.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Mathematics.Extensions.Hybrid.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Mathematics.Extensions.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Mathematics.Extensions.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Mathematics.Extensions.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Mathematics.Extensions.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Mathematics.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Mathematics.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Mathematics.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Mathematics.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Performance.Profile-Analyzer.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Performance.Profile-Analyzer.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.PerformanceTesting.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.PerformanceTesting.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.PlasticSCM.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.PlasticSCM.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Profiling.Core.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Profiling.Core.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Profiling.Core.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Profiling.Core.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Rider.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Rider.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Scenes.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Scenes.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Scenes.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Scenes.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Scenes.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Scenes.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.ScriptableBuildPipeline.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.ScriptableBuildPipeline.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.ScriptableBuildPipeline.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.ScriptableBuildPipeline.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.ScriptableBuildPipeline.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.ScriptableBuildPipeline.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Serialization.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Serialization.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Serialization.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Serialization.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Serialization.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Serialization.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Settings.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Settings.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.TerrainTools.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.TerrainTools.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.TerrainTools.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.TerrainTools.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.TerrainTools.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.TerrainTools.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.TestTools.CodeCoverage.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.TestTools.CodeCoverage.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.TextMeshPro.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.TextMeshPro.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.TextMeshPro.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.TextMeshPro.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.TextMeshPro.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.TextMeshPro.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Timeline.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Timeline.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Timeline.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Timeline.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Timeline.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Timeline.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Transforms.Hybrid.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Transforms.Hybrid.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Transforms.Hybrid.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Transforms.Hybrid.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Transforms.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Transforms.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Transforms.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Transforms.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.VisualScripting.Core.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.VisualScripting.Core.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.VisualScripting.Core.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.VisualScripting.Core.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.VisualScripting.Core.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.VisualScripting.Core.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.VisualScripting.Flow.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.VisualScripting.Flow.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.VisualScripting.Flow.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.VisualScripting.Flow.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.VisualScripting.Flow.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.VisualScripting.Flow.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.VisualScripting.SettingsProvider.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.VisualScripting.SettingsProvider.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.VisualScripting.Shared.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.VisualScripting.Shared.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.VisualScripting.State.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.VisualScripting.State.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.VisualScripting.State.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.VisualScripting.State.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.VisualScripting.State.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.VisualScripting.State.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.VisualStudio.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.VisualStudio.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UnityEditor.TestRunner.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UnityEditor.TestRunner.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UnityEditor.UI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UnityEditor.UI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UnityEngine.UI.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UnityEngine.UI.Player.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UnityEngine.UI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UnityEngine.UI.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,26 +208,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Ouroboros\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Ouroboros\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\Ouroboros\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Ouroboros\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Ouroboros\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Ouroboros\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2023.2.14f1\Editor\Unity.exe" />
@@ -93,6 +276,8 @@
       <updated>1726672966128</updated>
       <workItem from="1726672967220" duration="12000" />
       <workItem from="1726693502199" duration="8348000" />
+      <workItem from="1726826504652" duration="601000" />
+      <workItem from="1726851163516" duration="665000" />
     </task>
     <servers />
   </component>
