@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: a1a3723b335e7004992e0a3ddfd87702
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Source: {fileID: 2800000, guid: cb20b3bfa4de9cd4084d3626193b6898, type: 3}
+  - DitherPattern: {fileID: 11400000, guid: 665add148214f504fb57f8e4d6317dee, type: 2}
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 1b32a01c6a4f9d44fbef7aa418f75c27, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
