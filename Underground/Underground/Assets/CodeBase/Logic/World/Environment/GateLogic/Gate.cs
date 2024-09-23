@@ -12,7 +12,7 @@ namespace CodeBase.Logic.World.Environment.GateLogic
 
 		private void OnTriggerEnter(Collider other)
 		{
-			if (!other.TryGetComponent(out Worker _))
+			if (!other.TryGetComponent(out GateOpenTag _))
 				return;
 			
 			_animator.Open();
@@ -20,7 +20,7 @@ namespace CodeBase.Logic.World.Environment.GateLogic
 
 		private void OnTriggerExit(Collider other)
 		{
-			if (!other.TryGetComponent(out Worker _))
+			if (!other.TryGetComponent(out GateOpenTag _))
 				return;
 			
 			_animator.Close();
