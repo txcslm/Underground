@@ -1,5 +1,4 @@
 using CodeBase.Infrastructure.Providers;
-using CodeBase.Input;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Zenject;
