@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5391791664376243098}
+  - component: {fileID: 552610793351391155}
   - component: {fileID: 7344794340658476639}
   - component: {fileID: 6413675454020056963}
   - component: {fileID: 2319401056076135673}
@@ -36,6 +37,31 @@ Transform:
   - {fileID: 7294460032646260770}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!143 &552610793351391155
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6062814848195553554}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 2
+  m_Radius: 0.3
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!195 &7344794340658476639
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -106,6 +132,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WorkerMesh
       objectReference: {fileID: 0}
+    - target: {fileID: 4379395016007703749, guid: 238090ec118ab164092d8c8af764189a, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1066348243074599102, guid: 635180035812f964db1d9529cbb170f2, type: 3}
     - target: {fileID: 4886510236947495601, guid: 238090ec118ab164092d8c8af764189a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -146,8 +176,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6216752331816953222, guid: 238090ec118ab164092d8c8af764189a, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300052, guid: 635180035812f964db1d9529cbb170f2, type: 3}
+    - target: {fileID: 7992126796633208554, guid: 238090ec118ab164092d8c8af764189a, type: 3}
+      propertyPath: m_Color.b
+      value: 0.82641506
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992126796633208554, guid: 238090ec118ab164092d8c8af764189a, type: 3}
+      propertyPath: m_Color.g
+      value: 0.82641506
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992126796633208554, guid: 238090ec118ab164092d8c8af764189a, type: 3}
+      propertyPath: m_Color.r
+      value: 0.82641506
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2366589126158271106, guid: 238090ec118ab164092d8c8af764189a, type: 3}
+    - {fileID: 3482763648499097421, guid: 238090ec118ab164092d8c8af764189a, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3242654836293176100, guid: 238090ec118ab164092d8c8af764189a, type: 3}
@@ -156,38 +204,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5140734926191981063, guid: 238090ec118ab164092d8c8af764189a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8025469458700302249}
-    - targetCorrespondingSourceObject: {fileID: 2366589126158271106, guid: 238090ec118ab164092d8c8af764189a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8067491401260880964}
   m_SourcePrefab: {fileID: 100100000, guid: 238090ec118ab164092d8c8af764189a, type: 3}
---- !u!1 &449427227697598481 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2366589126158271106, guid: 238090ec118ab164092d8c8af764189a, type: 3}
-  m_PrefabInstance: {fileID: 2804475841113395859}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &8067491401260880964
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 449427227697598481}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Version: 3
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_RenderingLayers: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_ShadowRenderingLayers: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
-  m_SoftShadowQuality: 0
 --- !u!1 &858857736569330103 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3242654836293176100, guid: 238090ec118ab164092d8c8af764189a, type: 3}

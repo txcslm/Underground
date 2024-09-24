@@ -15,7 +15,7 @@ P:/gameDev/Underground/Underground/Underground
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-3771
+10838
 -job-worker-count
 9
 -background-job-worker-count
@@ -59,12 +59,12 @@ P:/gameDev/Underground/Underground/Underground
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [68200]  Target information:
+Player connection [20512]  Target information:
 
-Player connection [68200]  * "[IP] 192.168.0.123 [Port] 0 [Flags] 2 [Guid] 985979435 [EditorId] 985979435 [Version] 1048832 [Id] WindowsEditor(7,Saymyname) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [20512]  * "[IP] 192.168.0.123 [Port] 0 [Flags] 2 [Guid] 1469851046 [EditorId] 1469851046 [Version] 1048832 [Id] WindowsEditor(7,Saymyname) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [68200] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [68200] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20512] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20512] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,8 +75,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.01 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 1.03 ms.
+Refreshing native plugins compatible for Editor in 2.80 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 1.33 ms.
 Initialize engine version: 6000.0.20f1 (05208a74e9aa)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.20f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path P:/gameDev/Underground/Underground/Underground/Assets
@@ -91,45 +91,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002522 seconds.
-- Loaded All Assemblies, in  0.266 seconds
+Registered in 0.003579 seconds.
+- Loaded All Assemblies, in  0.322 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.227 seconds
-Domain Reload Profiling: 492ms
-	BeginReloadAssembly (88ms)
+- Finished resetting the current domain, in  0.257 seconds
+Domain Reload Profiling: 578ms
+	BeginReloadAssembly (109ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (107ms)
-		LoadAssemblies (86ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (132ms)
+		LoadAssemblies (107ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (105ms)
-			TypeCache.Refresh (104ms)
-				TypeCache.ScanAssembly (95ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (119ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (228ms)
+	FinalizeReload (258ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (186ms)
+		SetupLoadedEditorAssemblies (230ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (4ms)
 			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (120ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
+			ProcessInitializeOnLoadAttributes (149ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -142,1729 +142,921 @@ Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Pro
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.975 seconds
+- Loaded All Assemblies, in  1.189 seconds
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 2.24 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 3.57 ms, found 9 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 214ms
+TypeManager.Initialize took: 301ms
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Underground
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.563 seconds
-Domain Reload Profiling: 2536ms
-	BeginReloadAssembly (267ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (621ms)
-		LoadAssemblies (331ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (357ms)
-			TypeCache.Refresh (263ms)
-				TypeCache.ScanAssembly (246ms)
-			BuildScriptInfoCaches (82ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1563ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1410ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (72ms)
-			ProcessInitializeOnLoadAttributes (971ms)
-			ProcessInitializeOnLoadMethodAttributes (357ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 3.59 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 212 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10622 unused Assets / (7.2 MB). Loaded Objects now: 11446.
-Memory consumption went from 265.1 MB to 258.0 MB.
-Total: 24.690200 ms (FindLiveObjects: 0.785400 ms CreateObjectMapping: 0.559300 ms MarkObjects: 20.982900 ms  DeleteObjects: 2.361700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 875445.859649 seconds.
-  path: Assets/ConsolePro
-  artifactKey: Guid(bc5e7fc2ca9d64830800419d6d9ebe7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ConsolePro using Guid(bc5e7fc2ca9d64830800419d6d9ebe7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b32461a9ddbd0745b84b0b74718c038e') in 0.0033679 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.717 seconds
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 2.27 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 331ms
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.676 seconds
-Domain Reload Profiling: 2395ms
-	BeginReloadAssembly (187ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (81ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (459ms)
-		LoadAssemblies (289ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (231ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (212ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1677ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1518ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (64ms)
-			ProcessInitializeOnLoadAttributes (1081ms)
-			ProcessInitializeOnLoadMethodAttributes (363ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 2.29 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.02 ms.
-Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10623 unused Assets / (8.0 MB). Loaded Objects now: 11451.
-Memory consumption went from 230.0 MB to 222.0 MB.
-Total: 20.346700 ms (FindLiveObjects: 0.600900 ms CreateObjectMapping: 0.413700 ms MarkObjects: 17.158700 ms  DeleteObjects: 2.172400 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (7.8 MB). Loaded Objects now: 11451.
-Memory consumption went from 221.9 MB to 214.2 MB.
-Total: 18.164400 ms (FindLiveObjects: 0.379900 ms CreateObjectMapping: 0.170200 ms MarkObjects: 16.892600 ms  DeleteObjects: 0.720700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.07 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.02 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (4.1 MB). Loaded Objects now: 11451.
-Memory consumption went from 220.3 MB to 216.2 MB.
-Total: 17.561500 ms (FindLiveObjects: 0.413400 ms CreateObjectMapping: 0.277900 ms MarkObjects: 16.331100 ms  DeleteObjects: 0.538200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.40 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.02 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10590 unused Assets / (7.8 MB). Loaded Objects now: 11447.
-Memory consumption went from 227.1 MB to 219.4 MB.
-Total: 20.966700 ms (FindLiveObjects: 0.679100 ms CreateObjectMapping: 0.376000 ms MarkObjects: 17.710400 ms  DeleteObjects: 2.200300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.903 seconds
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 1.97 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 294ms
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.718 seconds
-Domain Reload Profiling: 2623ms
-	BeginReloadAssembly (179ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (73ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (645ms)
-		LoadAssemblies (336ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (375ms)
-			TypeCache.Refresh (166ms)
-				TypeCache.ScanAssembly (152ms)
-			BuildScriptInfoCaches (197ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1718ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1556ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (1108ms)
-			ProcessInitializeOnLoadMethodAttributes (372ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 2.52 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.02 ms.
-Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10622 unused Assets / (8.0 MB). Loaded Objects now: 11455.
-Memory consumption went from 230.0 MB to 222.0 MB.
-Total: 29.175900 ms (FindLiveObjects: 0.627400 ms CreateObjectMapping: 0.624800 ms MarkObjects: 25.709900 ms  DeleteObjects: 2.212600 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (7.8 MB). Loaded Objects now: 11455.
-Memory consumption went from 221.9 MB to 214.2 MB.
-Total: 21.617300 ms (FindLiveObjects: 0.366000 ms CreateObjectMapping: 0.167200 ms MarkObjects: 19.990400 ms  DeleteObjects: 1.092300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.726 seconds
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 2.13 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 279ms
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.460 seconds
-Domain Reload Profiling: 2188ms
-	BeginReloadAssembly (176ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (75ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (483ms)
-		LoadAssemblies (300ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (246ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (215ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (1460ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1311ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (943ms)
-			ProcessInitializeOnLoadMethodAttributes (296ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
-Refreshing native plugins compatible for Editor in 2.21 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.02 ms.
-Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10622 unused Assets / (8.0 MB). Loaded Objects now: 11459.
-Memory consumption went from 230.0 MB to 222.0 MB.
-Total: 19.114100 ms (FindLiveObjects: 0.564300 ms CreateObjectMapping: 0.394000 ms MarkObjects: 15.983900 ms  DeleteObjects: 2.170900 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (7.8 MB). Loaded Objects now: 11459.
-Memory consumption went from 222.0 MB to 214.2 MB.
-Total: 18.578100 ms (FindLiveObjects: 0.410000 ms CreateObjectMapping: 0.196800 ms MarkObjects: 17.276800 ms  DeleteObjects: 0.693000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.711 seconds
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 2.26 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 251ms
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.599 seconds
-Domain Reload Profiling: 2313ms
-	BeginReloadAssembly (173ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (72ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (470ms)
-		LoadAssemblies (296ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (236ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (216ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1600ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1440ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (1016ms)
-			ProcessInitializeOnLoadMethodAttributes (351ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 2.65 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.02 ms.
-Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10622 unused Assets / (7.7 MB). Loaded Objects now: 11463.
-Memory consumption went from 230.0 MB to 222.3 MB.
-Total: 22.226300 ms (FindLiveObjects: 0.674900 ms CreateObjectMapping: 0.399700 ms MarkObjects: 18.666400 ms  DeleteObjects: 2.484000 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (8.0 MB). Loaded Objects now: 11463.
-Memory consumption went from 222.2 MB to 214.2 MB.
-Total: 19.889000 ms (FindLiveObjects: 0.408200 ms CreateObjectMapping: 0.344100 ms MarkObjects: 18.347600 ms  DeleteObjects: 0.787900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.721 seconds
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 2.43 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 254ms
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.608 seconds
-Domain Reload Profiling: 2331ms
-	BeginReloadAssembly (179ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (77ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (472ms)
-		LoadAssemblies (303ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (233ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (213ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1608ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1433ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (991ms)
-			ProcessInitializeOnLoadMethodAttributes (362ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 2.32 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.03 ms.
-Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10622 unused Assets / (8.2 MB). Loaded Objects now: 11467.
-Memory consumption went from 230.0 MB to 221.9 MB.
-Total: 20.882900 ms (FindLiveObjects: 0.620300 ms CreateObjectMapping: 0.378700 ms MarkObjects: 17.185800 ms  DeleteObjects: 2.697100 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (7.6 MB). Loaded Objects now: 11467.
-Memory consumption went from 221.8 MB to 214.2 MB.
-Total: 20.847200 ms (FindLiveObjects: 0.464400 ms CreateObjectMapping: 0.352700 ms MarkObjects: 19.332800 ms  DeleteObjects: 0.696100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.720 seconds
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 2.06 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 255ms
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.594 seconds
-Domain Reload Profiling: 2316ms
-	BeginReloadAssembly (173ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (70ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (480ms)
-		LoadAssemblies (302ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (239ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (219ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1594ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1429ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (1015ms)
-			ProcessInitializeOnLoadMethodAttributes (341ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 3.25 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.02 ms.
-Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10622 unused Assets / (8.8 MB). Loaded Objects now: 11471.
-Memory consumption went from 230.0 MB to 221.3 MB.
-Total: 24.396700 ms (FindLiveObjects: 0.639600 ms CreateObjectMapping: 0.399300 ms MarkObjects: 20.291000 ms  DeleteObjects: 3.065500 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (7.0 MB). Loaded Objects now: 11471.
-Memory consumption went from 221.2 MB to 214.2 MB.
-Total: 20.007200 ms (FindLiveObjects: 0.586300 ms CreateObjectMapping: 0.283400 ms MarkObjects: 18.322200 ms  DeleteObjects: 0.814300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.727 seconds
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 2.13 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 250ms
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.583 seconds
-Domain Reload Profiling: 2311ms
-	BeginReloadAssembly (183ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (77ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (462ms)
-		LoadAssemblies (296ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (234ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (214ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1583ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1424ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (991ms)
-			ProcessInitializeOnLoadMethodAttributes (360ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 2.95 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.02 ms.
-Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10622 unused Assets / (7.7 MB). Loaded Objects now: 11475.
-Memory consumption went from 230.0 MB to 222.3 MB.
-Total: 21.963500 ms (FindLiveObjects: 0.634000 ms CreateObjectMapping: 0.443900 ms MarkObjects: 18.544300 ms  DeleteObjects: 2.340100 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (8.1 MB). Loaded Objects now: 11475.
-Memory consumption went from 222.3 MB to 214.2 MB.
-Total: 19.552600 ms (FindLiveObjects: 0.421900 ms CreateObjectMapping: 0.264500 ms MarkObjects: 17.985400 ms  DeleteObjects: 0.879600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.696 seconds
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 2.11 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 252ms
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.533 seconds
-Domain Reload Profiling: 2230ms
-	BeginReloadAssembly (162ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (67ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (466ms)
-		LoadAssemblies (291ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (233ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (213ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1533ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1369ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (936ms)
-			ProcessInitializeOnLoadMethodAttributes (355ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 2.68 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.02 ms.
-Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10622 unused Assets / (7.9 MB). Loaded Objects now: 11479.
-Memory consumption went from 230.0 MB to 222.1 MB.
-Total: 22.084300 ms (FindLiveObjects: 0.598600 ms CreateObjectMapping: 0.387400 ms MarkObjects: 18.693500 ms  DeleteObjects: 2.403800 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (7.8 MB). Loaded Objects now: 11479.
-Memory consumption went from 222.1 MB to 214.2 MB.
-Total: 19.477500 ms (FindLiveObjects: 0.355500 ms CreateObjectMapping: 0.383800 ms MarkObjects: 17.970700 ms  DeleteObjects: 0.766400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.716 seconds
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 2.21 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 259ms
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.591 seconds
-Domain Reload Profiling: 2310ms
-	BeginReloadAssembly (165ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (70ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (485ms)
-		LoadAssemblies (302ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (241ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (221ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1592ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1425ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (990ms)
-			ProcessInitializeOnLoadMethodAttributes (358ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 2.56 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.02 ms.
-Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10622 unused Assets / (7.8 MB). Loaded Objects now: 11483.
-Memory consumption went from 230.0 MB to 222.3 MB.
-Total: 23.873500 ms (FindLiveObjects: 0.600000 ms CreateObjectMapping: 0.538500 ms MarkObjects: 20.199800 ms  DeleteObjects: 2.533900 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (8.0 MB). Loaded Objects now: 11483.
-Memory consumption went from 222.2 MB to 214.2 MB.
-Total: 18.701900 ms (FindLiveObjects: 0.411900 ms CreateObjectMapping: 0.204800 ms MarkObjects: 17.203000 ms  DeleteObjects: 0.880900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.716 seconds
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 2.41 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 274ms
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.675 seconds
-Domain Reload Profiling: 2393ms
-	BeginReloadAssembly (171ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (72ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (475ms)
-		LoadAssemblies (300ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (237ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (217ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1675ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1512ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (1076ms)
-			ProcessInitializeOnLoadMethodAttributes (363ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 3.29 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.03 ms.
-Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10622 unused Assets / (7.3 MB). Loaded Objects now: 11487.
-Memory consumption went from 230.0 MB to 222.7 MB.
-Total: 21.916600 ms (FindLiveObjects: 0.649100 ms CreateObjectMapping: 0.424600 ms MarkObjects: 18.152100 ms  DeleteObjects: 2.689700 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (8.5 MB). Loaded Objects now: 11487.
-Memory consumption went from 222.7 MB to 214.2 MB.
-Total: 20.746100 ms (FindLiveObjects: 0.413000 ms CreateObjectMapping: 0.199000 ms MarkObjects: 19.228700 ms  DeleteObjects: 0.904200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.19 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.03 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10591 unused Assets / (8.0 MB). Loaded Objects now: 11488.
-Memory consumption went from 227.9 MB to 219.8 MB.
-Total: 21.952400 ms (FindLiveObjects: 0.940700 ms CreateObjectMapping: 0.568500 ms MarkObjects: 18.280100 ms  DeleteObjects: 2.161800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 6.59 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.03 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10591 unused Assets / (7.6 MB). Loaded Objects now: 11488.
-Memory consumption went from 227.2 MB to 219.6 MB.
-Total: 20.779300 ms (FindLiveObjects: 0.825000 ms CreateObjectMapping: 0.528400 ms MarkObjects: 17.020400 ms  DeleteObjects: 2.404200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.783 seconds
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 2.34 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 262ms
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.801 seconds
-Domain Reload Profiling: 2585ms
-	BeginReloadAssembly (197ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (91ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (507ms)
-		LoadAssemblies (307ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (261ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (236ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1802ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1646ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (1180ms)
-			ProcessInitializeOnLoadMethodAttributes (388ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 2.21 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.02 ms.
-Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10623 unused Assets / (7.7 MB). Loaded Objects now: 11492.
-Memory consumption went from 230.1 MB to 222.3 MB.
-Total: 27.044900 ms (FindLiveObjects: 0.663900 ms CreateObjectMapping: 0.441100 ms MarkObjects: 23.757700 ms  DeleteObjects: 2.181100 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (8.1 MB). Loaded Objects now: 11492.
-Memory consumption went from 222.3 MB to 214.2 MB.
-Total: 25.363000 ms (FindLiveObjects: 0.376700 ms CreateObjectMapping: 0.174200 ms MarkObjects: 24.067400 ms  DeleteObjects: 0.743700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.27 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.02 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10591 unused Assets / (7.9 MB). Loaded Objects now: 11492.
-Memory consumption went from 227.9 MB to 220.0 MB.
-Total: 18.780400 ms (FindLiveObjects: 0.651400 ms CreateObjectMapping: 0.410500 ms MarkObjects: 15.604300 ms  DeleteObjects: 2.113300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.819 seconds
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 2.03 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 286ms
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.498 seconds
-Domain Reload Profiling: 2319ms
-	BeginReloadAssembly (230ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (80ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (479ms)
-		LoadAssemblies (329ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (259ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (233ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1499ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1347ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (976ms)
-			ProcessInitializeOnLoadMethodAttributes (301ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 2.36 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.02 ms.
-Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10623 unused Assets / (7.9 MB). Loaded Objects now: 11496.
-Memory consumption went from 230.1 MB to 222.1 MB.
-Total: 20.283400 ms (FindLiveObjects: 0.559500 ms CreateObjectMapping: 0.370300 ms MarkObjects: 17.150100 ms  DeleteObjects: 2.202300 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (7.9 MB). Loaded Objects now: 11496.
-Memory consumption went from 222.1 MB to 214.2 MB.
-Total: 16.955200 ms (FindLiveObjects: 0.362500 ms CreateObjectMapping: 0.161400 ms MarkObjects: 15.682500 ms  DeleteObjects: 0.747700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.713 seconds
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 2.06 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 247ms
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.590 seconds
-Domain Reload Profiling: 2305ms
-	BeginReloadAssembly (168ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (71ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (479ms)
-		LoadAssemblies (298ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (240ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (220ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1591ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1424ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (965ms)
-			ProcessInitializeOnLoadMethodAttributes (385ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 2.43 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.03 ms.
-Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10623 unused Assets / (8.0 MB). Loaded Objects now: 11500.
-Memory consumption went from 230.1 MB to 222.0 MB.
-Total: 24.006000 ms (FindLiveObjects: 0.700000 ms CreateObjectMapping: 0.517300 ms MarkObjects: 19.826700 ms  DeleteObjects: 2.960800 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (7.8 MB). Loaded Objects now: 11500.
-Memory consumption went from 222.0 MB to 214.2 MB.
-Total: 22.487000 ms (FindLiveObjects: 0.426100 ms CreateObjectMapping: 0.283600 ms MarkObjects: 20.993400 ms  DeleteObjects: 0.783100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 7.75 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.03 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10590 unused Assets / (9.6 MB). Loaded Objects now: 11499.
-Memory consumption went from 227.9 MB to 218.3 MB.
-Total: 29.286800 ms (FindLiveObjects: 0.710600 ms CreateObjectMapping: 0.455600 ms MarkObjects: 23.743800 ms  DeleteObjects: 4.375600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.799 seconds
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 2.08 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 218ms
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.400 seconds
-Domain Reload Profiling: 2203ms
-	BeginReloadAssembly (169ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (71ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (562ms)
-		LoadAssemblies (302ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (319ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (284ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (1401ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1252ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (884ms)
-			ProcessInitializeOnLoadMethodAttributes (297ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 2.14 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.02 ms.
-Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10622 unused Assets / (8.2 MB). Loaded Objects now: 11503.
-Memory consumption went from 230.1 MB to 221.9 MB.
-Total: 20.182600 ms (FindLiveObjects: 0.590500 ms CreateObjectMapping: 0.407100 ms MarkObjects: 16.686100 ms  DeleteObjects: 2.498100 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (7.6 MB). Loaded Objects now: 11503.
-Memory consumption went from 221.9 MB to 214.2 MB.
-Total: 16.972000 ms (FindLiveObjects: 0.382300 ms CreateObjectMapping: 0.185300 ms MarkObjects: 15.669200 ms  DeleteObjects: 0.734100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.17 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.02 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10591 unused Assets / (7.9 MB). Loaded Objects now: 11504.
-Memory consumption went from 228.2 MB to 220.2 MB.
-Total: 24.142500 ms (FindLiveObjects: 0.617000 ms CreateObjectMapping: 0.393700 ms MarkObjects: 15.136400 ms  DeleteObjects: 7.994700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.004 seconds
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 2.19 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 310ms
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.128 seconds
-Domain Reload Profiling: 3134ms
-	BeginReloadAssembly (188ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (82ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (736ms)
-		LoadAssemblies (383ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (421ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (389ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (2128ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1938ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (1158ms)
-			ProcessInitializeOnLoadMethodAttributes (699ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 4.49 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10624 unused Assets / (8.7 MB). Loaded Objects now: 11509.
-Memory consumption went from 230.3 MB to 221.7 MB.
-Total: 35.400600 ms (FindLiveObjects: 0.760100 ms CreateObjectMapping: 0.732400 ms MarkObjects: 29.954000 ms  DeleteObjects: 3.952400 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (7.1 MB). Loaded Objects now: 11509.
-Memory consumption went from 221.6 MB to 214.5 MB.
-Total: 24.088800 ms (FindLiveObjects: 0.633900 ms CreateObjectMapping: 0.291900 ms MarkObjects: 22.372200 ms  DeleteObjects: 0.789300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.950 seconds
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 3.97 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 237ms
-InvalidCastException: Specified cast is not valid.
-  at (wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
-  at System.Runtime.InteropServices.Marshal.GetDelegateForFunctionPointer[TDelegate] (System.IntPtr ptr) [0x00010] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
-  at Unity.Burst.FunctionPointer`1[T].get_Invoke () [0x00006] in .\Library\PackageCache\com.unity.burst\Runtime\FunctionPointer.cs:68 
-  at Pathfinding.Drawing.DrawingData+BuilderData..cctor () [0x00006] in .\Packages\com.arongranberg.astar\Drawing\DrawingData.cs:604 
-Rethrow as TypeInitializationException: The type initializer for 'BuilderData' threw an exception.
-  at Pathfinding.Drawing.DrawingData+BuilderDataContainer.Reserve (System.Boolean isBuiltInCommandBuilder) [0x00018] in .\Packages\com.arongranberg.astar\Drawing\DrawingData.cs:765 
-  at Pathfinding.Drawing.CommandBuilder..ctor (Pathfinding.Drawing.DrawingData gizmos, Pathfinding.Drawing.DrawingData+Hasher hasher, Pathfinding.Drawing.RedrawScope frameRedrawScope, Pathfinding.Drawing.RedrawScope customRedrawScope, System.Boolean isGizmos, System.Boolean isBuiltInCommandBuilder, System.Int32 sceneModeVersion) [0x00014] in .\Packages\com.arongranberg.astar\Drawing\CommandBuilder.cs:141 
-  at Pathfinding.Drawing.DrawingData.GetBuiltInBuilder (System.Boolean renderInGame) [0x00005] in .\Packages\com.arongranberg.astar\Drawing\DrawingData.cs:1192 
-  at Pathfinding.Drawing.DrawingManager.OnEnable () [0x00071] in .\Packages\com.arongranberg.astar\Drawing\DrawingManager.cs:296 
-UnityEngine.GameObject:Internal_AddComponentWithType_Injected(IntPtr, Type)
-UnityEngine.GameObject:Internal_AddComponentWithType(Type)
-UnityEngine.GameObject:AddComponent(Type)
-UnityEngine.GameObject:AddComponent()
-Pathfinding.Drawing.DrawingManager:Init() (at .\Packages\com.arongranberg.astar\Drawing\DrawingManager.cs:226)
-System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
-System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
-System.Reflection.MethodBase:Invoke(Object, Object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
-
-(Filename: ./Packages/com.arongranberg.astar/Drawing/DrawingManager.cs Line: 226)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.156 seconds
-Domain Reload Profiling: 3110ms
-	BeginReloadAssembly (237ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (103ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (644ms)
-		LoadAssemblies (361ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (355ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (326ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (2156ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1870ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (1222ms)
-			ProcessInitializeOnLoadMethodAttributes (568ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 4.73 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.02 ms.
-Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10625 unused Assets / (7.4 MB). Loaded Objects now: 11514.
-Memory consumption went from 230.3 MB to 223.0 MB.
-Total: 37.513800 ms (FindLiveObjects: 0.654900 ms CreateObjectMapping: 0.370400 ms MarkObjects: 32.978400 ms  DeleteObjects: 3.508600 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (8.4 MB). Loaded Objects now: 11514.
-Memory consumption went from 222.9 MB to 214.5 MB.
-Total: 24.469100 ms (FindLiveObjects: 0.627700 ms CreateObjectMapping: 0.200400 ms MarkObjects: 22.459700 ms  DeleteObjects: 1.179700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-NullReferenceException: Object reference not set to an instance of an object
-  at Pathfinding.Drawing.DrawingManager.OnDisable () [0x00010] in .\Packages\com.arongranberg.astar\Drawing\DrawingManager.cs:343 
-
-(Filename: ./Packages/com.arongranberg.astar/Drawing/DrawingManager.cs Line: 343)
-
-Leak Detected : Persistent allocates 1 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.208 seconds
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 2.33 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 390ms
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.212 seconds
-Domain Reload Profiling: 3424ms
-	BeginReloadAssembly (203ms)
+- Finished resetting the current domain, in  2.012 seconds
+Domain Reload Profiling: 3198ms
+	BeginReloadAssembly (301ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (83ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (924ms)
-		LoadAssemblies (479ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (788ms)
+		LoadAssemblies (398ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (518ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (456ms)
-			ResolveRequiredComponents (43ms)
-	FinalizeReload (2212ms)
+		AnalyzeDomain (469ms)
+			TypeCache.Refresh (339ms)
+				TypeCache.ScanAssembly (319ms)
+			BuildScriptInfoCaches (113ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2012ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1995ms)
+		SetupLoadedEditorAssemblies (1798ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
+			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (131ms)
-			ProcessInitializeOnLoadAttributes (1442ms)
-			ProcessInitializeOnLoadMethodAttributes (410ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (1224ms)
+			ProcessInitializeOnLoadMethodAttributes (473ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 5.42 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.03 ms.
-Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10625 unused Assets / (6.8 MB). Loaded Objects now: 11518.
-Memory consumption went from 230.4 MB to 223.6 MB.
-Total: 25.107000 ms (FindLiveObjects: 1.987100 ms CreateObjectMapping: 1.157500 ms MarkObjects: 19.834000 ms  DeleteObjects: 2.127100 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (9.0 MB). Loaded Objects now: 11518.
-Memory consumption went from 223.5 MB to 214.5 MB.
-Total: 19.405100 ms (FindLiveObjects: 0.657800 ms CreateObjectMapping: 0.306500 ms MarkObjects: 17.609700 ms  DeleteObjects: 0.830200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-Path could not be found for script compilation file '/Assets/CodeBase/Logic/Units/Workers/StateMachines/States/RunState.cs'
-- Loaded All Assemblies, in  2.550 seconds
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 5.90 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 722ms
-InvalidCastException: Specified cast is not valid.
-  at (wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
-  at System.Runtime.InteropServices.Marshal.GetDelegateForFunctionPointer[TDelegate] (System.IntPtr ptr) [0x00010] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
-  at Unity.Burst.FunctionPointer`1[T].get_Invoke () [0x00006] in .\Library\PackageCache\com.unity.burst\Runtime\FunctionPointer.cs:68 
-  at Pathfinding.Drawing.DrawingData+BuilderData..cctor () [0x00006] in .\Packages\com.arongranberg.astar\Drawing\DrawingData.cs:604 
-Rethrow as TypeInitializationException: The type initializer for 'BuilderData' threw an exception.
-  at Pathfinding.Drawing.DrawingData+BuilderDataContainer.Reserve (System.Boolean isBuiltInCommandBuilder) [0x00018] in .\Packages\com.arongranberg.astar\Drawing\DrawingData.cs:765 
-  at Pathfinding.Drawing.CommandBuilder..ctor (Pathfinding.Drawing.DrawingData gizmos, Pathfinding.Drawing.DrawingData+Hasher hasher, Pathfinding.Drawing.RedrawScope frameRedrawScope, Pathfinding.Drawing.RedrawScope customRedrawScope, System.Boolean isGizmos, System.Boolean isBuiltInCommandBuilder, System.Int32 sceneModeVersion) [0x00014] in .\Packages\com.arongranberg.astar\Drawing\CommandBuilder.cs:141 
-  at Pathfinding.Drawing.DrawingData.GetBuiltInBuilder (System.Boolean renderInGame) [0x00005] in .\Packages\com.arongranberg.astar\Drawing\DrawingData.cs:1192 
-  at Pathfinding.Drawing.DrawingManager.OnEnable () [0x00071] in .\Packages\com.arongranberg.astar\Drawing\DrawingManager.cs:296 
-UnityEngine.GameObject:Internal_AddComponentWithType_Injected(IntPtr, Type)
-UnityEngine.GameObject:Internal_AddComponentWithType(Type)
-UnityEngine.GameObject:AddComponent(Type)
-UnityEngine.GameObject:AddComponent()
-Pathfinding.Drawing.DrawingManager:Init() (at .\Packages\com.arongranberg.astar\Drawing\DrawingManager.cs:226)
-System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
-System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
-System.Reflection.MethodBase:Invoke(Object, Object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
-
-(Filename: ./Packages/com.arongranberg.astar/Drawing/DrawingManager.cs Line: 226)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  5.044 seconds
-Domain Reload Profiling: 7593ms
-	BeginReloadAssembly (417ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (164ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (95ms)
-	LoadAllAssembliesAndSetupDomain (1977ms)
-		LoadAssemblies (1502ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (664ms)
-			TypeCache.Refresh (23ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (605ms)
-			ResolveRequiredComponents (31ms)
-	FinalizeReload (5044ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (4413ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (153ms)
-			ProcessInitializeOnLoadAttributes (3205ms)
-			ProcessInitializeOnLoadMethodAttributes (1033ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 5.26 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10625 unused Assets / (8.8 MB). Loaded Objects now: 11522.
-Memory consumption went from 231.2 MB to 222.4 MB.
-Total: 44.595400 ms (FindLiveObjects: 1.398500 ms CreateObjectMapping: 0.991700 ms MarkObjects: 37.194300 ms  DeleteObjects: 5.009100 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (7.0 MB). Loaded Objects now: 11522.
-Memory consumption went from 222.4 MB to 215.4 MB.
-Total: 39.464500 ms (FindLiveObjects: 0.652400 ms CreateObjectMapping: 0.258300 ms MarkObjects: 36.163000 ms  DeleteObjects: 2.389000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-NullReferenceException: Object reference not set to an instance of an object
-  at Pathfinding.Drawing.DrawingManager.OnDisable () [0x00010] in .\Packages\com.arongranberg.astar\Drawing\DrawingManager.cs:343 
-
-(Filename: ./Packages/com.arongranberg.astar/Drawing/DrawingManager.cs Line: 343)
-
-Leak Detected : Persistent allocates 1 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.571 seconds
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 4.66 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 471ms
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.976 seconds
-Domain Reload Profiling: 4546ms
-	BeginReloadAssembly (348ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (137ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (81ms)
-	LoadAllAssembliesAndSetupDomain (1085ms)
-		LoadAssemblies (741ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (498ms)
-			TypeCache.Refresh (18ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (457ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (2977ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2707ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (108ms)
-			ProcessInitializeOnLoadAttributes (1948ms)
-			ProcessInitializeOnLoadMethodAttributes (631ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 4.65 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.03 ms.
-Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10625 unused Assets / (8.4 MB). Loaded Objects now: 11526.
-Memory consumption went from 232.3 MB to 223.9 MB.
-Total: 35.111800 ms (FindLiveObjects: 1.023200 ms CreateObjectMapping: 0.573000 ms MarkObjects: 28.961400 ms  DeleteObjects: 4.553200 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (7.4 MB). Loaded Objects now: 11526.
-Memory consumption went from 223.8 MB to 216.5 MB.
-Total: 30.422800 ms (FindLiveObjects: 0.598500 ms CreateObjectMapping: 0.252000 ms MarkObjects: 27.673400 ms  DeleteObjects: 1.897700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.812 seconds
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 1.98 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 215ms
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.415 seconds
-Domain Reload Profiling: 2229ms
-	BeginReloadAssembly (274ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (116ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (466ms)
-		LoadAssemblies (334ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (235ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (214ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1415ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1274ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (909ms)
-			ProcessInitializeOnLoadMethodAttributes (292ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 2.17 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 2.86 ms, found 9 plugins.
 Preloading 1 native plugins for Editor in 0.02 ms.
-Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10625 unused Assets / (7.9 MB). Loaded Objects now: 11530.
-Memory consumption went from 232.3 MB to 224.4 MB.
-Total: 19.619800 ms (FindLiveObjects: 0.590100 ms CreateObjectMapping: 0.439400 ms MarkObjects: 16.415200 ms  DeleteObjects: 2.173600 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (7.9 MB). Loaded Objects now: 11530.
-Memory consumption went from 224.3 MB to 216.5 MB.
-Total: 16.636200 ms (FindLiveObjects: 0.357600 ms CreateObjectMapping: 0.166600 ms MarkObjects: 15.370200 ms  DeleteObjects: 0.740800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.710 seconds
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 2.01 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 250ms
-InvalidCastException: Specified cast is not valid.
-  at (wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
-  at System.Runtime.InteropServices.Marshal.GetDelegateForFunctionPointer[TDelegate] (System.IntPtr ptr) [0x00010] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
-  at Unity.Burst.FunctionPointer`1[T].get_Invoke () [0x00006] in .\Library\PackageCache\com.unity.burst\Runtime\FunctionPointer.cs:68 
-  at Pathfinding.Drawing.DrawingData+BuilderData..cctor () [0x00024] in .\Packages\com.arongranberg.astar\Drawing\DrawingData.cs:606 
-Rethrow as TypeInitializationException: The type initializer for 'BuilderData' threw an exception.
-  at Pathfinding.Drawing.DrawingData+BuilderDataContainer.Reserve (System.Boolean isBuiltInCommandBuilder) [0x00018] in .\Packages\com.arongranberg.astar\Drawing\DrawingData.cs:765 
-  at Pathfinding.Drawing.CommandBuilder..ctor (Pathfinding.Drawing.DrawingData gizmos, Pathfinding.Drawing.DrawingData+Hasher hasher, Pathfinding.Drawing.RedrawScope frameRedrawScope, Pathfinding.Drawing.RedrawScope customRedrawScope, System.Boolean isGizmos, System.Boolean isBuiltInCommandBuilder, System.Int32 sceneModeVersion) [0x00014] in .\Packages\com.arongranberg.astar\Drawing\CommandBuilder.cs:141 
-  at Pathfinding.Drawing.DrawingData.GetBuiltInBuilder (System.Boolean renderInGame) [0x00005] in .\Packages\com.arongranberg.astar\Drawing\DrawingData.cs:1192 
-  at Pathfinding.Drawing.DrawingManager.OnEnable () [0x00071] in .\Packages\com.arongranberg.astar\Drawing\DrawingManager.cs:296 
-UnityEngine.GameObject:Internal_AddComponentWithType_Injected(IntPtr, Type)
-UnityEngine.GameObject:Internal_AddComponentWithType(Type)
-UnityEngine.GameObject:AddComponent(Type)
-UnityEngine.GameObject:AddComponent()
-Pathfinding.Drawing.DrawingManager:Init() (at .\Packages\com.arongranberg.astar\Drawing\DrawingManager.cs:226)
-System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
-System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
-System.Reflection.MethodBase:Invoke(Object, Object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
-
-(Filename: ./Packages/com.arongranberg.astar/Drawing/DrawingManager.cs Line: 226)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.532 seconds
-Domain Reload Profiling: 2244ms
-	BeginReloadAssembly (173ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (73ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (470ms)
-		LoadAssemblies (294ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (235ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (214ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1532ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1374ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (952ms)
-			ProcessInitializeOnLoadMethodAttributes (348ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 2.88 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.03 ms.
-Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10625 unused Assets / (7.7 MB). Loaded Objects now: 11534.
-Memory consumption went from 232.3 MB to 224.6 MB.
-Total: 21.814800 ms (FindLiveObjects: 0.619000 ms CreateObjectMapping: 0.512200 ms MarkObjects: 18.210600 ms  DeleteObjects: 2.471800 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (8.0 MB). Loaded Objects now: 11534.
-Memory consumption went from 224.5 MB to 216.5 MB.
-Total: 18.072100 ms (FindLiveObjects: 0.365600 ms CreateObjectMapping: 0.169400 ms MarkObjects: 16.701500 ms  DeleteObjects: 0.834100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-NullReferenceException: Object reference not set to an instance of an object
-  at Pathfinding.Drawing.DrawingManager.OnDisable () [0x00010] in .\Packages\com.arongranberg.astar\Drawing\DrawingManager.cs:343 
-
-(Filename: ./Packages/com.arongranberg.astar/Drawing/DrawingManager.cs Line: 343)
-
-Leak Detected : Persistent allocates 1 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.692 seconds
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 2.19 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 267ms
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.603 seconds
-Domain Reload Profiling: 2296ms
-	BeginReloadAssembly (161ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (67ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (465ms)
-		LoadAssemblies (289ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (234ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (214ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1603ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1446ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (1019ms)
-			ProcessInitializeOnLoadMethodAttributes (352ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 2.80 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.03 ms.
-Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10625 unused Assets / (8.2 MB). Loaded Objects now: 11538.
-Memory consumption went from 232.3 MB to 224.1 MB.
-Total: 20.897300 ms (FindLiveObjects: 0.614100 ms CreateObjectMapping: 0.412200 ms MarkObjects: 17.227500 ms  DeleteObjects: 2.642500 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (7.5 MB). Loaded Objects now: 11538.
-Memory consumption went from 224.0 MB to 216.5 MB.
-Total: 18.633500 ms (FindLiveObjects: 0.450800 ms CreateObjectMapping: 0.230600 ms MarkObjects: 17.246000 ms  DeleteObjects: 0.705000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 3622.098827 seconds.
-  path: Assets/Assets3D/Toon_RTS/WesternKingdoms/animation/Archer/WK_archer_02_walk.FBX
-  artifactKey: Guid(7369969fc3294e5488672637eac103d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/Toon_RTS/WesternKingdoms/animation/Archer/WK_archer_02_walk.FBX using Guid(7369969fc3294e5488672637eac103d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc26a50ee2b7f99b839f03a670e53dcc') in 0.0330931 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+Unloading 232 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10979 unused Assets / (8.5 MB). Loaded Objects now: 11824.
+Memory consumption went from 272.5 MB to 264.1 MB.
+Total: 25.745200 ms (FindLiveObjects: 0.612400 ms CreateObjectMapping: 0.645100 ms MarkObjects: 21.322600 ms  DeleteObjects: 3.163600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets3D/Toon_RTS/WesternKingdoms/animation/Archer/WK_archer_03_run.FBX
-  artifactKey: Guid(44959745a40bd814c8f98725446f08c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/Toon_RTS/WesternKingdoms/animation/Archer/WK_archer_03_run.FBX using Guid(44959745a40bd814c8f98725446f08c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '455eab44195fd402a861348146728655') in 0.0027261 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+  Time since last request: 884651.012556 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Spruce_Trunk.mat
+  artifactKey: Guid(2da579371d53f9b44a77c50ca20a184b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Spruce_Trunk.mat using Guid(2da579371d53f9b44a77c50ca20a184b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b80cbb87dfa51551ccbba418974fd706') in 0.0857947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Assets3D/Toon_RTS/WesternKingdoms/animation/Archer/WK_archer_05_combat_idle.FBX
-  artifactKey: Guid(6fd1af3e492638342942bb3d0f989bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/Toon_RTS/WesternKingdoms/animation/Archer/WK_archer_05_combat_idle.FBX using Guid(6fd1af3e492638342942bb3d0f989bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fade7403622d4b9b8357954b5b13181') in 0.0029251 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+  Time since last request: 3.187470 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_branch_1.prefab
+  artifactKey: Guid(1edbf7d17c757dd459a8285c12ba0222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_branch_1.prefab using Guid(1edbf7d17c757dd459a8285c12ba0222) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '874652b82dbcf1e40d90a6dda1ff6245') in 0.0265257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Assets3D/Toon_RTS/WesternKingdoms/animation/Archer/WK_archer_09_take_damage.FBX
-  artifactKey: Guid(f082fe4bdaafe41419d894b21feeae8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/Toon_RTS/WesternKingdoms/animation/Archer/WK_archer_09_take_damage.FBX using Guid(f082fe4bdaafe41419d894b21feeae8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3743eda5008b2ff85fe3f563370d40c') in 0.0025657 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.243931 seconds.
-  path: Assets/Assets3D/Toon_RTS/WesternKingdoms/models/WK_Cavalry_customizable.FBX
-  artifactKey: Guid(26b0b465439dcd84cb4971737ab4b8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/Toon_RTS/WesternKingdoms/models/WK_Cavalry_customizable.FBX using Guid(26b0b465439dcd84cb4971737ab4b8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47975ffdf694e08c50289369faf3410f') in 0.4149743 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 322
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.166932 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/Castle.FBX
-  artifactKey: Guid(637b3bb1a53fd584b8b2f29eddb05290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/Castle.FBX using Guid(637b3bb1a53fd584b8b2f29eddb05290) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15939654ded7421de1bbed13d569a7bf') in 0.0519107 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_gold_node_5.prefab
+  artifactKey: Guid(2999848a44c6eba44a85f221e5ad2936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_gold_node_5.prefab using Guid(2999848a44c6eba44a85f221e5ad2936) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42cb45d5a5c625045c251e744e8a0966') in 0.0136354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/House.FBX
-  artifactKey: Guid(05035b78d90b21f43854dfe010ccd289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/House.FBX using Guid(05035b78d90b21f43854dfe010ccd289) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5abc2b3d63714cb2472b13f91bec4b71') in 0.0114287 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/Temple.FBX
-  artifactKey: Guid(9bf280570cf5dce45a29b84470a52c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/Temple.FBX using Guid(9bf280570cf5dce45a29b84470a52c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ac98e1a6101e1f394c560885015234b') in 0.0119363 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_branch_3.prefab
+  artifactKey: Guid(46676f5a9ac16a440bc6d7a82762b673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_branch_3.prefab using Guid(46676f5a9ac16a440bc6d7a82762b673) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c01a92b8d1afeabd67623b1b22e2e35') in 0.0094188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/Wall_A_wall.FBX
-  artifactKey: Guid(f46056aa6c238664bb6e0af30f681126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/Wall_A_wall.FBX using Guid(f46056aa6c238664bb6e0af30f681126) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0008c91f835ba342c80e5809de1164b') in 0.0084317 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/Workshop.FBX
-  artifactKey: Guid(5573396f6b8833f4dbd78bbb53d56df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/Workshop.FBX using Guid(5573396f6b8833f4dbd78bbb53d56df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f1827a08e3255b3ec367537a6eba765') in 0.0083927 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/Wall_B_wall.FBX
-  artifactKey: Guid(6dc5d495c37d65043b022964d98631b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/Wall_B_wall.FBX using Guid(6dc5d495c37d65043b022964d98631b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51f497160dff5454a893258133cb8220') in 0.0109747 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/Wall_B_corner.FBX
-  artifactKey: Guid(8c11ae7c589e3f34d966c6d1fd721bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/Wall_B_corner.FBX using Guid(8c11ae7c589e3f34d966c6d1fd721bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '518395d12eaac301613f3bc70b067d03') in 0.0091402 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/Wall_B_1x1.FBX
-  artifactKey: Guid(1bff8eeac62bd944c9d12ef7cccc745d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/Wall_B_1x1.FBX using Guid(1bff8eeac62bd944c9d12ef7cccc745d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f136b6407ef6caab25fbfa65c871f4a8') in 0.0096697 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/Wall_A_corner.FBX
-  artifactKey: Guid(cba5dcbe606db5c489d9a7269c56598a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/Wall_A_corner.FBX using Guid(cba5dcbe606db5c489d9a7269c56598a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5344f5c424fe3cf96b911d6bd41a54c7') in 0.0090196 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.663404 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Barracks_1.FBX
-  artifactKey: Guid(a2bc843dcc7a5be45993257d22444585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Barracks_1.FBX using Guid(a2bc843dcc7a5be45993257d22444585) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41ae7ae8526c2a376d2cecacba7b0863') in 0.0151889 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Market_1.FBX
-  artifactKey: Guid(ecd750c81ddec2c48abc6d35830d1422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Market_1.FBX using Guid(ecd750c81ddec2c48abc6d35830d1422) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bdda02876183dbb316c79deb14c1ae5') in 0.0117603 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_crystal_node_blue_1.prefab
+  artifactKey: Guid(9404f7c3adc9d8b49a24d7f61646d61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_crystal_node_blue_1.prefab using Guid(9404f7c3adc9d8b49a24d7f61646d61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca49f75cf5941cf3a3c3442ecc1be759') in 0.0131075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Tower_A_1.FBX
-  artifactKey: Guid(240875b6dee8d804883a4a485f4ed145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Tower_A_1.FBX using Guid(240875b6dee8d804883a4a485f4ed145) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9e29f991e3ecbbf44e4fd27f33a8d0a') in 0.0090483 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/MageTower_1.FBX
-  artifactKey: Guid(f1d267045620d8f40a446655a93df223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/MageTower_1.FBX using Guid(f1d267045620d8f40a446655a93df223) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56c266b80598106982a77a6315fbb92d') in 0.0105298 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/LumberMill_1.FBX
-  artifactKey: Guid(c650d1b47e984954fa4415d5b8fba967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/LumberMill_1.FBX using Guid(c650d1b47e984954fa4415d5b8fba967) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2eb019743bf6ab8204176b6bc263e923') in 0.0083976 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Bridge_Double.prefab
+  artifactKey: Guid(5f9fc621bdf44904dbf142da92711189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Bridge_Double.prefab using Guid(5f9fc621bdf44904dbf142da92711189) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9235d87e20d42b702769e934c9afba7d') in 0.0118716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Temple_0.FBX
-  artifactKey: Guid(2c19f74705f3b6b44af06171a67178a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Temple_0.FBX using Guid(2c19f74705f3b6b44af06171a67178a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '272838b29c1371b973a0cbca3f477809') in 0.0108919 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_brazier.prefab
+  artifactKey: Guid(0339c58ee57cbd043a2c937868073e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_brazier.prefab using Guid(0339c58ee57cbd043a2c937868073e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3a55ff3df1781f2342ebfb295a9068b') in 0.0114114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.428225 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/TownHall_0.FBX
-  artifactKey: Guid(8bfa3476d6d02f04aac71fd7a8d1da0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/TownHall_0.FBX using Guid(8bfa3476d6d02f04aac71fd7a8d1da0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6628ecb7e36de9600b251d0cd10067fa') in 0.0092074 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_crystal_node_2.prefab
+  artifactKey: Guid(ab321584cdd1d334fb805ee7012e9715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_crystal_node_2.prefab using Guid(ab321584cdd1d334fb805ee7012e9715) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a71c09541da57ee5e044216ca3e8321') in 0.0112881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.327643 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Wall_A_gate_0.FBX
-  artifactKey: Guid(5e5b7457c68ebd447b8a03dd55c4f660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Wall_A_gate_0.FBX using Guid(5e5b7457c68ebd447b8a03dd55c4f660) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6defbb4ca89ed0d4e3bec9414424930') in 0.0103987 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_crystal_node_4.prefab
+  artifactKey: Guid(e13435b6bc0220d4a98e1067cb79266c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_crystal_node_4.prefab using Guid(e13435b6bc0220d4a98e1067cb79266c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d2884068808797abcd6400038ad50c5') in 0.0095057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.082393 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Wall_B_corner_0.FBX
-  artifactKey: Guid(993cee789332e584d88bf4e7b9a5e1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Wall_B_corner_0.FBX using Guid(993cee789332e584d88bf4e7b9a5e1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71891f04ea156136ea09705be7eed421') in 0.0124643 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_crystal_node_blue_5.prefab
+  artifactKey: Guid(7f30ddbb734d4194aaff69e3681622ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_crystal_node_blue_5.prefab using Guid(7f30ddbb734d4194aaff69e3681622ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64231e39f05821cc26e8ba9b97745ae4') in 0.0113471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.472185 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Workshop_0.FBX
-  artifactKey: Guid(4f825c353b2346344a464e665e8a8f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Workshop_0.FBX using Guid(4f825c353b2346344a464e665e8a8f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7203863ba1e48da3d5397827eaaa795') in 0.0091853 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_gold_node_3.prefab
+  artifactKey: Guid(f0e930490b0b60f448017658ab0d9de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_gold_node_3.prefab using Guid(f0e930490b0b60f448017658ab0d9de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90593eea05e2563a62219aae6271e65a') in 0.0117444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Bridge.prefab
+  artifactKey: Guid(a3ea17a5e6bfed84595032344097c12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Bridge.prefab using Guid(a3ea17a5e6bfed84595032344097c12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32ef7a583e7528a28abc4a0c371625f1') in 0.0109497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_branch_4.prefab
+  artifactKey: Guid(cf3e3e74bf7d6694ba3f3e0c4e6499f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_branch_4.prefab using Guid(cf3e3e74bf7d6694ba3f3e0c4e6499f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ee786f0460aef880351a9c34543221b') in 0.0098061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_crystal_node_blue_2.prefab
+  artifactKey: Guid(6e51d69851e71574eab377618433120c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_crystal_node_blue_2.prefab using Guid(6e51d69851e71574eab377618433120c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e77208798a9a1bb4b0a464b2a4d2af7') in 0.0193657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_crystal_node_1.prefab
+  artifactKey: Guid(959a9da73fd73c14ea47ed9dbdec806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_crystal_node_1.prefab using Guid(959a9da73fd73c14ea47ed9dbdec806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26879cf7ee8a75dcfb238635a20be6a8') in 0.0107083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_branch_group_1.prefab
+  artifactKey: Guid(5313a0cfcc79a4e47b9a98f8e5946207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_branch_group_1.prefab using Guid(5313a0cfcc79a4e47b9a98f8e5946207) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75019b955da4e7d9a483c252904159b1') in 0.0084655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.369199 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_iron_node_4.prefab
+  artifactKey: Guid(6a8f66d05aaf4c0479db2e5c41886b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_iron_node_4.prefab using Guid(6a8f66d05aaf4c0479db2e5c41886b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '996c126868140b84260e50541e61d2ac') in 0.0097733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Ironmine.prefab
+  artifactKey: Guid(dd7d188fc9b0da64692b327bc041c558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Ironmine.prefab using Guid(dd7d188fc9b0da64692b327bc041c558) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25d7ae0dfef396fd5710060bbeee2a93') in 0.0443434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.414702 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_MagicFountain_4.prefab
+  artifactKey: Guid(6feffbecc74647b4c9486ed8ff3210b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_MagicFountain_4.prefab using Guid(6feffbecc74647b4c9486ed8ff3210b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4d771f9066f2f4322cfaa76b2b03912') in 0.0249818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_mushroom_1_group_1.prefab
+  artifactKey: Guid(70a0053b000e637458f3972a4ba57fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_mushroom_1_group_1.prefab using Guid(70a0053b000e637458f3972a4ba57fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a82e1a60f9dc7f7bc69860c2038c0788') in 0.0079023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_mushroom_1_2.prefab
+  artifactKey: Guid(a0671ca0f56cd7e458076d9d99a7edfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_mushroom_1_2.prefab using Guid(a0671ca0f56cd7e458076d9d99a7edfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4da723fcb657eff4b1b5b3558179d2e3') in 0.005909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.248036 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Mushroom_2_Group_1.prefab
+  artifactKey: Guid(e5a137e7a6b6b5b41875d53ab0764aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Mushroom_2_Group_1.prefab using Guid(e5a137e7a6b6b5b41875d53ab0764aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ac83304eab14fee244bef1b1054d5ea') in 0.0067644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Mushroom_2_Group_3.prefab
+  artifactKey: Guid(c86c79123354f034e8aac2d5176aaa3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Mushroom_2_Group_3.prefab using Guid(c86c79123354f034e8aac2d5176aaa3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1ceb62a62c7b5f67422b63bc90bdd89') in 0.0054899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032981 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Spruce_Cut_Stump.prefab
+  artifactKey: Guid(41238357dc544734994ab3a576df0616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Spruce_Cut_Stump.prefab using Guid(41238357dc544734994ab3a576df0616) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49f0b21f49e7cffb74d84c753b787282') in 0.007576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021865 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_stone_fence_curve45.prefab
+  artifactKey: Guid(902b569ac78ca3a41bf5376b878bbccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_stone_fence_curve45.prefab using Guid(902b569ac78ca3a41bf5376b878bbccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '356474a0cebd7cc1aa8c5ea1bd47e1b6') in 0.0137308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.968856 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_stone_fence_ruined.prefab
+  artifactKey: Guid(0c32d65158f041144b3f245976e4b52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_stone_fence_ruined.prefab using Guid(0c32d65158f041144b3f245976e4b52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acf4f4859685edde2912b1686af80c8c') in 0.0142617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.499876 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Axe.prefab
+  artifactKey: Guid(5542cd1778f29aa4cb62ed300964e4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Axe.prefab using Guid(5542cd1778f29aa4cb62ed300964e4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff99e97e2d690f3c6566be75bc90e99b') in 0.0116813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Camp_supplies_3.prefab
+  artifactKey: Guid(87af05802ec77b44d81cdbc53c14f296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Camp_supplies_3.prefab using Guid(87af05802ec77b44d81cdbc53c14f296) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1fd4ad32bafbae35cb7409ad6f57ddb') in 0.0127659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Campfire_Pot.prefab
+  artifactKey: Guid(5fb976c93f3d69a4fb621f639c0a9417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Campfire_Pot.prefab using Guid(5fb976c93f3d69a4fb621f639c0a9417) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f23c5cb2a1738e570a45726e213ce235') in 0.0336091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 93
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_sack_1.prefab
+  artifactKey: Guid(5e7f9e5bd4ba5974ea5c5c32f159390e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_sack_1.prefab using Guid(5e7f9e5bd4ba5974ea5c5c32f159390e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46c955b9718dd6ddc3c547e21a377d72') in 0.0112379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Camp_supplies_8.prefab
+  artifactKey: Guid(fbf5539013858174facf3d0a8144f8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Camp_supplies_8.prefab using Guid(fbf5539013858174facf3d0a8144f8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '122f565ef0f5c4507e07b9838285375e') in 0.0124365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Campfire_Meat.prefab
+  artifactKey: Guid(db7b72939071ea8499b4539f66620492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Campfire_Meat.prefab using Guid(db7b72939071ea8499b4539f66620492) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0347e7db31c4e123539cee21154a4fa8') in 0.03091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 93
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.612635 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_spear.prefab
+  artifactKey: Guid(094552451ca68b84b8cb7e92dffdf60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_spear.prefab using Guid(094552451ca68b84b8cb7e92dffdf60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bb102b26645d7a9167aae9e321b9e08') in 0.010255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.323815 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Tent_1.prefab
+  artifactKey: Guid(78e4731e0e09ec441bd5482813a52dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Tent_1.prefab using Guid(78e4731e0e09ec441bd5482813a52dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccdedd9314f6e1ce0de1e4c2345d1595') in 0.0116154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011638 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Tent_2C.prefab
+  artifactKey: Guid(1cd2f85042ebb4640a6070d5496a967a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Tent_2C.prefab using Guid(1cd2f85042ebb4640a6070d5496a967a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46eea0b9caf10cd7714ddb48207899f3') in 0.011778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Tent_3C.prefab
+  artifactKey: Guid(9a01abfe97cdd314d9cc6e669f3879e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Tent_3C.prefab using Guid(9a01abfe97cdd314d9cc6e669f3879e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd2b7da16ba1653a7c266ace87361e88') in 0.0092391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.222156 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Pebbles_1.mat
+  artifactKey: Guid(e51068e8125cbd043ab02996af3a0338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Pebbles_1.mat using Guid(e51068e8125cbd043ab02996af3a0338) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b05c135c703e744049e477a1c03c0d28') in 0.0081689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Stonefence.mat
+  artifactKey: Guid(94fa1c66481c1064e8cf3a90c5a01105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Stonefence.mat using Guid(94fa1c66481c1064e8cf3a90c5a01105) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a71db85af08d63672f7fa2fadc91970f') in 0.0128957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Rocks_2.mat
+  artifactKey: Guid(9e63765783bfd9e47bada82610fdf139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Rocks_2.mat using Guid(9e63765783bfd9e47bada82610fdf139) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8d8eda5621a680df7562d058aeebb0e') in 0.0113554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_WaterFountain_3.mat
+  artifactKey: Guid(7b2c0ea471ad5f2409cccb404965d7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_WaterFountain_3.mat using Guid(7b2c0ea471ad5f2409cccb404965d7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14617ed965b51426d38c751324efeec9') in 0.0079303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Water.mat
+  artifactKey: Guid(6d5ec90acd783fe4788109f04f313817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Water.mat using Guid(6d5ec90acd783fe4788109f04f313817) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21b75ba7eee962f155431f6c7ece850f') in 0.0093164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.310959 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_MagicFountain_2.mat
+  artifactKey: Guid(f9ace0bf1dd5127449e118bf892a76d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_MagicFountain_2.mat using Guid(f9ace0bf1dd5127449e118bf892a76d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32fda671a4edd563fb38b46b669c9c68') in 0.0139049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.594302 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Crystal_Nodes_Blue.mat
+  artifactKey: Guid(309a92fddcb02dd4197330b47de6be67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Crystal_Nodes_Blue.mat using Guid(309a92fddcb02dd4197330b47de6be67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92857d19c3a55afec9955b9998943b7d') in 0.0141605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.886554 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_CliffRock_2.mat
+  artifactKey: Guid(ae35d22d4d5c7104db006f11c10471ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_CliffRock_2.mat using Guid(ae35d22d4d5c7104db006f11c10471ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee0041acce9e5d58030b3571586d5ffe') in 0.0119643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_CliffRock_4.mat
+  artifactKey: Guid(1a3bda81fba3d3f45a4e1323cf80087e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_CliffRock_4.mat using Guid(1a3bda81fba3d3f45a4e1323cf80087e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ff4d9ad1d5d8677821d1c9d3a36db05') in 0.0087382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.312575 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Camp_Props_1.mat
+  artifactKey: Guid(85d5808c51a63c24b83faa16e6466ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Camp_Props_1.mat using Guid(85d5808c51a63c24b83faa16e6466ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b46a46b20f2c189fce51e251aa9fd50d') in 0.0145929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.508716 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Camp_Props_1.mat
+  artifactKey: Guid(85d5808c51a63c24b83faa16e6466ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Camp_Props_1.mat using Guid(85d5808c51a63c24b83faa16e6466ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe37298d23944164142e8466672d9cd6') in 0.1674475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Rocks_B.mat
+  artifactKey: Guid(4ca9f5b770c1d6c418e3d2c3b456be08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Rocks_B.mat using Guid(4ca9f5b770c1d6c418e3d2c3b456be08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22e481d3910ed186548aead196d12156') in 0.0721086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_CliffRock_2.mat
+  artifactKey: Guid(ae35d22d4d5c7104db006f11c10471ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_CliffRock_2.mat using Guid(ae35d22d4d5c7104db006f11c10471ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d72b7e74e7655befd4aaf43cc974b13') in 0.0113684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Iron_Nodes.mat
+  artifactKey: Guid(b79199654911a1e4594c2e994706af5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Iron_Nodes.mat using Guid(b79199654911a1e4594c2e994706af5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7569a4b6138873f09836ed11fcae9d7a') in 0.0114121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Campfire_Lit.mat
+  artifactKey: Guid(26943b6deb50048448186f90f9b0a90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Campfire_Lit.mat using Guid(26943b6deb50048448186f90f9b0a90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c972eb4c26fad35492a39fabe5716ef4') in 0.0121178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.742511 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_branch_3.prefab
+  artifactKey: Guid(46676f5a9ac16a440bc6d7a82762b673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_branch_3.prefab using Guid(46676f5a9ac16a440bc6d7a82762b673) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '997481f31d680367bbbecb08a0a73602') in 0.0107994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Goldmine.prefab
+  artifactKey: Guid(80f91d44eb988f54293633c345bad956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Goldmine.prefab using Guid(80f91d44eb988f54293633c345bad956) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a12436db5edadde3499ffd23d7d77e20') in 0.0424015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_gold_node_1.prefab
+  artifactKey: Guid(eb7cda6407867f44fb26f71ee4f6778d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_gold_node_1.prefab using Guid(eb7cda6407867f44fb26f71ee4f6778d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '177621a4a85e3dffda9d08d1dade13d2') in 0.010305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Flowers_1.prefab
+  artifactKey: Guid(f2e9012d0eb6ec64bb4e2a1aee204b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Flowers_1.prefab using Guid(f2e9012d0eb6ec64bb4e2a1aee204b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '804ff041634cdb8155da607132f8957d') in 0.0104872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_branch_group_1.prefab
+  artifactKey: Guid(5313a0cfcc79a4e47b9a98f8e5946207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_branch_group_1.prefab using Guid(5313a0cfcc79a4e47b9a98f8e5946207) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dd02ed5f9212b2c0cebf0054054395e') in 0.0095407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.316605 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_iron_node_4.prefab
+  artifactKey: Guid(6a8f66d05aaf4c0479db2e5c41886b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_iron_node_4.prefab using Guid(6a8f66d05aaf4c0479db2e5c41886b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ff1f416e854c94ce3d0fe4008d47cc7') in 0.0141113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.631731 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_MagicFountain_4.prefab
+  artifactKey: Guid(6feffbecc74647b4c9486ed8ff3210b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_MagicFountain_4.prefab using Guid(6feffbecc74647b4c9486ed8ff3210b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3417ef37024171cd8c43bb234090f0a') in 0.0199379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034448 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_mushroom_1_group_2.prefab
+  artifactKey: Guid(5f262496533fae341bc3b3c3c9b509d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_mushroom_1_group_2.prefab using Guid(5f262496533fae341bc3b3c3c9b509d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31741c8c7d9b6cfeb88e6d1c800a88d7') in 0.0082487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.392997 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Mushroom_2_Group_1.prefab
+  artifactKey: Guid(e5a137e7a6b6b5b41875d53ab0764aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Mushroom_2_Group_1.prefab using Guid(e5a137e7a6b6b5b41875d53ab0764aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c730ed7b002fc8cbfbf66446adc464e6') in 0.0064149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.333190 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Spruce_Cut_Stump.prefab
+  artifactKey: Guid(41238357dc544734994ab3a576df0616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Spruce_Cut_Stump.prefab using Guid(41238357dc544734994ab3a576df0616) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '487b7f96f5690c81373f58d3bb782e61') in 0.0083574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.104041 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_stone_fence_curve45.prefab
+  artifactKey: Guid(902b569ac78ca3a41bf5376b878bbccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_stone_fence_curve45.prefab using Guid(902b569ac78ca3a41bf5376b878bbccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7edd737b2dcc3e0e2cf2bf3be22aed1') in 0.0149752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.397908 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_stone_fence_ruined.prefab
+  artifactKey: Guid(0c32d65158f041144b3f245976e4b52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_stone_fence_ruined.prefab using Guid(0c32d65158f041144b3f245976e4b52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '356026d4bce3e550737de2247b39a24d') in 0.0149342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_stone_fence_short_b.prefab
+  artifactKey: Guid(d3371beaf869d504596cdfd88f90dc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_stone_fence_short_b.prefab using Guid(d3371beaf869d504596cdfd88f90dc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa0ee5b42a56e1e54c3d7d85c8c968fe') in 0.0120489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.961648 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Foliage/P_tdFF_Bush_4.prefab
+  artifactKey: Guid(0d7e69b9ef9a25b4bbd5ea323a131674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Foliage/P_tdFF_Bush_4.prefab using Guid(0d7e69b9ef9a25b4bbd5ea323a131674) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c26db344185601391a9309ec904226b2') in 0.013342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Foliage/P_tdFF_spruce_02.prefab
+  artifactKey: Guid(88423862972a9654897434be1d0ee643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Foliage/P_tdFF_spruce_02.prefab using Guid(88423862972a9654897434be1d0ee643) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a48bbe9c602d80a770eba625a068a192') in 0.0143371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Foliage/P_tdFF_clover_2.prefab
+  artifactKey: Guid(a0b9deea52b55c14bbbd7ab411768eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Foliage/P_tdFF_clover_2.prefab using Guid(a0b9deea52b55c14bbbd7ab411768eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43e04878f2d37bcb4ce897722e476fc6') in 0.1505914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.943863 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Axe.prefab
+  artifactKey: Guid(5542cd1778f29aa4cb62ed300964e4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Axe.prefab using Guid(5542cd1778f29aa4cb62ed300964e4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c5db87ba0dfeed5dfee28f4b240529c') in 0.0111532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Camp_supplies_3.prefab
+  artifactKey: Guid(87af05802ec77b44d81cdbc53c14f296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Camp_supplies_3.prefab using Guid(87af05802ec77b44d81cdbc53c14f296) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9366903fea4c8aed90e17278ab3b47e') in 0.0133573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Campfire_Pot.prefab
+  artifactKey: Guid(5fb976c93f3d69a4fb621f639c0a9417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Campfire_Pot.prefab using Guid(5fb976c93f3d69a4fb621f639c0a9417) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21c75241dc901e5b823a4bdeb4abab93') in 0.0330017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 92
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_sack_1.prefab
+  artifactKey: Guid(5e7f9e5bd4ba5974ea5c5c32f159390e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_sack_1.prefab using Guid(5e7f9e5bd4ba5974ea5c5c32f159390e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f374cff864d95784597786066b27b887') in 0.0125855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Camp_supplies_8.prefab
+  artifactKey: Guid(fbf5539013858174facf3d0a8144f8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Camp_supplies_8.prefab using Guid(fbf5539013858174facf3d0a8144f8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '820f2b3b305930f14acc6d2d32477131') in 0.0141348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Camp_supplies_2.prefab
+  artifactKey: Guid(7f282c45ef1f87948a3bf8c669626fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Camp_supplies_2.prefab using Guid(7f282c45ef1f87948a3bf8c669626fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '059f689aadbd849141897bca2c020f88') in 0.0116893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.494869 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_spear.prefab
+  artifactKey: Guid(094552451ca68b84b8cb7e92dffdf60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_spear.prefab using Guid(094552451ca68b84b8cb7e92dffdf60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '890f52fb456fdf116caa364aaa89740c') in 0.0089583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.305121 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Tent_1.prefab
+  artifactKey: Guid(78e4731e0e09ec441bd5482813a52dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Tent_1.prefab using Guid(78e4731e0e09ec441bd5482813a52dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78c50cbb448ea1d2a941f962796675ca') in 0.0114306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008643 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Tent_2C.prefab
+  artifactKey: Guid(1cd2f85042ebb4640a6070d5496a967a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Tent_2C.prefab using Guid(1cd2f85042ebb4640a6070d5496a967a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef1b884f88388fa6ef48ca0da8f93add') in 0.0111084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Tent_3C.prefab
+  artifactKey: Guid(9a01abfe97cdd314d9cc6e669f3879e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Tent_3C.prefab using Guid(9a01abfe97cdd314d9cc6e669f3879e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d76b73863d76cae5703511601713e77') in 0.0088491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.781931 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_cliff_rock_4.prefab
+  artifactKey: Guid(04b435274f0f5b94d95b655f4a6665c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_cliff_rock_4.prefab using Guid(04b435274f0f5b94d95b655f4a6665c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52b47c7d5fdcf28be0736dd931ffe653') in 0.0108147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_Pebble_group_5.prefab
+  artifactKey: Guid(82f9c8d6682a8564da3a464cde99caa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_Pebble_group_5.prefab using Guid(82f9c8d6682a8564da3a464cde99caa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5fae2d009dc66d0b89cf5753ff1e648') in 0.006885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_rock_b_4 1.prefab
+  artifactKey: Guid(3842bf41d04ff63478264d0ebc727fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_rock_b_4 1.prefab using Guid(3842bf41d04ff63478264d0ebc727fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14d2d9509844bdcbdf7fcede113a2a6e') in 0.0084865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_rock_3.prefab
+  artifactKey: Guid(dc176500caa14384aad097fef2d02bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_rock_3.prefab using Guid(dc176500caa14384aad097fef2d02bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd30c6a67d2dac1514fc174bf1fa0b007') in 0.0107036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_Pebble_2.prefab
+  artifactKey: Guid(a7905a1ddf31af54f90b840cfbdef7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_Pebble_2.prefab using Guid(a7905a1ddf31af54f90b840cfbdef7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b69cae4eb4d5898c3cdf930467c93388') in 0.0074685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_Pebble_group_4.prefab
+  artifactKey: Guid(76dca548096fb6540b739ce0acf4845a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_Pebble_group_4.prefab using Guid(76dca548096fb6540b739ce0acf4845a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da770df2e294e91d5bb2d666e7bcaa48') in 0.0070448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_rock_b_6.prefab
+  artifactKey: Guid(c34b096b3a8d9cd4595fae035ad3dabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_rock_b_6.prefab using Guid(c34b096b3a8d9cd4595fae035ad3dabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16a948e00a7a7b74b324afe55b6de388') in 0.0090814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.124311 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Stonefence.mat
+  artifactKey: Guid(94fa1c66481c1064e8cf3a90c5a01105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Stonefence.mat using Guid(94fa1c66481c1064e8cf3a90c5a01105) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9049879f5ae47cebaebbbedd5e4bb531') in 0.0133293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.032483 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Foliage/P_tdFF_Grass_Tall_4.prefab
+  artifactKey: Guid(50bd186a7f40d3246b3d256772438e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Foliage/P_tdFF_Grass_Tall_4.prefab using Guid(50bd186a7f40d3246b3d256772438e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5709d1d8ce1dff503ca2c0b5f7a035a8') in 0.1538624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.752772 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/clover_1.fbx
+  artifactKey: Guid(3a11629381967bc47b87b6d984195d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/clover_1.fbx using Guid(3a11629381967bc47b87b6d984195d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c3970dbef92aaf628b339523e4c697b') in 0.0230335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets3D/Low-Poly Medieval Market/Models/fishing_rod.fbx
+  artifactKey: Guid(095c7254214cf304ea29b3561adb1351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Low-Poly Medieval Market/Models/fishing_rod.fbx using Guid(095c7254214cf304ea29b3561adb1351) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f2770389841ace8a014aa48c71dbd47') in 0.0085747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Meshes/ship.fbx
+  artifactKey: Guid(aad20efdfba4b7c418eea1794edbb9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Meshes/ship.fbx using Guid(aad20efdfba4b7c418eea1794edbb9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1871c32a92b6940588361e3ff7f85a55') in 0.0112066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets3D/Low-Poly Medieval Market/Models/FBX Weapon market/long_bow.fbx
+  artifactKey: Guid(a74a6d75509166e4f8a37d3d294d3900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Low-Poly Medieval Market/Models/FBX Weapon market/long_bow.fbx using Guid(a74a6d75509166e4f8a37d3d294d3900) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ca2bc32e2e88d2cf2772a86283c72c4') in 0.0143574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/gold_node_2.fbx
+  artifactKey: Guid(cee42c1ee5124f8469aa42449316f495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/gold_node_2.fbx using Guid(cee42c1ee5124f8469aa42449316f495) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f56022009a426366d978e9f0ad920042') in 0.0161926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets3D/Low-Poly Medieval Market/Models/lamp_post.fbx
+  artifactKey: Guid(4e392ec6d15022a47bebb3f4d7c69204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Low-Poly Medieval Market/Models/lamp_post.fbx using Guid(4e392ec6d15022a47bebb3f4d7c69204) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6a786a590ce49c61d6d8f8de6313c87') in 0.0070813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets3D/Low-Poly Medieval Market/Models/FBX Weapon market/mace.fbx
+  artifactKey: Guid(dee91cc0ec8d6fa4d8e5ffb4ca109ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Low-Poly Medieval Market/Models/FBX Weapon market/mace.fbx using Guid(dee91cc0ec8d6fa4d8e5ffb4ca109ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2403648fb281dfda12412e4261ca4ab') in 0.0073799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/Grass_Large_1.fbx
+  artifactKey: Guid(aca912efb7d8947499e8720f4d4add9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/Grass_Large_1.fbx using Guid(aca912efb7d8947499e8720f4d4add9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba69963d07844ac992ba5422e4567634') in 0.0111049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets3D/Low-Poly Medieval Market/Models/FBX Weapon market/curved_dagger.fbx
+  artifactKey: Guid(f1a0421a7505c384d9b6402d189e3a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Low-Poly Medieval Market/Models/FBX Weapon market/curved_dagger.fbx using Guid(f1a0421a7505c384d9b6402d189e3a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd7f653b88a7b4362e2562b0f338cb21') in 0.0083697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/gold_node_3.fbx
+  artifactKey: Guid(edb968503e92e9a418e49a6a6ed780e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/gold_node_3.fbx using Guid(edb968503e92e9a418e49a6a6ed780e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c00b693012ec5d080c9db8cb505542a') in 0.0124979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/flowers_3.fbx
+  artifactKey: Guid(ac79657212174d2418d41b3fd9cfaaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/flowers_3.fbx using Guid(ac79657212174d2418d41b3fd9cfaaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f6e6c7cb65154af191c3dc791ed4be2') in 0.0128127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets3D/Low-Poly Medieval Market/Models/grass_03.fbx
+  artifactKey: Guid(bece97dd7e0a6d2498db3387b559641c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Low-Poly Medieval Market/Models/grass_03.fbx using Guid(bece97dd7e0a6d2498db3387b559641c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '339618629c3623fd6e61ade64d085802') in 0.0072403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/crystal_node_5.fbx
+  artifactKey: Guid(4a5b083612b215d42ae53951fd555437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/crystal_node_5.fbx using Guid(4a5b083612b215d42ae53951fd555437) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8492b1f61aedfe67c6d67b7c57267de') in 0.0125699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.638896 seconds.
+  path: Assets/Assets3D/Low-Poly Medieval Market/Models/FBX Weapon market/armor.fbx
+  artifactKey: Guid(1faa42e8152413b478ba3f56597e6e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Low-Poly Medieval Market/Models/FBX Weapon market/armor.fbx using Guid(1faa42e8152413b478ba3f56597e6e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abfb927191a27c81f9f5b28279b4720d') in 0.0082363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Assets3D/Low-Poly Medieval Market/Models/FBX Weapon market/axe.fbx
+  artifactKey: Guid(8ab5ed643d71db440a2338820ca4fa91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Low-Poly Medieval Market/Models/FBX Weapon market/axe.fbx using Guid(8ab5ed643d71db440a2338820ca4fa91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73db8015ca50a429cefa5f3783cbe7a7') in 0.0073343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/branch_4.fbx
+  artifactKey: Guid(5d3f508fa139c494cbf24e3b8bcc8831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/branch_4.fbx using Guid(5d3f508fa139c494cbf24e3b8bcc8831) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7dd13a99b7cdc5cd4a38bda02360f3ef') in 0.012951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/MSH_tdFF_bridge.fbx
+  artifactKey: Guid(63344e5a2760bdc41b688a5c23737e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/MSH_tdFF_bridge.fbx using Guid(63344e5a2760bdc41b688a5c23737e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e83173a6602605fa89dd09ef20c1e6a') in 0.0128721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/Camp_supplies_1.fbx
+  artifactKey: Guid(d26aac25f60b1ba4b806d2af2098918a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/Camp_supplies_1.fbx using Guid(d26aac25f60b1ba4b806d2af2098918a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '921deb26bf0d313d9d996fd6b83e27fa') in 0.01444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/cauldron_a.fbx
+  artifactKey: Guid(3f9f0331cee3c4e4fbaf472cbec441ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/cauldron_a.fbx using Guid(3f9f0331cee3c4e4fbaf472cbec441ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff37be0d094fc9c1038eddbf7d5e2999') in 0.0143092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/Camp_supplies_4.fbx
+  artifactKey: Guid(33619c0ecd95ad844a0576e64deac9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/Camp_supplies_4.fbx using Guid(33619c0ecd95ad844a0576e64deac9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05bb56e863ac1170cf5f49bc5d22260a') in 0.0238077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/bridge_double.fbx
+  artifactKey: Guid(d597d0b41021bff4294a17bec6149dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/bridge_double.fbx using Guid(d597d0b41021bff4294a17bec6149dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82647467c2718f4e7613e172d613c1f9') in 0.013946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/Campfire.fbx
+  artifactKey: Guid(23a9928963cd673448d9107afeb53e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/Campfire.fbx using Guid(23a9928963cd673448d9107afeb53e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '721602dae050a0302083810e644fa723') in 0.0159794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

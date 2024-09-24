@@ -1,4 +1,5 @@
 using CodeBase.Infrastructure.Providers;
+using CodeBase.Logic.Units.Workers.Pools;
 using Zenject;
 
 namespace CodeBase.Infrastructure.Installers

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Assets.Pixelation.Example.Scripts
@@ -13,6 +14,7 @@ namespace Assets.Pixelation.Example.Scripts
         private Material m_Material;
 
 
+        [Obsolete("Obsolete")]
         protected virtual void Start()
         {
             // Disable if we don't support image effects

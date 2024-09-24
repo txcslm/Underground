@@ -15,7 +15,7 @@ P:/gameDev/Underground/Underground/Underground
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-3771
+10838
 -job-worker-count
 9
 -background-job-worker-count
@@ -59,12 +59,12 @@ P:/gameDev/Underground/Underground/Underground
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [60584]  Target information:
+Player connection [64596]  Target information:
 
-Player connection [60584]  * "[IP] 192.168.0.123 [Port] 0 [Flags] 2 [Guid] 373711598 [EditorId] 373711598 [Version] 1048832 [Id] WindowsEditor(7,Saymyname) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [64596]  * "[IP] 192.168.0.123 [Port] 0 [Flags] 2 [Guid] 14091797 [EditorId] 14091797 [Version] 1048832 [Id] WindowsEditor(7,Saymyname) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [60584] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [60584] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [64596] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [64596] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,8 +75,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.90 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 1.44 ms.
+Refreshing native plugins compatible for Editor in 2.96 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 1.36 ms.
 Initialize engine version: 6000.0.20f1 (05208a74e9aa)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.20f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path P:/gameDev/Underground/Underground/Underground/Assets
@@ -91,45 +91,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002344 seconds.
-- Loaded All Assemblies, in  0.251 seconds
+Registered in 0.002299 seconds.
+- Loaded All Assemblies, in  0.264 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.234 seconds
-Domain Reload Profiling: 483ms
-	BeginReloadAssembly (87ms)
+- Finished resetting the current domain, in  0.232 seconds
+Domain Reload Profiling: 495ms
+	BeginReloadAssembly (91ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (7ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (98ms)
-		LoadAssemblies (84ms)
+	LoadAllAssembliesAndSetupDomain (106ms)
+		LoadAssemblies (89ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (96ms)
-			TypeCache.Refresh (95ms)
-				TypeCache.ScanAssembly (87ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (103ms)
+				TypeCache.ScanAssembly (94ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (234ms)
+	FinalizeReload (232ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (197ms)
+		SetupLoadedEditorAssemblies (190ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
+			InitializePlatformSupportModulesInManaged (19ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (125ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (124ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -142,166 +142,761 @@ Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Pro
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.968 seconds
+- Loaded All Assemblies, in  1.031 seconds
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 2.14 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 3.14 ms, found 9 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 229ms
+TypeManager.Initialize took: 276ms
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Underground
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.730 seconds
-Domain Reload Profiling: 2696ms
-	BeginReloadAssembly (268ms)
+- Finished resetting the current domain, in  1.737 seconds
+Domain Reload Profiling: 2765ms
+	BeginReloadAssembly (279ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (617ms)
-		LoadAssemblies (339ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (664ms)
+		LoadAssemblies (350ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (345ms)
-			TypeCache.Refresh (257ms)
-				TypeCache.ScanAssembly (240ms)
-			BuildScriptInfoCaches (76ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1731ms)
+		AnalyzeDomain (384ms)
+			TypeCache.Refresh (283ms)
+				TypeCache.ScanAssembly (264ms)
+			BuildScriptInfoCaches (87ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1737ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1553ms)
+		SetupLoadedEditorAssemblies (1582ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (77ms)
-			ProcessInitializeOnLoadAttributes (1001ms)
-			ProcessInitializeOnLoadMethodAttributes (463ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (1090ms)
+			ProcessInitializeOnLoadMethodAttributes (410ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 4.30 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 3.46 ms, found 9 plugins.
 Preloading 1 native plugins for Editor in 0.03 ms.
-Unloading 212 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10625 unused Assets / (8.0 MB). Loaded Objects now: 11449.
-Memory consumption went from 261.4 MB to 253.4 MB.
-Total: 31.013000 ms (FindLiveObjects: 0.745500 ms CreateObjectMapping: 0.670500 ms MarkObjects: 26.004700 ms  DeleteObjects: 3.591100 ms)
+Unloading 238 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10981 unused Assets / (8.5 MB). Loaded Objects now: 11828.
+Memory consumption went from 282.0 MB to 273.5 MB.
+Total: 25.906000 ms (FindLiveObjects: 1.149200 ms CreateObjectMapping: 1.806800 ms MarkObjects: 20.488400 ms  DeleteObjects: 2.459300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 879076.887459 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/Barracks.FBX
-  artifactKey: Guid(e2f28d7d7478cb64597ebb9077abfe6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/Barracks.FBX using Guid(e2f28d7d7478cb64597ebb9077abfe6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5df5971c8753e68914af1ecfa7bbd84') in 0.144102 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 884683.020039 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_iron_node_2.prefab
+  artifactKey: Guid(583e3f18c3a30c74192266b2c8eec041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_iron_node_2.prefab using Guid(583e3f18c3a30c74192266b2c8eec041) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fd5b7fb238b2725757fb346e3bf1fea') in 0.0854106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/Wall_A_gate.FBX
-  artifactKey: Guid(7ae56a8428b94f24b854dac395c7c925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/Wall_A_gate.FBX using Guid(7ae56a8428b94f24b854dac395c7c925) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6519e414a98186a174eeec345dd42722') in 0.0379153 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.669657 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Archery_1.FBX
-  artifactKey: Guid(27fdd863cab8d1a419f247f4ed7a2b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Archery_1.FBX using Guid(27fdd863cab8d1a419f247f4ed7a2b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5bb752c757fae4259e09a3246812014') in 0.0122538 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.393161 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_MagicFountain_2.prefab
+  artifactKey: Guid(70f14dad23b3c5e41833c877a8efa0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_MagicFountain_2.prefab using Guid(70f14dad23b3c5e41833c877a8efa0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d5cbf52cc2de51d06d8ac94f2af4668') in 0.0253864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000013 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Farm_1.FBX
-  artifactKey: Guid(8841aadd935eb6e4f9567e5a24a1f945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Farm_1.FBX using Guid(8841aadd935eb6e4f9567e5a24a1f945) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89f599a141278ffa341ab9d7e381fa72') in 0.0085947 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_mushroom_1_group_3.prefab
+  artifactKey: Guid(d9c61f14746c18440a73515d35fa7928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_mushroom_1_group_3.prefab using Guid(d9c61f14746c18440a73515d35fa7928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca857daec6a5f915d631a7ac80ae24ca') in 0.0077624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.260266 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Mushroom_2_2.prefab
+  artifactKey: Guid(bc0715e96cd904041b240b3d8d6a5d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Mushroom_2_2.prefab using Guid(bc0715e96cd904041b240b3d8d6a5d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c50c4bfb1beadcdd70247a2582bd9a0c') in 0.0080329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036393 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Spruce_03_Stumps.prefab
+  artifactKey: Guid(8d290700f6d2afd4e941aba66127377f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Spruce_03_Stumps.prefab using Guid(8d290700f6d2afd4e941aba66127377f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '477d2f495cf4d2be06f51be51e5ffea9') in 0.0098194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016124 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_stone_fence.prefab
+  artifactKey: Guid(99038d69db30795429825fc3439255e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_stone_fence.prefab using Guid(99038d69db30795429825fc3439255e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f131b7f832c0c2a221404ea769f99234') in 0.0146681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.965194 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_stone_fence_pillar.prefab
+  artifactKey: Guid(6dd3712ec2440844f90eec32fda45d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_stone_fence_pillar.prefab using Guid(6dd3712ec2440844f90eec32fda45d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c07882a5a4e040150deaeada44155a56') in 0.0142737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_stone_fence_short_b.prefab
+  artifactKey: Guid(d3371beaf869d504596cdfd88f90dc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_stone_fence_short_b.prefab using Guid(d3371beaf869d504596cdfd88f90dc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c3da287b47025ff3298b9dacc289799') in 0.0114439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.481186 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_archery_target_b.prefab
+  artifactKey: Guid(ea92aed08b95c3a4b980cf4b7f372054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_archery_target_b.prefab using Guid(ea92aed08b95c3a4b980cf4b7f372054) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74aa97fa2ce2a1a68de74d77c47718bc') in 0.0106821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_barrel.prefab
+  artifactKey: Guid(6037c9cb1551bb64788a0f888758d551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_barrel.prefab using Guid(6037c9cb1551bb64788a0f888758d551) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b755426f57f991c926374f4ad480053c') in 0.0131537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000013 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/House_0.FBX
-  artifactKey: Guid(c4bb27f050a2ef4439fb736e16b2bded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/House_0.FBX using Guid(c4bb27f050a2ef4439fb736e16b2bded) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '108dbca1510323b117e4e22b3de503d6') in 0.0082143 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Camp_supplies_4.prefab
+  artifactKey: Guid(8c1af349569bf7d4791baec03d66657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Camp_supplies_4.prefab using Guid(8c1af349569bf7d4791baec03d66657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1c921cc792967af6590e886c4ba2d3b') in 0.0223351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Barricade_2.prefab
+  artifactKey: Guid(0e650c259a7af9b4bac8e7dde0b698e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Barricade_2.prefab using Guid(0e650c259a7af9b4bac8e7dde0b698e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a4c02953dc1a39614139fdfaadf1237') in 0.025874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Bonefire.prefab
+  artifactKey: Guid(44059a70c78536445bbd0e14efd329ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Bonefire.prefab using Guid(44059a70c78536445bbd0e14efd329ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7a89833e900be4d4239625a86426394') in 0.0198169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Camp_supplies_2.prefab
+  artifactKey: Guid(7f282c45ef1f87948a3bf8c669626fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Camp_supplies_2.prefab using Guid(7f282c45ef1f87948a3bf8c669626fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34e3cba6b49b3458a14d4f343c85827c') in 0.0115616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.627768 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_shield_1.prefab
+  artifactKey: Guid(c8454b4dd01ff294187e2c4bbf934915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_shield_1.prefab using Guid(c8454b4dd01ff294187e2c4bbf934915) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '608f3d7a9071e719ab23757d2fbfba53') in 0.0111402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.321085 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Table_2.prefab
+  artifactKey: Guid(66a9a5c19ccfbc04badc4569221b4098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Table_2.prefab using Guid(66a9a5c19ccfbc04badc4569221b4098) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cdf9aeb5308b550e18041e67101e842') in 0.0147488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002650 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Tent_2.prefab
+  artifactKey: Guid(000b75e1151428c4b8e33015d4db6cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Tent_2.prefab using Guid(000b75e1151428c4b8e33015d4db6cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd09ad9eb46e0377f5634a34b0de417c') in 0.0127166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.235290 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Mushroom_1.mat
+  artifactKey: Guid(de821b59479e7f24f83b10219e7399b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Mushroom_1.mat using Guid(de821b59479e7f24f83b10219e7399b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f77206e05485cd944a50d9aa9b9a8ff') in 0.0219498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Wagon.mat
+  artifactKey: Guid(b5b2875a5d96ba14e96bb8a7e620ff25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Wagon.mat using Guid(b5b2875a5d96ba14e96bb8a7e620ff25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3977fbd7c1d9fa45dede18ee978cf184') in 0.0231892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Spruce_Fallen.mat
+  artifactKey: Guid(f2ad0a8a50274da45885ce69c737086c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Spruce_Fallen.mat using Guid(f2ad0a8a50274da45885ce69c737086c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c52efccad0ae2a8da559f9154ad751cb') in 0.0125308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Market_0.FBX
-  artifactKey: Guid(36773d88f5d34834587aff054644b010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Market_0.FBX using Guid(36773d88f5d34834587aff054644b010) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d93f998dec095028a05d647c0aee1f5') in 0.0104617 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Spruce_Stump_Cut.mat
+  artifactKey: Guid(f11f0f89633bdcb49b47796a0a655e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Spruce_Stump_Cut.mat using Guid(f11f0f89633bdcb49b47796a0a655e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f497dd3577c38b6498626a73a63a4f2c') in 0.0081302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.308402 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Ironmine.mat
+  artifactKey: Guid(a07306c2fa3967e4c921b56eb8f433c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Ironmine.mat using Guid(a07306c2fa3967e4c921b56eb8f433c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fd8f2b183b76c08bff00167e94df91c') in 0.0448951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.563252 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Clover_Set.mat
+  artifactKey: Guid(db166b852d342b64ba1cd560dfd28876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Clover_Set.mat using Guid(db166b852d342b64ba1cd560dfd28876) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d18c1cb6837e37a1c3de454556fc700') in 0.0076347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Goldmine.mat
+  artifactKey: Guid(fa2eff00683fb95419b4c5f15ee0bcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Goldmine.mat using Guid(fa2eff00683fb95419b4c5f15ee0bcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eba470ff76957ebf95538df80a39f5f0') in 0.0337461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.849959 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Campfire_Lit.mat
+  artifactKey: Guid(26943b6deb50048448186f90f9b0a90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Campfire_Lit.mat using Guid(26943b6deb50048448186f90f9b0a90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f497d2df7f9491294aaef36bf9facb10') in 0.0140527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.322681 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Bridge.mat
+  artifactKey: Guid(324baa5eea8a2cd448d809a9e02b1d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Bridge.mat using Guid(324baa5eea8a2cd448d809a9e02b1d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac0c349cb5bdb17705810ca6a87ca6b1') in 0.0134388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.510648 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Bridge.mat
+  artifactKey: Guid(324baa5eea8a2cd448d809a9e02b1d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Bridge.mat using Guid(324baa5eea8a2cd448d809a9e02b1d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2559aa9d20193eab2addf177a9c10f82') in 0.1643513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Stables_0.FBX
-  artifactKey: Guid(c8f46a36db3ed5d4ba1ec3877467e8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Stables_0.FBX using Guid(c8f46a36db3ed5d4ba1ec3877467e8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a2cd7b27fdec416ee436faa287a8b8e') in 0.0094785 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Goldmine.mat
+  artifactKey: Guid(fa2eff00683fb95419b4c5f15ee0bcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Goldmine.mat using Guid(fa2eff00683fb95419b4c5f15ee0bcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '899888be23307708c92e1c03bd70b642') in 0.1011925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_MagicFountain_4.mat
+  artifactKey: Guid(da687e6f9d1bc774d96bdf513fa3c786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_MagicFountain_4.mat using Guid(da687e6f9d1bc774d96bdf513fa3c786) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad0f2b5bd0c5199c934e2ede6c5aeb72') in 0.013175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Crystal_Nodes_Blue.mat
+  artifactKey: Guid(309a92fddcb02dd4197330b47de6be67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Crystal_Nodes_Blue.mat using Guid(309a92fddcb02dd4197330b47de6be67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a090bc4048418cb0d403c6d6edec8e56') in 0.0142022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.728873 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_branch_1.prefab
+  artifactKey: Guid(1edbf7d17c757dd459a8285c12ba0222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_branch_1.prefab using Guid(1edbf7d17c757dd459a8285c12ba0222) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55141fa09df7f56b0a3c77d2115495dc') in 0.0110226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_crystal_node_blue_1.prefab
+  artifactKey: Guid(9404f7c3adc9d8b49a24d7f61646d61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_crystal_node_blue_1.prefab using Guid(9404f7c3adc9d8b49a24d7f61646d61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '726e2a6568a512776c3757f52a2dc819') in 0.0124293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_crystal_node_2.prefab
+  artifactKey: Guid(ab321584cdd1d334fb805ee7012e9715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_crystal_node_2.prefab using Guid(ab321584cdd1d334fb805ee7012e9715) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85db1b9fda3142ea893bcce4c0cf8d51') in 0.0118788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_crystal_node_blue_5.prefab
+  artifactKey: Guid(7f30ddbb734d4194aaff69e3681622ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_crystal_node_blue_5.prefab using Guid(7f30ddbb734d4194aaff69e3681622ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8357329786c571708067df30c7c09928') in 0.0133777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_crystal_node_3.prefab
+  artifactKey: Guid(eba4d221947a9ef488b3141ed6bbfa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_crystal_node_3.prefab using Guid(eba4d221947a9ef488b3141ed6bbfa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a244dac42082e6e53429337eaca008f') in 0.0108598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/MageTower_0.FBX
-  artifactKey: Guid(23f5e8bfeddc6454da643b5f31d0ff9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/MageTower_0.FBX using Guid(23f5e8bfeddc6454da643b5f31d0ff9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e6fdee2582b5a9ccb1c4c275b2737e0') in 0.0095276 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_crystal_node_blue_3.prefab
+  artifactKey: Guid(5fedac7bbe434fe4ab8bd630c7762a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_crystal_node_blue_3.prefab using Guid(5fedac7bbe434fe4ab8bd630c7762a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d275ba5109884603d24b3b36c29cf59') in 0.0121942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.438861 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Tower_C_0.FBX
-  artifactKey: Guid(48f5ed055a55d3e4e8a0d58338a79109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Tower_C_0.FBX using Guid(48f5ed055a55d3e4e8a0d58338a79109) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37bb604b6996e64200ec773ded35b3bd') in 0.0134611 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.313124 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_iron_node_2.prefab
+  artifactKey: Guid(583e3f18c3a30c74192266b2c8eec041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_iron_node_2.prefab using Guid(583e3f18c3a30c74192266b2c8eec041) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '052601c19e1040945a373dc90368e436') in 0.0149077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.328768 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Wall_A_corner_0.FBX
-  artifactKey: Guid(84027b74851eeb942a03f4a723b1a66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Wall_A_corner_0.FBX using Guid(84027b74851eeb942a03f4a723b1a66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba8331cd01898ba45752ac01150d7508') in 0.0094548 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.626946 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_MagicFountain_2.prefab
+  artifactKey: Guid(70f14dad23b3c5e41833c877a8efa0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_MagicFountain_2.prefab using Guid(70f14dad23b3c5e41833c877a8efa0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e091747ec9ce1737cba6f13f99718a5a') in 0.0207417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029301 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_mushroom_1_3.prefab
+  artifactKey: Guid(e03bc0effdbc91c4ca0a5063cdb3c06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_mushroom_1_3.prefab using Guid(e03bc0effdbc91c4ca0a5063cdb3c06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f4e81da402985d26645003a6a87fc05') in 0.0083894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.390039 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Mushroom_2_2.prefab
+  artifactKey: Guid(bc0715e96cd904041b240b3d8d6a5d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Mushroom_2_2.prefab using Guid(bc0715e96cd904041b240b3d8d6a5d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e4a88e8dfdca2c0962d04a247d84e0d') in 0.0070808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.326841 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Spruce_03_Stumps.prefab
+  artifactKey: Guid(8d290700f6d2afd4e941aba66127377f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_Spruce_03_Stumps.prefab using Guid(8d290700f6d2afd4e941aba66127377f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbfc356ef520309ac66e450e3ae509ff') in 0.0085363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.100982 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_stone_fence.prefab
+  artifactKey: Guid(99038d69db30795429825fc3439255e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_stone_fence.prefab using Guid(99038d69db30795429825fc3439255e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1e748561a57024058dbe32a8dc137e7') in 0.0149203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.394663 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_stone_fence_pillar.prefab
+  artifactKey: Guid(6dd3712ec2440844f90eec32fda45d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_stone_fence_pillar.prefab using Guid(6dd3712ec2440844f90eec32fda45d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b82f0423b1529b7bac2d37d0500c68c') in 0.0155393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.976915 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Foliage/P_tdFF_Bush_2.prefab
+  artifactKey: Guid(b61099c2be037614998b0dd1fcc7812c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Foliage/P_tdFF_Bush_2.prefab using Guid(b61099c2be037614998b0dd1fcc7812c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4924c87bb14ede9d4a6667698e5c1ee') in 0.0137505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Foliage/P_tdFF_Spruce_04.prefab
+  artifactKey: Guid(ca719c0ea8fc6534797941e098c55c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Foliage/P_tdFF_Spruce_04.prefab using Guid(ca719c0ea8fc6534797941e098c55c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27a3eaf7d878cc9579511158cc5171b5') in 0.0159924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Foliage/P_tdFF_Reeds_3.prefab
+  artifactKey: Guid(06926c7fb690f464b9dee3bdd0b8c1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Foliage/P_tdFF_Reeds_3.prefab using Guid(06926c7fb690f464b9dee3bdd0b8c1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'decf74bd75f0007187f215421416de3d') in 0.0078097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Foliage/P_tdFF_Grass_Tall_5.prefab
+  artifactKey: Guid(0bb6f2b4d5d1930458ec9fd95b16c662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Foliage/P_tdFF_Grass_Tall_5.prefab using Guid(0bb6f2b4d5d1930458ec9fd95b16c662) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0926888e4e4777f9963c333e7940831c') in 0.0076114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Foliage/P_tdFF_Reeds_1.prefab
+  artifactKey: Guid(33320a53a66fb52428f6b13ea6c95878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Foliage/P_tdFF_Reeds_1.prefab using Guid(33320a53a66fb52428f6b13ea6c95878) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c89938315118808a758cb5ffbc4c4683') in 0.0075094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Foliage/P_tdFF_Grass_Tall_3.prefab
+  artifactKey: Guid(ec8813abdc49d3d4e89da800a4bebea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Foliage/P_tdFF_Grass_Tall_3.prefab using Guid(ec8813abdc49d3d4e89da800a4bebea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bab3d029f8c7027e1c545e2cfbd641d1') in 0.0066889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.013333 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_archery_target_b.prefab
+  artifactKey: Guid(ea92aed08b95c3a4b980cf4b7f372054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_archery_target_b.prefab using Guid(ea92aed08b95c3a4b980cf4b7f372054) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbcdf48c6044140b9b726ac36081c25d') in 0.0109283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_barrel.prefab
+  artifactKey: Guid(6037c9cb1551bb64788a0f888758d551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_barrel.prefab using Guid(6037c9cb1551bb64788a0f888758d551) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01eccfbf20315d69b8041d2c6fa05354') in 0.0133907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Camp_supplies_4.prefab
+  artifactKey: Guid(8c1af349569bf7d4791baec03d66657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Camp_supplies_4.prefab using Guid(8c1af349569bf7d4791baec03d66657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fc8a905b2e866bc10efbee460dd268d') in 0.020988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Campfire_B.prefab
+  artifactKey: Guid(09c404eccbec51543b483e56dfd4e443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Campfire_B.prefab using Guid(09c404eccbec51543b483e56dfd4e443) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b55ba8183bacd20a9f93dc31dbdd455') in 0.0170037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 68
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Campfire_Unlit.prefab
+  artifactKey: Guid(fa9a7e09344467f45bb42f90d079c835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Campfire_Unlit.prefab using Guid(fa9a7e09344467f45bb42f90d079c835) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77789e3ea0913ce1e379a06c4f552940') in 0.0125647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_bag.prefab
+  artifactKey: Guid(58a80b4ad5de89941a01a8fb8571e45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_bag.prefab using Guid(58a80b4ad5de89941a01a8fb8571e45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35c72cadcb658bb361ecfe6e49132099') in 0.0167271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.503890 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_shield_1.prefab
+  artifactKey: Guid(c8454b4dd01ff294187e2c4bbf934915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_shield_1.prefab using Guid(c8454b4dd01ff294187e2c4bbf934915) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f63ce031e9d3f46503f7d4ffb9a9f4bd') in 0.010978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.302229 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Table_2.prefab
+  artifactKey: Guid(66a9a5c19ccfbc04badc4569221b4098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Table_2.prefab using Guid(66a9a5c19ccfbc04badc4569221b4098) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d07536015eedd32a0b241b44c461492') in 0.0147116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Tent_2.prefab
+  artifactKey: Guid(000b75e1151428c4b8e33015d4db6cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Camp/P_tdFF_Tent_2.prefab using Guid(000b75e1151428c4b8e33015d4db6cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '755ee884302b18e9fd5899dfc9d8fb5d') in 0.0136657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.789917 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_cliff_rock_2.prefab
+  artifactKey: Guid(e5df5987e9803ef48921c4eb2f676280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_cliff_rock_2.prefab using Guid(e5df5987e9803ef48921c4eb2f676280) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2e057ee78d651f6ab425169a0d799fc') in 0.0118466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_rock_5.prefab
+  artifactKey: Guid(c796f37bfdb4836419d87355f41b7b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_rock_5.prefab using Guid(c796f37bfdb4836419d87355f41b7b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3339cf0596327ac4792e8921b7cc16a') in 0.0088926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Wall_A_wall_0.FBX
-  artifactKey: Guid(e9f3519d8a967cf4a820ecd5979e12b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Wall_A_wall_0.FBX using Guid(e9f3519d8a967cf4a820ecd5979e12b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f0f17e332ff5a3cd740e014acf67285') in 0.0079244 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_Pebble_5.prefab
+  artifactKey: Guid(2f9d894a424f8b6409e782bbc138f9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_Pebble_5.prefab using Guid(2f9d894a424f8b6409e782bbc138f9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b01ef3733a142873887e9eb0f83d3e4') in 0.0056568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.071123 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Wall_B_1x1_0.FBX
-  artifactKey: Guid(98633bc2a8b69fb4ab21231dddbdbf0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Wall_B_1x1_0.FBX using Guid(98633bc2a8b69fb4ab21231dddbdbf0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f81e37c2c8b6d6a4d1f6c85fb452d8cf') in 0.0105804 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_rock_b_1.prefab
+  artifactKey: Guid(374b270ccbb59e241830f2cb15375798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_rock_b_1.prefab using Guid(374b270ccbb59e241830f2cb15375798) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ecd75539e8c23abed87e2ccb7f75cc6') in 0.0111179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Wall_B_gate_0.FBX
-  artifactKey: Guid(914c6a6c8577a644695c9d94116c598d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Wall_B_gate_0.FBX using Guid(914c6a6c8577a644695c9d94116c598d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97f6e98a4c5d1fed1dc84541394b7bab') in 0.007354 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000008 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_rock_1.prefab
+  artifactKey: Guid(92dfc2872c7517a488d4a8ce98aa4add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_rock_1.prefab using Guid(92dfc2872c7517a488d4a8ce98aa4add) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a891ccaddf5238facfdb6bd9c865ad7c') in 0.008046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.459035 seconds.
-  path: Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Wall_B_wall_0.FBX
-  artifactKey: Guid(922ea54d47119074d8b9b4e757b417e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets3D/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Wall_B_wall_0.FBX using Guid(922ea54d47119074d8b9b4e757b417e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58af9fc323f7066ebc0a6fd50e8967b1') in 0.0111446 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_Pebble_3.prefab
+  artifactKey: Guid(5612a0104520cef4892dce62956b2047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_Pebble_3.prefab using Guid(5612a0104520cef4892dce62956b2047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bd248822a8ad90df0feb27c4770bb7b') in 0.0063505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_Pebble_group_3.prefab
+  artifactKey: Guid(5ae4b8037d3b0db4e8ac435e08d32cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Cliffs & Rocks/P_tdFF_Pebble_group_3.prefab using Guid(5ae4b8037d3b0db4e8ac435e08d32cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7c843aae6fd6231c41bf6ef927e482e') in 0.0065028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.118697 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Spruce_Stump_Cut.mat
+  artifactKey: Guid(f11f0f89633bdcb49b47796a0a655e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Materials/M_tdFF_Spruce_Stump_Cut.mat using Guid(f11f0f89633bdcb49b47796a0a655e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '081ba8633cae3f53c5393c178c7b88d2') in 0.0079615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.055275 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Textures/T_tdFF_Grass_Tall_N.png
+  artifactKey: Guid(9e7f8850ed9218b4aaacdea31bd279d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Textures/T_tdFF_Grass_Tall_N.png using Guid(9e7f8850ed9218b4aaacdea31bd279d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46615f639ea2a357a2b0f2fa630e55cf') in 0.0137383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.961791 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Foliage/P_tdFF_Grass_Tall_2.prefab
+  artifactKey: Guid(a61ade6bf9947d14d97bc99a94e875b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/Foliage/P_tdFF_Grass_Tall_2.prefab using Guid(a61ade6bf9947d14d97bc99a94e875b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98a0e6a49e2215eb4f0ff5109ab8cb0a') in 0.1454559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.391744 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Textures/T_tdFF_Spruce_Trunk_N.png
+  artifactKey: Guid(f9437a2bf8a34684f89f489c270b36a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Textures/T_tdFF_Spruce_Trunk_N.png using Guid(f9437a2bf8a34684f89f489c270b36a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acc7d805d4a09632cb80f2f966979f04') in 0.0049015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.353687 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/MSH_tdFF_cliff_3.fbx
+  artifactKey: Guid(c95017e10f87bf8489c89b2ab59ba851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/MSH_tdFF_cliff_3.fbx using Guid(c95017e10f87bf8489c89b2ab59ba851) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b42d64b30f6646935686ca0b78a35510') in 0.0317584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets3D/Low-Poly Medieval Market/Models/long_loaf.fbx
+  artifactKey: Guid(0dfb12300f720f84eb3c7e6b6055ad35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Low-Poly Medieval Market/Models/long_loaf.fbx using Guid(0dfb12300f720f84eb3c7e6b6055ad35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbe6ec6ca4399dd65db66967af294fb4') in 0.0084475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/magicfountain.fbx
+  artifactKey: Guid(10c57643abedfba47bceaa0d1c1fe4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/magicfountain.fbx using Guid(10c57643abedfba47bceaa0d1c1fe4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e5a8f49fc779457fe7f9ba347dd2354') in 0.0244861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/crystal_node_4.fbx
+  artifactKey: Guid(c5d0fff9dec1ec142bd5f5d2f65cf14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/crystal_node_4.fbx using Guid(c5d0fff9dec1ec142bd5f5d2f65cf14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce635b3d2662d3179b1e921c351b1f7c') in 0.0156372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Media/Models/ship.fbx
+  artifactKey: Guid(73637a3b17554e34c9e921d4df1ee609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Media/Models/ship.fbx using Guid(73637a3b17554e34c9e921d4df1ee609) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bb9f1fce6e27797ac50c1267c6d79ee') in 0.0120594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/crystal_node_3.fbx
+  artifactKey: Guid(a5d83fa805f9089498ea92495907e2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/crystal_node_3.fbx using Guid(a5d83fa805f9089498ea92495907e2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8aca70614823a08c6fd75488c05ccd4f') in 0.0131377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets3D/Low-Poly Medieval Market/Models/fish_twisted_02.fbx
+  artifactKey: Guid(0a62bce1346018845bf6f3b6c3115cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Low-Poly Medieval Market/Models/fish_twisted_02.fbx using Guid(0a62bce1346018845bf6f3b6c3115cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '075ce7270d711f368133f601694ee26e') in 0.0075212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/gold_node_5.fbx
+  artifactKey: Guid(775e319edd8e61247a86c830451dd20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/gold_node_5.fbx using Guid(775e319edd8e61247a86c830451dd20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6d92ad0c63e84573a11742c3278727c') in 0.0142345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/crystal_node_2.fbx
+  artifactKey: Guid(efbe2846f70248a4187b2aaa4e9f5393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/crystal_node_2.fbx using Guid(efbe2846f70248a4187b2aaa4e9f5393) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ef3a8dfa2bc0a4536e527c2dbdbc47f') in 0.0148428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets3D/Low-Poly Medieval Market/Models/grass_01.fbx
+  artifactKey: Guid(58ef67edf27efe348953308529eaced2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Low-Poly Medieval Market/Models/grass_01.fbx using Guid(58ef67edf27efe348953308529eaced2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '768a5a24dfda14a5b729935642643a28') in 0.0077469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/Grass_Large_5.fbx
+  artifactKey: Guid(08e60fcb261ed0e4c99bbc9252deb039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/Grass_Large_5.fbx using Guid(08e60fcb261ed0e4c99bbc9252deb039) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '261c45c768aab3fdefcd9a448a9b46f8') in 0.0109248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.641108 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/archery_target.fbx
+  artifactKey: Guid(d7bc3d09483bd1443bfa8a96b82bc2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/archery_target.fbx using Guid(d7bc3d09483bd1443bfa8a96b82bc2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7647626d2f4561b6119c4376f939a5e') in 0.0119434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/arrow.fbx
+  artifactKey: Guid(6bed85f0bcc74574e9614d359493774b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/arrow.fbx using Guid(6bed85f0bcc74574e9614d359493774b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c57f98ee1ccf74b933f187cb24b94c4') in 0.0117359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/Camp_supplies_5.fbx
+  artifactKey: Guid(d9b542bea9fa05d4ba8770f83d768fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/Camp_supplies_5.fbx using Guid(d9b542bea9fa05d4ba8770f83d768fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8094f85aea7c45e660a8fe46b18c79a') in 0.0223956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/Barricade_2.fbx
+  artifactKey: Guid(29f86c0d7b57144439e7da96363a5fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/Barricade_2.fbx using Guid(29f86c0d7b57144439e7da96363a5fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b56610841de6695addd6082521862821') in 0.025889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets3D/Low-Poly Medieval Market/Models/FBX Weapon market/arrow.fbx
+  artifactKey: Guid(5cab68a22e51ff64088e8cd0e556ab8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Low-Poly Medieval Market/Models/FBX Weapon market/arrow.fbx using Guid(5cab68a22e51ff64088e8cd0e556ab8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a7d84ed68dbfd249055de2238f4c169') in 0.0064554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/Bonefire.fbx
+  artifactKey: Guid(ce3e695fe58bcf743b87eedbdedfd5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/Bonefire.fbx using Guid(ce3e695fe58bcf743b87eedbdedfd5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b65c884a47f05b786fd74485b6800c9d') in 0.0177763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/Camp_supplies_3.fbx
+  artifactKey: Guid(2a9a32e17c22ad04bb9be545a156f87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/Camp_supplies_3.fbx using Guid(2a9a32e17c22ad04bb9be545a156f87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05a0c0eb1645c84fddc3d07c59bdf6bd') in 0.0151596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/Camp_supplies_8.fbx
+  artifactKey: Guid(2c8bbc6f973b84c46b32de96614ae9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Meshes/Camp_supplies_8.fbx using Guid(2c8bbc6f973b84c46b32de96614ae9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2bd03a1ed9e5d291f0eb3b6bfd046d6') in 0.0177729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

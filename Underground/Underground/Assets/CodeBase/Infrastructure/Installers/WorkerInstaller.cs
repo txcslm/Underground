@@ -1,3 +1,6 @@
+using CodeBase.Logic.Units.Workers;
+using CodeBase.Logic.Units.Workers.Pools;
+using CodeBase.Logic.Units.Workers.StateMachines.States.Interfaces;
 using Zenject;
 
 namespace CodeBase.Infrastructure.Installers
@@ -6,7 +9,8 @@ namespace CodeBase.Infrastructure.Installers
 	{
 		public override void InstallBindings()
 		{
-			
+			Container.BindInterfacesAndSelfTo<WorkerPool>().AsSingle();
+			Container.BindInterfacesAndSelfTo<WorkerFactory>().AsSingle();
 		}
 	}
 }
