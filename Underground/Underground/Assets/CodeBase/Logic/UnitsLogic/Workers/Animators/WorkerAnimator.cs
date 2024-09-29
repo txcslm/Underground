@@ -12,11 +12,8 @@ namespace CodeBase.Logic.Units.Workers.Animators
 
 		private readonly static int IsWorkHash = Animator.StringToHash(Work);
 		private readonly static int SpeedHash = Animator.StringToHash(Speed);
-
-		private Animator _animator;
-
-		private void Awake() =>
-			_animator = GetComponent<Animator>();
+		
+		[SerializeField] private Animator _animator;
 		
 		public void PlayRun() =>
 			_animator.SetFloat(SpeedHash, PlayValue);

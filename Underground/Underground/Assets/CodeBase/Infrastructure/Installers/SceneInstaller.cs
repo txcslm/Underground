@@ -1,5 +1,4 @@
 using CodeBase.Infrastructure.Providers;
-using CodeBase.Logic.Units.Workers.Pools;
 using Zenject;
 
 namespace CodeBase.Infrastructure.Installers
@@ -9,6 +8,7 @@ namespace CodeBase.Infrastructure.Installers
 		public override void InstallBindings()
 		{
 			Container.BindInterfacesAndSelfTo<ConfigProvider>().AsSingle();
+			Container.BindInterfacesAndSelfTo<TargetProvider>().AsSingle();
 			Container.Bind<IAssetProvider>().To<ResourceFolderAssetProvider>().AsSingle();
 		}
 	}

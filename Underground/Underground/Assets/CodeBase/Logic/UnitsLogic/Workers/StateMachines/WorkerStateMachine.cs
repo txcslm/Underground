@@ -12,13 +12,13 @@ namespace CodeBase.Logic.Units.Workers.StateMachines
 		{
 			_currentState?.Exit();
 			_currentState = state;
-			Debug.Log(_currentState.GetType());
+			Debug.Log("Change State" + _currentState.GetType().Name);
 			_currentState?.Enter();
 		}
 
 		public void Update()
 		{
-			Debug.Log(_currentState.GetType());
+			Debug.Log("Current Update" + _currentState.GetType().Name);
 			_currentState?.Update();
 		}
 	}

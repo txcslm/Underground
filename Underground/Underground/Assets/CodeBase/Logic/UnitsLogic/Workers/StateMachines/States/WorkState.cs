@@ -11,9 +11,7 @@ namespace CodeBase.Logic.Units.Workers.StateMachines.States.Interfaces
 			_worker = worker;
 		}
 
-		public override void Enter()
-		{
+		public override void Enter() =>
 			_worker.Work();
-		}
 	}
 }

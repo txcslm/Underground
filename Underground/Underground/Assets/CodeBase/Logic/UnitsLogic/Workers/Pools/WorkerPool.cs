@@ -10,15 +10,16 @@ namespace CodeBase.Logic.Units.Workers.Pools
 		[Inject]
 		private readonly WorkerFactory _factory;
 
-		private List<Worker> _workers;
+		private Queue<Worker> _workers;
 		
-		public IReadOnlyList<Worker> Workers => _workers;
-
 		public WorkerPool()
 		{
 			Initialize();
 		}
-		
+
+		public override Worker Get() =>
+			_workers.FirstOrDefault();
+
 		public override Worker Create()
 		{
 			Worker worker = _factory.Create();
@@ -26,26 +27,22 @@ namespace CodeBase.Logic.Units.Workers.Pools
 			if(_workers == null)
 				Initialize();
 
-			if (_workers != null)
-			{
-				_workers.Add(worker);
-				Debug.Log(_workers.Count);
-			}
+			_workers?.Enqueue(worker);
 
 			worker.gameObject.SetActive(false);
 
 			return worker;
 		}
 
-		public override void Despawn(Worker worker)
+		public override void Despawn(Worker provision)
 		{
-			worker.gameObject.SetActive(false);
-			_workers.Remove(worker);
+			provision.gameObject.SetActive(false);
+			 _workers.Dequeue();
 		}
 
 		public override sealed void Initialize()
 		{
-			_workers = new List<Worker>();
+			_workers = new Queue<Worker>();
 		}
 
 		public override void Dispose()

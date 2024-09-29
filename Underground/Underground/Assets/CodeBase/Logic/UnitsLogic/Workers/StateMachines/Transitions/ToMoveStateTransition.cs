@@ -7,29 +7,20 @@ namespace CodeBase.Logic.Units.Workers.Factory
 	public class ToMoveStateTransition : Transition
 	{
 		private readonly Worker _worker;
-		private ITarget _target;
+		private readonly TargetProvider _targetProvider;
 
-		public ToMoveStateTransition(MoveState moveState, Worker worker, ITarget target) : base(moveState)
+		public ToMoveStateTransition(MoveState moveState, Worker worker, TargetProvider targetProvider) : base(moveState)
 		{
 			_worker = worker;
-			_target = target;
-		}
-		
-		public void SetTarget(ITarget newTarget)
-		{
-			_target = newTarget;
+			_targetProvider = targetProvider;
 		}
 		
 		protected override bool CanTransit()
 		{
-			Debug.Log(_target.Position);
-			
-			if (_target == null)
+			if (_targetProvider == null)
 				return false;
 			
-			Debug.Log(_target.Position);
-			
-			return Vector3.Distance(_worker.transform.position, _target.Position) > 1f;
+			return Vector3.Distance(_worker.transform.position, _targetProvider.CurrentTarget.Position) > 1f;
 		}
 	}
 }

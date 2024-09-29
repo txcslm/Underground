@@ -1,14 +1,18 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace CodeBase.Logic.Units.Workers.Pools
 {
 	public abstract class ObjectPool<T> where T : MonoBehaviour
 	{
+		protected Queue<T> _pools;
+		
+		public abstract T Get();
 		public abstract T Create();
 
 		public abstract void Initialize();
 
-		public abstract void Despawn(Worker worker);
+		public abstract void Despawn(T provision);
 
 		public abstract void Dispose();
 	}

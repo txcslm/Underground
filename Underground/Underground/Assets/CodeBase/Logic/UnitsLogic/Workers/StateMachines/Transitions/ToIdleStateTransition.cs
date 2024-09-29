@@ -5,18 +5,18 @@ using UnityEngine;
 
 namespace CodeBase.Logic.UnitsLogic.Workers.StateMachines.Transitions
 {
-	public class ToWorkStateTransition: Transition
+	public class ToIdleStateTransition : Transition
 	{
 		private readonly Worker _worker;
-		private readonly TargetProvider _target;
+		private readonly TargetProvider _targetProvider;
 
-		public ToWorkStateTransition(WorkState nextState, Worker worker, TargetProvider target) : base(nextState)
+		public ToIdleStateTransition(IdleState nextState, Worker worker, TargetProvider targetProvider) : base(nextState)
 		{
 			_worker = worker;
-			_target = target;
+			_targetProvider = targetProvider;
 		}
 
 		protected override bool CanTransit() =>
-			Vector3.Distance(_worker.transform.position, _target.CurrentTarget.Position) < 1f;
+			Vector3.Distance(_worker.transform.position, _targetProvider.CurrentTarget.Position) < 1f;
 	}
 }

@@ -7,12 +7,15 @@ namespace CodeBase.Logic.WorldLogic.ProvisionLogic
 	{
 		public Vector3 Position => transform.position;
 
-		private void OnTriggerEnter(Collider other)
+		public void SetParent(Transform parent)
 		{
-			if (other.TryGetComponent(out ProvisionCollectorTag collectorTag))
-			{
-				transform.SetParent(collectorTag.transform);
-			}
+			Debug.Log("SetParent");
+			transform.parent = parent;
+		}
+
+		public void Destroy()
+		{
+			Destroy(this);
 		}
 	}
 }
