@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace CodeBase.Logic.Units.Workers.StateMachines.States.Interfaces
+namespace CodeBase.Logic.Interfaces
 {
 	public interface ITarget
 	{

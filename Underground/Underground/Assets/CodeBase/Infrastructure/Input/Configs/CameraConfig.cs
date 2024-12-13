@@ -1,7 +1,7 @@
 using Sirenix.OdinInspector;
 using UnityEngine;
 
-namespace CodeBase.Input
+namespace CodeBase.Infrastructure.Input.Configs
 {
 	[CreateAssetMenu(fileName = "CameraConfig", menuName = "Input/CameraConfig")]
 	public class CameraConfig : ScriptableObject

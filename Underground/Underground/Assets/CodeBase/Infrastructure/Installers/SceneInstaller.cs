@@ -1,4 +1,5 @@
 using CodeBase.Infrastructure.Providers;
+using CodeBase.Logic.UnitsLogic.Workers.Providers;
 using Zenject;
 
 namespace CodeBase.Infrastructure.Installers

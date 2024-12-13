@@ -5,116 +5,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01fecdb0-3257-4185-9040-6022c4284fac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Installers/ProvisionInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Installers/ProvisionInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/Providers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/Providers/TargetProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/Providers/TargetProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/Transitions/ToGiveProvisionStateTransition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/Transitions/ToGiveProvisionStateTransition.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/Transitions/ToIdleStateTransition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/Transitions/ToIdleStateTransition.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/ProvisionLogic/Factories.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/ProvisionLogic/Factories/ProvisionFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/ProvisionLogic/Factories/ProvisionFactory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/ProvisionLogic/Pools.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/ProvisionLogic/Pools/ProvisionPool.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/ProvisionLogic/Pools/ProvisionPool.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/ProvisionLogic/Spawners.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/ProvisionLogic/Spawners/ProvisionSpawner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/ProvisionLogic/Spawners/ProvisionSpawner.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Underground/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Underground/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Underground/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Underground/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_crystal_node_blue_5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets3D/TriForge Assets/Top Down - Fantasy Forest/Prefabs/P_tdFF_crystal_node_blue_5.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Input/Configs/CameraConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Input/Configs/CameraConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Input/Systems/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Input/Systems/CameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Installers/ProvisionInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Installers/ProvisionInstaller.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Installers/SceneInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Installers/SceneInstaller.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Installers/WorkerInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Installers/WorkerInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/TownLogic/Town.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/TownLogic/Keep.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/TownLogic/Town.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/TownLogic/Keep.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Providers/ConfigProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Providers/ConfigProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Providers/ResourceFolderAssetProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Providers/ResourceFolderAssetProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/Interfaces/ITarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/Interfaces/ITarget.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/TownLogic/Keep.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/TownLogic/Keep.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/Animators/WorkerAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/Animators/WorkerAnimator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/Factory/WorkerFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/Factory/WorkerFactory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/Factory/WorkerStateMachineFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/Factory/WorkerStateMachineFactory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/Pools/ObjectPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/Pools/ObjectPool.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/Pools/WorkerPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/Pools/WorkerPool.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/Providers/TargetProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/Providers/TargetProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/Spawner/WorkerSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/Spawner/WorkerSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/Interfaces/IStateChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/Interfaces/IStateChanger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/States/GiveProvisionState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/States/GiveProvisionState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/States/IdleState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/States/IdleState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/States/MoveState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/States/MoveState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/States/State.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/States/State.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/States/WorkState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/States/WorkState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/Transitions/ToGiveProvisionStateTransition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/Transitions/ToGiveProvisionStateTransition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/Transitions/ToIdleStateTransition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/Transitions/ToIdleStateTransition.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/Transitions/ToMoveStateTransition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/Transitions/ToMoveStateTransition.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/Transitions/ToWorkStateTransition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/Transitions/ToWorkStateTransition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/Transitions/Transition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/Transitions/Transition.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/WorkerStateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/StateMachines/WorkerStateMachine.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/Worker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/UnitsLogic/Workers/Worker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/Environment/GateLogic/Animators/GateAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/Environment/GateLogic/Animators/GateAnimator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/Environment/GateLogic/Gate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/Environment/GateLogic/Gate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/Environment/GateLogic/Tags/GateOpenTag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/Environment/GateLogic/Tags/GateOpenTag.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/Environment/Suns/DayNightConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/Environment/Suns/DayNightConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/Environment/Suns/DayNightSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/Environment/Suns/DayNightSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/ProvisionLogic/Factories/ProvisionFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/ProvisionLogic/Factories/ProvisionFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/ProvisionLogic/Pools/ProvisionPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/ProvisionLogic/Pools/ProvisionPool.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/ProvisionLogic/Provision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/ProvisionLogic/Provision.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/ProvisionLogic/Tags/ProvisionCollectorTag.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Logic/WorldLogic/ProvisionLogic/Tags/ProvisionCollectorTag.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Worker/Prefab/Worker.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Worker/Prefab/Worker.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Worker/Prefab/Worker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Worker/Prefab/Worker.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker10-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker11-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker11.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker12-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker12.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker13-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker13.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker14.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker15.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker16.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker3-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker4-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker5-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker5.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker6-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker6.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker7-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker7.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker8-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker8.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker9-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker9.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0-0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker1-0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker10-0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker11-0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker12-0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker13-0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker14-0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker15-0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker16-0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker2-0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker3-0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker4-0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker5-0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker6-0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker7-0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker8-0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker9-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-11.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-12.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-13.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-14.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-15.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-16.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-17.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-18.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-19.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-5.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-6.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-7.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-8.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-9.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/AstarPackageToolsEditor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/AstarPackageToolsEditor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/AstarPathfindingProject.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/AstarPathfindingProject.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/AstarPathfindingProjectEditor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/AstarPathfindingProjectEditor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Drawing.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Drawing.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/DrawingEditor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/DrawingEditor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/DrawingPackageToolsEditor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/DrawingPackageToolsEditor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PackageTools.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PackageTools.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/SingularityGroup.HotReload.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/SingularityGroup.HotReload.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/SingularityGroup.HotReload.Runtime.Public.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/SingularityGroup.HotReload.Runtime.Public.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/SingularityGroup.HotReload.Runtime.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/SingularityGroup.HotReload.Runtime.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Sirenix.OdinInspector.Modules.UnityMathematics.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Sirenix.OdinInspector.Modules.UnityMathematics.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Zenject-Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Zenject-Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Zenject-IntegrationTests-Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Zenject-IntegrationTests-Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Zenject-IntegrationTests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Zenject-IntegrationTests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Zenject-PoolMonitor-Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Zenject-PoolMonitor-Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Zenject-ReflectionBaking-Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Zenject-ReflectionBaking-Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Zenject-TestFramework.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Zenject-TestFramework.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Zenject-UnitTests-Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Zenject-UnitTests-Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Zenject.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Zenject.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +125,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.20f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.23f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath P:\gameDev\Underground\Underground\Underground -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="P:\gameDev\Underground\Underground\Underground" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -177,7 +133,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.20f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.23f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath P:\gameDev\Underground\Underground\Underground -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="P:\gameDev\Underground\Underground\Underground" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -221,6 +177,8 @@
       <workItem from="1727084683696" duration="24419000" />
       <workItem from="1727171886770" duration="18871000" />
       <workItem from="1727294572237" duration="1898000" />
+      <workItem from="1728311685398" duration="919000" />
+      <workItem from="1733844395558" duration="1383000" />
     </task>
     <servers />
   </component>

@@ -1,12 +1,11 @@
-using CodeBase.Logic.Units.Workers.Animators;
-using CodeBase.Logic.Units.Workers.StateMachines;
-using CodeBase.Logic.Units.Workers.StateMachines.States.Interfaces;
+using CodeBase.Logic.UnitsLogic.Workers.Animators;
+using CodeBase.Logic.UnitsLogic.Workers.Factory;
+using CodeBase.Logic.UnitsLogic.Workers.StateMachines;
 using CodeBase.Logic.WorldLogic.ProvisionLogic;
 using UnityEngine;
 using UnityEngine.AI;
-using Zenject;
 
-namespace CodeBase.Logic.Units.Workers
+namespace CodeBase.Logic.UnitsLogic.Workers
 {
 	public class Worker : MonoBehaviour
 	{
@@ -71,7 +70,7 @@ namespace CodeBase.Logic.Units.Workers
 			//_stateMachine?.Dispose();
 		}
 
-		public void ChangeBusy()
+		private void ChangeBusy()
 		{
 			IsBusy = !IsBusy;
 		}

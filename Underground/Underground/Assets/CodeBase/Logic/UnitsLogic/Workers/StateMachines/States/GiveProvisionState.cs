@@ -1,7 +1,6 @@
-using CodeBase.Logic.Units.Workers.StateMachines.Interfaces;
-using CodeBase.Logic.WorldLogic.ProvisionLogic;
+using CodeBase.Logic.UnitsLogic.Workers.StateMachines.Interfaces;
 
-namespace CodeBase.Logic.Units.Workers.StateMachines.States.Interfaces
+namespace CodeBase.Logic.UnitsLogic.Workers.StateMachines.States
 {
 	public class GiveProvisionState : State
 	{

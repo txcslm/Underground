@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace CodeBase.Logic.World.Environment.GateLogic
+namespace CodeBase.Logic.WorldLogic.Environment.GateLogic.Tags
 {
 	public class GateOpenTag : MonoBehaviour
 	{

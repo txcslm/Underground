@@ -1,8 +1,7 @@
 using CodeBase.Infrastructure.Providers;
-using UnityEngine;
 using Zenject;
 
-namespace CodeBase.Logic.Units.Workers.Pools
+namespace CodeBase.Logic.UnitsLogic.Workers.Factory
 {
 	public class WorkerFactory
 	{

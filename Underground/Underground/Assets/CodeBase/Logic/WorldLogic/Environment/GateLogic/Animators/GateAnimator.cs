@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace CodeBase.Logic.World.Environment.GateLogic.Animators
+namespace CodeBase.Logic.WorldLogic.Environment.GateLogic.Animators
 {
 	public class GateAnimator : MonoBehaviour
 	{

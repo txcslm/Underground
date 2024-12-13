@@ -1,7 +1,7 @@
 using Sirenix.OdinInspector;
 using UnityEngine;
 
-namespace CodeBase.Logic.World.Environment
+namespace CodeBase.Logic.WorldLogic.Environment.Suns
 {
 	[CreateAssetMenu(fileName = "DayNightConfig", menuName = "Systems/DayNightConfig")]
 	public class DayNightConfig : ScriptableObject

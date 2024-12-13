@@ -1,6 +1,6 @@
-using CodeBase.Logic.Units.Workers.StateMachines.States.Interfaces;
+using CodeBase.Logic.UnitsLogic.Workers.StateMachines.States;
 
-namespace CodeBase.Logic.Units.Workers.StateMachines.Transitions
+namespace CodeBase.Logic.UnitsLogic.Workers.StateMachines.Transitions
 {
 	public abstract class Transition
 	{

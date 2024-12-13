@@ -1,7 +1,7 @@
-using CodeBase.Logic.Units.Workers.StateMachines.Interfaces;
-using UnityEngine;
+using CodeBase.Logic.UnitsLogic.Workers.Providers;
+using CodeBase.Logic.UnitsLogic.Workers.StateMachines.Interfaces;
 
-namespace CodeBase.Logic.Units.Workers.StateMachines.States.Interfaces
+namespace CodeBase.Logic.UnitsLogic.Workers.StateMachines.States
 {
 	public class MoveState : State
 	{

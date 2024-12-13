@@ -1,8 +1,7 @@
 using System;
-using CodeBase.Infrastructure.Providers;
 using UnityEngine;
 
-namespace CodeBase.Infrastructure.Installers
+namespace CodeBase.Infrastructure.Providers
 {
 	public class ResourceFolderAssetProvider : IAssetProvider
 	{

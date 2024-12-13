@@ -1,8 +1,8 @@
-using CodeBase.Logic.Units.Workers.Pools;
+using CodeBase.Logic.UnitsLogic.Workers.Pools;
 using UnityEngine;
 using Zenject;
 
-namespace CodeBase.Logic.Units.Workers.Spawner
+namespace CodeBase.Logic.UnitsLogic.Workers.Spawner
 {
 	public class WorkerSpawner : MonoBehaviour
 	{

@@ -1,5 +1,5 @@
-using CodeBase.Logic.Units.Workers.Animators;
-using CodeBase.Logic.Units.Workers.Pools;
+using CodeBase.Logic.UnitsLogic.Workers.Factory;
+using CodeBase.Logic.UnitsLogic.Workers.Pools;
 using Zenject;
 
 namespace CodeBase.Infrastructure.Installers

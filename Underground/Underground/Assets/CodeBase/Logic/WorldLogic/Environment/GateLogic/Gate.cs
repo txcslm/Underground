@@ -1,9 +1,8 @@
-using CodeBase.Logic.Units.Workers;
-using CodeBase.Logic.World.Environment.GateLogic.Animators;
+using CodeBase.Logic.WorldLogic.Environment.GateLogic.Animators;
+using CodeBase.Logic.WorldLogic.Environment.GateLogic.Tags;
 using UnityEngine;
-using UnityEngine.AI;
 
-namespace CodeBase.Logic.World.Environment.GateLogic
+namespace CodeBase.Logic.WorldLogic.Environment.GateLogic
 {
 	[RequireComponent(typeof(GateAnimator), typeof(BoxCollider))]
 	public class Gate : MonoBehaviour

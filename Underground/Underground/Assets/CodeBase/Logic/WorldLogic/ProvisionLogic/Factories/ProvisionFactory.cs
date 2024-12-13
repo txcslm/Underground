@@ -1,8 +1,7 @@
 using CodeBase.Infrastructure.Providers;
-using UnityEngine;
 using Zenject;
 
-namespace CodeBase.Logic.WorldLogic.ProvisionLogic
+namespace CodeBase.Logic.WorldLogic.ProvisionLogic.Factories
 {
 	public class ProvisionFactory
 	{

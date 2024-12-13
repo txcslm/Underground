@@ -1,6 +1,6 @@
 using System;
-using CodeBase.Input;
-using CodeBase.Logic.World.Environment;
+using CodeBase.Infrastructure.Input.Configs;
+using CodeBase.Logic.WorldLogic.Environment.Suns;
 using UnityEngine;
 
 namespace CodeBase.Infrastructure.Providers

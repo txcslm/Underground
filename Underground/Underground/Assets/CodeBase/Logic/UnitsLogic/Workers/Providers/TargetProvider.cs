@@ -1,9 +1,12 @@
-using CodeBase.Logic.Units.Workers.StateMachines.States.Interfaces;
+using CodeBase.Logic.Interfaces;
 
-public class TargetProvider
+namespace CodeBase.Logic.UnitsLogic.Workers.Providers
 {
-	public ITarget CurrentTarget { get; private set; }
+	public class TargetProvider
+	{
+		public ITarget CurrentTarget { get; private set; }
 
-	public void SetTarget(ITarget target) =>
-		CurrentTarget = target;
+		public void SetTarget(ITarget target) =>
+			CurrentTarget = target;
+	}
 }

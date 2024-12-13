@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
-using UnityEngine;
+using CodeBase.Logic.UnitsLogic.Workers.Factory;
 using Zenject;
 
-namespace CodeBase.Logic.Units.Workers.Pools
+namespace CodeBase.Logic.UnitsLogic.Workers.Pools
 {
 	public class WorkerPool : ObjectPool<Worker>
 	{

@@ -1,9 +1,9 @@
-using System;
 using System.Collections;
-using CodeBase.Logic.Units.Workers;
-using CodeBase.Logic.Units.Workers.Pools;
-using CodeBase.Logic.Units.Workers.Spawner;
-using CodeBase.Logic.Units.Workers.StateMachines.States.Interfaces;
+using CodeBase.Logic.Interfaces;
+using CodeBase.Logic.UnitsLogic.Workers;
+using CodeBase.Logic.UnitsLogic.Workers.Pools;
+using CodeBase.Logic.UnitsLogic.Workers.Providers;
+using CodeBase.Logic.UnitsLogic.Workers.Spawner;
 using CodeBase.Logic.WorldLogic.ProvisionLogic;
 using UnityEngine;
 using Zenject;

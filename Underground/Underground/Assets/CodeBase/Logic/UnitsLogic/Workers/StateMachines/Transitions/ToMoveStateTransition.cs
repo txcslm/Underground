@@ -1,8 +1,8 @@
-using CodeBase.Logic.Units.Workers.StateMachines.States.Interfaces;
-using CodeBase.Logic.Units.Workers.StateMachines.Transitions;
+using CodeBase.Logic.UnitsLogic.Workers.Providers;
+using CodeBase.Logic.UnitsLogic.Workers.StateMachines.States;
 using UnityEngine;
 
-namespace CodeBase.Logic.Units.Workers.Factory
+namespace CodeBase.Logic.UnitsLogic.Workers.StateMachines.Transitions
 {
 	public class ToMoveStateTransition : Transition
 	{

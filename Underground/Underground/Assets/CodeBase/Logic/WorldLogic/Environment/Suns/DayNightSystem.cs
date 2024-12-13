@@ -3,7 +3,7 @@ using CodeBase.Infrastructure.Providers;
 using UnityEngine;
 using Zenject;
 
-namespace CodeBase.Logic.World.Environment
+namespace CodeBase.Logic.WorldLogic.Environment.Suns
 {
 	public class DayNightSystem : MonoBehaviour
 	{

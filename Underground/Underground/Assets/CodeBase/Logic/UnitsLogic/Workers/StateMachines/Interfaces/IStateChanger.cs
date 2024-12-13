@@ -1,6 +1,6 @@
-using CodeBase.Logic.Units.Workers.StateMachines.States.Interfaces;
+using CodeBase.Logic.UnitsLogic.Workers.StateMachines.States;
 
-namespace CodeBase.Logic.Units.Workers.StateMachines.Interfaces
+namespace CodeBase.Logic.UnitsLogic.Workers.StateMachines.Interfaces
 {
 	public interface IStateChanger
 	{

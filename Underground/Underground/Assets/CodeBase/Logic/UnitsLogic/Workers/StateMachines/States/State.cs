@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using CodeBase.Logic.Units.Workers.StateMachines.Interfaces;
-using CodeBase.Logic.Units.Workers.StateMachines.Transitions;
+using CodeBase.Logic.UnitsLogic.Workers.StateMachines.Interfaces;
+using CodeBase.Logic.UnitsLogic.Workers.StateMachines.Transitions;
 using UnityEngine;
 
-namespace CodeBase.Logic.Units.Workers.StateMachines.States.Interfaces
+namespace CodeBase.Logic.UnitsLogic.Workers.StateMachines.States
 {
 	public abstract class State
 	{

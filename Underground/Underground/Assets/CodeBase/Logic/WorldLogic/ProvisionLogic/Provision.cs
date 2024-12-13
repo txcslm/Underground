@@ -1,4 +1,4 @@
-using CodeBase.Logic.Units.Workers.StateMachines.States.Interfaces;
+using CodeBase.Logic.Interfaces;
 using UnityEngine;
 
 namespace CodeBase.Logic.WorldLogic.ProvisionLogic
