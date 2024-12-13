@@ -20,7 +20,7 @@ namespace CodeBase.Logic.UnitsLogic.Workers.Factory
 			IdleState idleState = _instantiator.Instantiate<IdleState>(new List<object> {stateMachine, worker});
 			MoveState moveState = _instantiator.Instantiate<MoveState>(new List<object> {stateMachine, worker});
 			WorkState workState = _instantiator.Instantiate<WorkState>(new List<object> {stateMachine, worker});
-			GiveProvisionState giveProvisionState = _instantiator.Instantiate<GiveProvisionState>(new List<object> {stateMachine});
+			GiveProvisionState giveProvisionState = _instantiator.Instantiate<GiveProvisionState>(new List<object> {stateMachine, worker});
         
 			ToMoveStateTransition toMoveStateTransition = _instantiator.Instantiate<ToMoveStateTransition>(new List<object> {moveState, worker});
 			ToWorkStateTransition toWorkStateTransition = _instantiator.Instantiate<ToWorkStateTransition>(new List<object> {workState, worker});
@@ -33,6 +33,7 @@ namespace CodeBase.Logic.UnitsLogic.Workers.Factory
 			moveState.AddTransition(toWorkStateTransition);
 			workState.AddTransition(toIdleStateTransition);
 			giveProvisionState.AddTransition(toMoveStateTransition);
+			giveProvisionState.AddTransition(toIdleStateTransition);
 
 			stateMachine.ChangeState(idleState);
 		

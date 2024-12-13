@@ -9,6 +9,7 @@ namespace CodeBase.Logic.WorldLogic.Environment.Suns
 		[BoxGroup("Time")]
 		[SerializeField] 
 		private float _speed = 2.5f;
+		
 		[BoxGroup("Time")]
 		[SerializeField] 
 		private float _nightSpeedModifier = 2f;
@@ -16,6 +17,7 @@ namespace CodeBase.Logic.WorldLogic.Environment.Suns
 		[BoxGroup("Rotation")]
 		[SerializeField] 
 		private float _minRotationX = 15f;
+		
 		[BoxGroup("Rotation")]
 		[SerializeField] 
 		private float _maxRotationX = 175f;

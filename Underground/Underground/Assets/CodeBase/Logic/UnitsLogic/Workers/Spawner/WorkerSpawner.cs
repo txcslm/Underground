@@ -11,7 +11,7 @@ namespace CodeBase.Logic.UnitsLogic.Workers.Spawner
 		
 		public void Spawn()
 		{
-			var worker = _pool.Create();
+			Worker worker = _pool.Create();
 			worker.transform.localPosition = transform.position;
 			worker.gameObject.SetActive(true);
 		}

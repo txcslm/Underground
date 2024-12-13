@@ -34,6 +34,7 @@ namespace CodeBase.Logic.UnitsLogic.Workers
 			_animator.PlayRun();
 			_agent.SetDestination(target);
 		}
+		
 		public void Work()
 		{
 			ChangeBusy();
@@ -49,8 +50,16 @@ namespace CodeBase.Logic.UnitsLogic.Workers
 					continue;
 
 				target.SetParent(_parentPoint);
+				
 				break;
 			}
+		}
+
+		public void GiveProvision()
+		{
+			ChangeBusy();
+			_animator.StopRun();
+			_agent.ResetPath();
 		}
 
 		public void Chill()
@@ -58,7 +67,7 @@ namespace CodeBase.Logic.UnitsLogic.Workers
 			_animator.StopRun();
 			_agent.ResetPath();
 		}
-		
+
 		public void StopWork()
 		{
 			ChangeBusy();
